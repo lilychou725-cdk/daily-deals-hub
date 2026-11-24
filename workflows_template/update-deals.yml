@@ -1,0 +1,37 @@
+name: Update Daily Deals
+
+on:
+  schedule:
+    # 北京时间每天 08:30 与 20:30 自动刷新一次
+    - cron: '30 0,12 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-deals:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch and normalize daily deals
+        run: python scripts/fetch_deals.py
+
+      - name: Commit and push updated deals.json
+        run: |
+          if git diff --quiet data/deals.json && [ -z "$(git status --porcelain data/deals.json)" ]; then
+            echo "No changes in data/deals.json"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/deals.json
+          git commit -m "chore: update daily deals feed"
+          git push

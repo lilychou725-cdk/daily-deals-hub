@@ -1,0 +1,40 @@
+[
+  {
+    "id": "manual-caffeine-blackfriday",
+    "title": "Caffeine.ai 黑五 Studio 体验月活动",
+    "category": "AI会员与额度",
+    "summary": "登录 Caffeine.ai 并完成邮箱验证后，在兑换入口输入优惠码 BLACKFRIDAY 绑卡可领 1 个月 Studio 会员；如不打算原价续费，务必提前在 Membership 中取消自动续订，并将源码导出至 GitHub。",
+    "couponCode": "BLACKFRIDAY",
+    "url": "https://caffeine.ai",
+    "source": "人工精选置顶",
+    "tags": [
+      "需绑卡记得取消",
+      "限时促销",
+      "黑五特惠"
+    ],
+    "worth": "首月体验（原价约 $20-25/月）",
+    "status": "active",
+    "pinned": true,
+    "publishedAt": "2026-11-24T00:00:00Z",
+    "expiresAt": null
+  },
+  {
+    "id": "manual-aihot-free-tokens",
+    "title": "AI 免费额度聚合页（aihot.news）",
+    "category": "AI会员与额度",
+    "summary": "汇总主流大模型与中转平台的免费 API Token、签到领额度与新人福利入口，适合作为日常测试和备用免费算力清单。",
+    "couponCode": null,
+    "url": "https://aihot.news/free-tokens",
+    "source": "人工精选置顶",
+    "tags": [
+      "免绑卡",
+      "免费白嫖",
+      "长期汇总"
+    ],
+    "worth": "免费",
+    "status": "active",
+    "pinned": true,
+    "publishedAt": "2026-11-24T00:00:00Z",
+    "expiresAt": null
+  }
+]
