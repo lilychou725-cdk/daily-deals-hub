@@ -1,8 +1,36 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-24T10:24:50Z",
-  "total": 63,
+  "updatedAt": "2026-11-24T12:57:26Z",
+  "total": 84,
   "sources": [
+    {
+      "id": "aihot_free_tokens",
+      "name": "AI 免费额度 (aihot)",
+      "ok": true,
+      "count": 35,
+      "error": null
+    },
+    {
+      "id": "bf_ai_tools",
+      "name": "黑五 AI 工具 2026",
+      "ok": true,
+      "count": 15,
+      "error": null
+    },
+    {
+      "id": "bf_dev_tools",
+      "name": "黑五开发与效率 2026",
+      "ok": true,
+      "count": 12,
+      "error": null
+    },
+    {
+      "id": "nodeseek_deals",
+      "name": "NodeSeek 精选福利",
+      "ok": true,
+      "count": 1,
+      "error": null
+    },
     {
       "id": "v2ex_deals",
       "name": "V2EX 优惠信息",
@@ -13,34 +41,6 @@
     {
       "id": "v2ex_free",
       "name": "V2EX 免费赠送",
-      "ok": true,
-      "count": 10,
-      "error": null
-    },
-    {
-      "id": "gamerpower",
-      "name": "GamerPower 限免",
-      "ok": true,
-      "count": 12,
-      "error": null
-    },
-    {
-      "id": "slickdeals",
-      "name": "Slickdeals 精选",
-      "ok": true,
-      "count": 12,
-      "error": null
-    },
-    {
-      "id": "appinn",
-      "name": "小众软件",
-      "ok": true,
-      "count": 8,
-      "error": null
-    },
-    {
-      "id": "hn_deals",
-      "name": "Hacker News 福利",
       "ok": true,
       "count": 10,
       "error": null
@@ -86,452 +86,919 @@
       "expiresAt": null
     },
     {
-      "id": "slickdeals-thread-20367879",
-      "title": "Final Fantasy VII: Rebirth (Switch 2) $24.90",
-      "category": "软件与云服务",
-      "summary": "Amazon has *Final Fantasy VII: Rebirth* (Nintendo Switch 2 Game-Key Card) on sale for *$24.88*. *Shipping is free* with Prime or on $35+ orders. Thanks to co...",
-      "couponCode": null,
-      "url": "https://slickdeals.net/f/20367879-final-fantasy-vii-rebirth-nintendo-switch-2-standard-edition-24-99?utm_source=rss&utm_content=fp&utm_medium=RSS2",
-      "source": "Slickdeals 精选",
+      "id": "bf_ai_tools-ef7de0a600",
+      "title": "TypingMind — 60% OFF Lifetime",
+      "category": "AI会员与额度",
+      "summary": "60% OFF Lifetime BLACKFRIDAY2026。Chat UI for ChatGPT, Claude, Gemini to use with your API key. Support MCP, multi-model, Artifact, Projects, Vision, Canvas,...",
+      "couponCode": "BLACKFRIDAY2026",
+      "url": "https://www.typingmind.com/?utm_source=tonybf",
+      "source": "黑五 AI 工具 2026",
       "tags": [
-        "免费白嫖"
+        "黑五特惠"
+      ],
+      "worth": "60% OFF Lifetime",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-24T12:57:26Z",
+      "expiresAt": null
+    },
+    {
+      "id": "bf_ai_tools-7e5b15ac0f",
+      "title": "BoltAI 3 — 40% OFF",
+      "category": "AI会员与额度",
+      "summary": "40% OFF with code BFCM2026, until Dec 1, 2026: Pro $59, Lifetime $239。The native AI workspace: chats, agents and projects with ChatGPT, Claude, Gemini and lo...",
+      "couponCode": "BFCM2026",
+      "url": "https://boltai.com/pricing?utm_source=awesomebf&utm_medium=partner&utm_campaign=bf2026",
+      "source": "黑五 AI 工具 2026",
+      "tags": [
+        "黑五特惠"
+      ],
+      "worth": "40% OFF",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-24T12:57:26Z",
+      "expiresAt": null
+    },
+    {
+      "id": "bf_ai_tools-892087c5de",
+      "title": "Vinaa — Up to 45% OFF",
+      "category": "AI会员与额度",
+      "summary": "Up to 45% OFF for Black Friday: 1 Mac $30, 2 Macs $39, 3 Macs $55 (until Nov 30, 2026)。Native AI chat for macOS. Chat with cloud and local models, multiple w...",
+      "couponCode": null,
+      "url": "https://www.vinaa.ai/?utm_source=awesome-black-friday",
+      "source": "黑五 AI 工具 2026",
+      "tags": [
+        "黑五特惠"
+      ],
+      "worth": "Up to 45% OFF",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-24T12:57:26Z",
+      "expiresAt": null
+    },
+    {
+      "id": "bf_ai_tools-8be979c13c",
+      "title": "Slashspace — 51% OFF",
+      "category": "AI会员与额度",
+      "summary": "51% OFF with code BF2026, Nov 4 - Dec 1, 2026: Lifetime $122.01, Yearly $43.61。Node-based AI harness for visual thinkers. Chat with ChatGPT, Claude, Gemini a...",
+      "couponCode": "BF2026",
+      "url": "https://www.slashspace.ai/?utm_source=tonybf",
+      "source": "黑五 AI 工具 2026",
+      "tags": [
+        "黑五特惠"
+      ],
+      "worth": "51% OFF",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-24T12:57:26Z",
+      "expiresAt": null
+    },
+    {
+      "id": "bf_ai_tools-84b727b75c",
+      "title": "Fluent 2 — 25% OFF",
+      "category": "AI会员与额度",
+      "summary": "25% OFF with code BF2026, until Dec 1: Basic $36.75。Not another chat window: press ⌥Space in any app and Fluent works with what's in front of you. Polish the...",
+      "couponCode": "BF2026",
+      "url": "https://fluentmac.app/?ref=Awesome-Black-Friday-Cyber-Monday",
+      "source": "黑五 AI 工具 2026",
+      "tags": [
+        "黑五特惠"
+      ],
+      "worth": "25% OFF",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-24T12:57:26Z",
+      "expiresAt": null
+    },
+    {
+      "id": "bf_ai_tools-3747d7ac83",
+      "title": "Pocket AI — 30% OFF",
+      "category": "AI会员与额度",
+      "summary": "30% OFF Pro Lifetime (one-time purchase), November 27–30, 2026. US pricing: $9.99 → $6.99 USD; local prices vary. The price drops automatically in the app, n...",
+      "couponCode": null,
+      "url": "https://mypocketai.app/?ref=awesome-black-friday",
+      "source": "黑五 AI 工具 2026",
+      "tags": [
+        "黑五特惠"
+      ],
+      "worth": "30% OFF",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-24T12:57:26Z",
+      "expiresAt": null
+    },
+    {
+      "id": "bf_ai_tools-cf7dd9570f",
+      "title": "Kerlig — 50% OFF",
+      "category": "AI会员与额度",
+      "summary": "50% OFF, no code needed, applied at checkout: Basic (1 Mac) $25, Pro (2 Macs) $40. Until Dec 1, 2026 (Pacific time)。AI writing assistant and chat for macOS....",
+      "couponCode": null,
+      "url": "https://www.kerlig.com/",
+      "source": "黑五 AI 工具 2026",
+      "tags": [
+        "黑五特惠"
+      ],
+      "worth": "50% OFF",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-24T12:57:26Z",
+      "expiresAt": null
+    },
+    {
+      "id": "bf_ai_tools-1f2fbc26f3",
+      "title": "PDF Pals v2 — 20% OFF",
+      "category": "AI会员与额度",
+      "summary": "Lifetime $149 (4 Macs, every update), no code needed. 20% OFF Basic ($47.20) and Plus ($79.20) with code BF20. Until Dec 1, 2026。Chat with your documents on...",
+      "couponCode": "BF20",
+      "url": "https://pdfpals.com/buy?utm_source=awesomebf&utm_medium=partner&utm_campaign=bf2026",
+      "source": "黑五 AI 工具 2026",
+      "tags": [
+        "黑五特惠"
+      ],
+      "worth": "20% OFF",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-24T12:57:26Z",
+      "expiresAt": null
+    },
+    {
+      "id": "bf_ai_tools-6d06d71b8b",
+      "title": "Orwellix",
+      "category": "AI会员与额度",
+      "summary": "Black Friday Lifetime plan: (Premium) $249 one-time, with more AI credits, grammar characters and plagiarism words than Premium every month. No code needed....",
+      "couponCode": null,
+      "url": "https://orwellix.com/lifetime-deal?utm_source=awesome-bfcm&utm_medium=deal-directory&utm_campaign=lifetime-deal-2026",
+      "source": "黑五 AI 工具 2026",
+      "tags": [
+        "黑五特惠"
       ],
       "worth": null,
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T10:18:36Z",
+      "publishedAt": "2026-11-24T12:57:26Z",
       "expiresAt": null
     },
     {
-      "id": "slickdeals-thread-20376540",
-      "title": "The Polar Express (2004) (4K Ultra HD + Blu-Ray) $10 + Free S&H",
-      "category": "黑五与促销",
-      "summary": "https://www.walmart.com/ip/The-Po...om=/search",
-      "couponCode": null,
-      "url": "https://slickdeals.net/f/20376540-the-polar-express-4k-ultra-hd-blu-ray-9-99-walmart-com?utm_source=rss&utm_content=fp&utm_medium=RSS2",
-      "source": "Slickdeals 精选",
-      "tags": [],
-      "worth": null,
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-24T10:16:32Z",
-      "expiresAt": null
-    },
-    {
-      "id": "slickdeals-thread-20378328",
-      "title": "Fandango Black Friday Offer: 40% Off: 1-Yr Fandango FanClub Annual Membership $59.40 (Valid thru 11/28)",
-      "category": "黑五与促销",
-      "summary": "Fandango is offering their *Fandango Black Friday Offer: 40% Off 1-Year Fandango FanClub Annual Membership* on sale for *$59.40* when you apply promo code BL...",
+      "id": "bf_ai_tools-38ea3e8de4",
+      "title": "Colossyan — 40% OFF",
+      "category": "AI会员与额度",
+      "summary": "40% OFF the first year of Professional (yearly) with code BLACKFRIDAY40: $35.40/mo billed yearly ($424.80 for the first year). Extra editors get 40% off too....",
       "couponCode": "BLACKFRIDAY40",
-      "url": "https://slickdeals.net/f/20378328-fandango-black-friday-offer-40-off-1-yr-fandango-fanclub-annual-membership-59-40-valid-thru-11-28?utm_source=rss&utm_content=fp&utm_medium=RSS2",
-      "source": "Slickdeals 精选",
+      "url": "https://www.colossyan.com/pricing?utm_source=awesomebf&utm_medium=referral&utm_campaign=black-friday-2026",
+      "source": "黑五 AI 工具 2026",
       "tags": [
         "黑五特惠"
       ],
-      "worth": null,
+      "worth": "40% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T10:04:49Z",
+      "publishedAt": "2026-11-24T12:57:26Z",
       "expiresAt": null
     },
     {
-      "id": "slickdeals-thread-20322684",
-      "title": "Baseus Picogo 10,000mAh Qi2.2 25W MagSafe Portable Power Bank $34.30 & More + Free S&H",
-      "category": "黑五与促销",
-      "summary": "Baseus Brand Store via Amazon [amazon.com]has for Prime Members: Baseus Picogo 10,000mAh Qi2.2 25W MagSafe Portable Power Bank on sale for *$34.29* w/ promo...",
-      "couponCode": null,
-      "url": "https://slickdeals.net/f/20322684-prime-members-baseus-picogo-10-000mah-qi2-2-25w-magsafe-portable-power-bank-34-30-more-free-s-h?utm_source=rss&utm_content=fp&utm_medium=RSS2",
-      "source": "Slickdeals 精选",
-      "tags": [],
-      "worth": null,
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-24T10:01:14Z",
-      "expiresAt": null
-    },
-    {
-      "id": "slickdeals-thread-20375970",
-      "title": "WORKPRO 17\"W x 11.5\"D x 51.5\"H 5-Tier Metal Shelving Unit (550-Lb Capacity) $30",
-      "category": "黑五与促销",
-      "summary": "GREAT STAR USA Direct via Walmart has *WORKPRO 17\"W x 11.5\"D x 51.5\"H 5-Tier Metal Shelving Unit* (550-Lb Capacity, W082119AW) for *$29.99*. *Shipping is fre...",
-      "couponCode": null,
-      "url": "https://slickdeals.net/f/20375970-29-99-workpro-550-lbs-5-tier-metal-shelving-unit-17-w-x-11-5-d-x-51-5-h-at-walmart-com?utm_source=rss&utm_content=fp&utm_medium=RSS2",
-      "source": "Slickdeals 精选",
-      "tags": [
-        "需绑卡记得取消",
-        "免费白嫖"
-      ],
-      "worth": null,
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-24T09:52:14Z",
-      "expiresAt": null
-    },
-    {
-      "id": "slickdeals-thread-20380959",
-      "title": "New & Eligible Returning Users: 6-Month Crunchyroll Fan Subscription from $4/month",
-      "category": "黑五与促销",
-      "summary": "Crunchyroll [crunchyroll.com] has for new and eligible users a *6-month Fan Subscription* on sale for *$3.99/Month*. *Notes*: * All deals below are for 6 mon...",
-      "couponCode": null,
-      "url": "https://slickdeals.net/f/20380959-new-eligible-returning-users-6-month-crunchyroll-fan-subscription-3-99-month-more?utm_source=rss&utm_content=fp&utm_medium=RSS2",
-      "source": "Slickdeals 精选",
-      "tags": [],
-      "worth": null,
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-24T09:46:21Z",
-      "expiresAt": null
-    },
-    {
-      "id": "slickdeals-thread-20377719",
-      "title": "Mainstays 10\" Cordless Rechargeable LED Table Lamp (Black or Gold) $5 + Free Pickup",
-      "category": "黑五与促销",
-      "summary": "Walmart [walmart.com] has *Mainstays 10\" Single Cordless Rechargeable Table Lamp (Black)* for *$5*. Shipping is free w/ Walmart+ (free trial available [walma...",
-      "couponCode": null,
-      "url": "https://slickdeals.net/f/20377719-mainstays-10-single-cordless-rechargeable-table-lamp-black-5-free-s-h-w-walmart-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2",
-      "source": "Slickdeals 精选",
-      "tags": [
-        "需绑卡记得取消",
-        "免费白嫖"
-      ],
-      "worth": null,
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-24T09:39:46Z",
-      "expiresAt": null
-    },
-    {
-      "id": "slickdeals-thread-20377965",
-      "title": "AMD Ryzen 7 9850X3D 8-Core Desktop AM5 Processor $400 + Free S&H",
-      "category": "软件与云服务",
-      "summary": "Amazon [amazon.com] has *AMD Ryzen 7 9850X3D 8-Core Desktop AM5 Processor* for $445.99 - $46.00 when you 'clip' the coupon on product page = *$399.99*. *Ship...",
-      "couponCode": null,
-      "url": "https://slickdeals.net/f/20377965-ac-399-99-amd-ryzen-7-9850x3d-8-core-desktop-am5-processor-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2",
-      "source": "Slickdeals 精选",
-      "tags": [
-        "免费白嫖"
-      ],
-      "worth": null,
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-24T09:34:25Z",
-      "expiresAt": null
-    },
-    {
-      "id": "slickdeals-thread-20381517",
-      "title": "NIIMBOT D110 Bluetooth Label Printer Machine (White) $7.60",
-      "category": "黑五与促销",
-      "summary": "NIIMBOT HK via Amazon [amazon.com] has *NIIMBOT D110 Mini Bluetooth Thermal Label Maker (White)* on sale for $15.99 - $8.40 off when you apply promo code 5Y3...",
-      "couponCode": "5Y3CPPA4",
-      "url": "https://slickdeals.net/f/20381517-niimbot-d110-mini-bluetooth-thermal-label-maker-white-7-59-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2",
-      "source": "Slickdeals 精选",
-      "tags": [],
-      "worth": null,
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-24T09:33:42Z",
-      "expiresAt": null
-    },
-    {
-      "id": "slickdeals-thread-20377593",
-      "title": "Hot Wheels Monster Trucks Neon Smashers Toy Set $15 + Free Pickup",
-      "category": "黑五与促销",
-      "summary": "Walmart [walmart.com] has *Hot Wheels Monster Trucks Neon Smashers Toy Car Set* for *$15*. Shipping is free w/ Walmart+ (free trial available [walmart.com])...",
-      "couponCode": null,
-      "url": "https://slickdeals.net/f/20377593-hot-wheels-monster-trucks-neon-smashers-toy-set-15-free-s-h-w-walmart-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2",
-      "source": "Slickdeals 精选",
-      "tags": [
-        "需绑卡记得取消",
-        "免费白嫖"
-      ],
-      "worth": null,
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-24T09:25:09Z",
-      "expiresAt": null
-    },
-    {
-      "id": "slickdeals-thread-20338902",
-      "title": "$100 H&M eGift Card (Email Delivery) $85",
-      "category": "黑五与促销",
-      "summary": "$85: H&M - $100 Gift Card [Digital] at BestBuy https://www.bestbuy.com/product/h...JJG34YVCKS",
-      "couponCode": null,
-      "url": "https://slickdeals.net/f/20338902-85-h-m-100-gift-card-digital-at-bestbuy?utm_source=rss&utm_content=fp&utm_medium=RSS2",
-      "source": "Slickdeals 精选",
-      "tags": [],
-      "worth": null,
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-24T09:11:46Z",
-      "expiresAt": null
-    },
-    {
-      "id": "slickdeals-thread-20379045",
-      "title": "adidas Women's Terrex Agravic Speed 2 Trail Running Shoes (White / Orange / Lucid Tang) $62.50 + Free S&H",
-      "category": "软件与云服务",
-      "summary": "adidas_official via eBay [ebay.com] has *adidas women Terrex Agravic Speed 2 Trail Running Shoes* on sale for *$62.50* after using coupon code EXTRA50SALE. *...",
-      "couponCode": "EXTRA50SALE",
-      "url": "https://slickdeals.net/f/20379045-ac-62-50-adidas-women-terrex-agravic-speed-2-trail-running-shoes-62-48-at-adidas-via-ebay?utm_source=rss&utm_content=fp&utm_medium=RSS2",
-      "source": "Slickdeals 精选",
-      "tags": [],
-      "worth": null,
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-24T09:11:03Z",
-      "expiresAt": null
-    },
-    {
-      "id": "appinn-httpswwwappinncomwindows",
-      "title": "全新 Windows 11 系统搜索：速度快、不卡顿、内存占用低，用了都说好",
-      "category": "软件与云服务",
-      "summary": "万万没想到，Windows 11 的搜索功能，居然也有变好用的一天！ 微软推出了全新的 Windows 11 系统搜索功能（测试），抛弃了此前使用的 WebView2 网页技术，使用原生 WinUI 3 重写。 最直观的变化就是：不卡顿、速度快、低内存占用。 有媒体测试，新版搜索的内存占用仅为二十多",
-      "couponCode": null,
-      "url": "https://www.appinn.com/windows-11-new-native-search/",
-      "source": "小众软件",
-      "tags": [],
-      "worth": null,
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-24T05:55:12Z",
-      "expiresAt": null
-    },
-    {
-      "id": "appinn-httpswwwappinncomkoofr-1",
-      "title": "Koofr 云存储：免费 10GB 空间，支持 WebDAV、Rclone｜终身订阅 1TB 特价129.9美元【再次】",
-      "category": "黑五与促销",
-      "summary": "2026年11月24日更新：再次出现 129.99 美元优惠，使用 KOOFR 优惠码： 2026年7月12日更新：再次打开，使用 KOOFR 优惠码可享受优惠。 2026年5月26日更新：再次开启打折，使用 Koofr 优惠码可购买 1TB 终身服务，129美元。 青小蛙主要用来当备份服务器的，使",
-      "couponCode": null,
-      "url": "https://www.appinn.com/koofr-1tb/",
-      "source": "小众软件",
-      "tags": [
-        "免费白嫖"
-      ],
-      "worth": null,
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-24T03:24:23Z",
-      "expiresAt": null
-    },
-    {
-      "id": "appinn-httpswwwappinncomupload2",
-      "title": "高危漏洞 Upload2Shell 公开：上传图片即可入侵服务器｜CVE-2026-125396，8.5 分",
-      "category": "软件与云服务",
-      "summary": "一个普通的图片上传功能，竟然可能成为攻击者控制服务器的入口。 近日，安全研究人员公开了名为 Upload2Shell 的高危漏洞研究，影响范围极广，涉及 WordPress、Roundcube 网页邮箱、MediaWiki、DokuWiki、CUPS 打印服务，以及广泛使用的图像处理工具 Pillo",
-      "couponCode": null,
-      "url": "https://www.appinn.com/upload2shell-cve-2026-125396/",
-      "source": "小众软件",
-      "tags": [],
-      "worth": null,
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-24T03:08:20Z",
-      "expiresAt": null
-    },
-    {
-      "id": "hn_deals-50619225",
-      "title": "Show HN: Klink – I built a sudoku game where every puzzle helps rebuild a robot",
-      "category": "生活与工具",
-      "summary": "Hacker News 讨论（热度 1 赞 / 3 评论）：Show HN: Klink – I built a sudoku game where every puzzle helps rebuild a robot",
-      "couponCode": null,
-      "url": "https://apps.apple.com/us/app/klink-sudoku-no-ads/id6830862513",
-      "source": "Hacker News 福利",
-      "tags": [],
-      "worth": null,
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-23T21:02:31Z",
-      "expiresAt": null
-    },
-    {
-      "id": "hn_deals-50618509",
-      "title": "Subsol apps and The LowTechGuys' apps are on sale for black friday",
-      "category": "软件与云服务",
-      "summary": "Hacker News 讨论（热度 1 赞 / 1 评论）：Subsol apps and The LowTechGuys' apps are on sale for black friday",
-      "couponCode": null,
-      "url": "https://lowtechguys.com/blackfriday/",
-      "source": "Hacker News 福利",
-      "tags": [
-        "黑五特惠"
-      ],
-      "worth": null,
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-23T20:14:11Z",
-      "expiresAt": null
-    },
-    {
-      "id": "appinn-httpswwwappinncomsuperli",
-      "title": "微软 To Do 要关闭了，奇妙清单创始人早就做了替代品：Superlist",
-      "category": "软件与云服务",
-      "summary": "用户喜欢什么，微软就关掉什么。这似乎已成为一种魔咒，微软千万不能有好用的工具，不然转头就要关掉。 在微软宣布要关闭 To Do 之后，用户开始反弹，在微软博客下发出灵魂拷问： 青小蛙也是 To Do 用户，有200多项任务在里面，虽然不一定每项任务都会去完成 😂 但放在那里，就是一种安心啊 结果现在",
-      "couponCode": null,
-      "url": "https://www.appinn.com/superlist-start/",
-      "source": "小众软件",
-      "tags": [],
-      "worth": null,
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-23T09:33:41Z",
-      "expiresAt": null
-    },
-    {
-      "id": "appinn-httpswwwappinncomwinget-",
-      "title": "微软 WinGet 开始支持 MCP：以后安装 Windows 软件，直接告诉 AI 就行了",
+      "id": "bf_ai_tools-7e59baf6ab",
+      "title": "NotebookLM Tools — 30% OFF",
       "category": "AI会员与额度",
-      "summary": "在 Windows 上安装软件，一般是下载，然后双击安装包，再一步步点击「下一步」。 其实，你还可以在 Windows 的终端中，直接输入以下命令，来安装 Firefox 浏览器： 这是微软早就提供的免费软件包管理器：WinGet（Windows Package Manager），可以通过一条命令搜",
-      "couponCode": null,
-      "url": "https://www.appinn.com/winget-mcp-server/",
-      "source": "小众软件",
+      "summary": "30% OFF 1-Month and 1-Year Pro with code BLACKFRIDAY2026: 1-Month $4.90, 1-Year $20.30, one-time payments, no subscription (Lifetime not included), Nov 14 -...",
+      "couponCode": "BLACKFRIDAY2026",
+      "url": "https://www.nlmtools.com/pricing?utm_source=awesome-black-friday&utm_medium=referral&utm_campaign=black-friday-2026",
+      "source": "黑五 AI 工具 2026",
       "tags": [
+        "黑五特惠"
+      ],
+      "worth": "30% OFF",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-24T12:57:26Z",
+      "expiresAt": null
+    },
+    {
+      "id": "bf_ai_tools-01541b270b",
+      "title": "Carry",
+      "category": "AI会员与额度",
+      "summary": "$20 OFF lifetime license: $59 with code BLACKFRIDAY20. One-time payment.。Save ChatGPT, Claude, Gemini and Grok chats automatically as Markdown to Obsidian or...",
+      "couponCode": "BLACKFRIDAY20",
+      "url": "https://carry.md/#pricing",
+      "source": "黑五 AI 工具 2026",
+      "tags": [
+        "黑五特惠"
+      ],
+      "worth": null,
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-24T12:57:26Z",
+      "expiresAt": null
+    },
+    {
+      "id": "bf_ai_tools-a2664ec380",
+      "title": "Blumify — 50% OFF",
+      "category": "AI会员与额度",
+      "summary": "50% OFF the first year of Unlimited: $29.99/year, no code needed. Until Nov 30, 2026 (23:59 PT).。Follow what leaders in AI, business and markets say across i...",
+      "couponCode": null,
+      "url": "https://blumify.io/pro?utm_source=awesome-bfcm&utm_medium=deal_list&utm_campaign=bf2026",
+      "source": "黑五 AI 工具 2026",
+      "tags": [
+        "黑五特惠"
+      ],
+      "worth": "50% OFF",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-24T12:57:26Z",
+      "expiresAt": null
+    },
+    {
+      "id": "bf_ai_tools-f877faf86f",
+      "title": "DuoTyping — 50% OFF",
+      "category": "AI会员与额度",
+      "summary": "50% OFF the first payment of Pro with code BFCM2026: monthly $4.95 for the first month, yearly $44.95 for the first year. Pro gives 300 rewrites, 1,000 trans...",
+      "couponCode": "BFCM2026",
+      "url": "https://duotyping.com/pricing?utm_source=tonybf",
+      "source": "黑五 AI 工具 2026",
+      "tags": [
+        "黑五特惠"
+      ],
+      "worth": "50% OFF",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-24T12:57:26Z",
+      "expiresAt": null
+    },
+    {
+      "id": "bf_ai_tools-0dfd2256da",
+      "title": "Refine — 35% OFF",
+      "category": "AI会员与额度",
+      "summary": "35% OFF one-time license, no code needed, applied at checkout: 1 Mac $24.70. Until Nov 30, 2026。Offline AI writing assistant for Mac. Grammar, autocomplete,...",
+      "couponCode": null,
+      "url": "https://refine.sh/#pricing",
+      "source": "黑五 AI 工具 2026",
+      "tags": [
+        "黑五特惠"
+      ],
+      "worth": "35% OFF",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-24T12:57:26Z",
+      "expiresAt": null
+    },
+    {
+      "id": "bf_dev_tools-d1d4eb6f75",
+      "title": "DevUtils — 60% OFF",
+      "category": "软件与云服务",
+      "summary": "60% OFF with code BLACKFRIDAY2026。All-in-one toolbox for developers. Fully supports Apple Silicon & macOS Ventura.",
+      "couponCode": "BLACKFRIDAY2026",
+      "url": "https://devutils.com",
+      "source": "黑五开发与效率 2026",
+      "tags": [
+        "黑五特惠"
+      ],
+      "worth": "60% OFF",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-24T12:57:26Z",
+      "expiresAt": null
+    },
+    {
+      "id": "bf_dev_tools-236ae82e33",
+      "title": "Compresto — 40% OFF",
+      "category": "软件与云服务",
+      "summary": "40% OFF with code BFCM26。Video, Image & PDF Compression for macOS.",
+      "couponCode": "BFCM26",
+      "url": "https://compresto.app/pricing?ref=Awesome-Black-Friday-Cyber-Monday",
+      "source": "黑五开发与效率 2026",
+      "tags": [
+        "黑五特惠"
+      ],
+      "worth": "40% OFF",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-24T12:57:26Z",
+      "expiresAt": null
+    },
+    {
+      "id": "bf_dev_tools-51bb9b44a0",
+      "title": "EagleFiler — 25% off",
+      "category": "软件与云服务",
+      "summary": "25% off with code BLACKFRIDAY2026 ($52.49) Nov 20 - Nov 30。Organize files on your Mac, archive e-mails, save Web pages and notes, search everything.",
+      "couponCode": "BLACKFRIDAY2026",
+      "url": "https://c-command.com/store/sale/",
+      "source": "黑五开发与效率 2026",
+      "tags": [
+        "黑五特惠"
+      ],
+      "worth": "25% off",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-24T12:57:26Z",
+      "expiresAt": null
+    },
+    {
+      "id": "bf_dev_tools-c5548a28e2",
+      "title": "BucketMate — 40% OFF",
+      "category": "软件与云服务",
+      "summary": "40% OFF all lifetime licenses with code BF2026 (Nov 2 - Dec 1)。a Finder-style S3 client for macOS, iOS and the web.",
+      "couponCode": "BF2026",
+      "url": "https://www.bucketmate.app/pricing?ref=Awesome-Black-Friday-Cyber-Monday",
+      "source": "黑五开发与效率 2026",
+      "tags": [
+        "黑五特惠"
+      ],
+      "worth": "40% OFF",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-24T12:57:26Z",
+      "expiresAt": null
+    },
+    {
+      "id": "bf_dev_tools-633658d98c",
+      "title": "Lidnight — 50% OFF",
+      "category": "软件与云服务",
+      "summary": "50% OFF with code BF50 (Nov 23 - Dec 1)。Keeps a MacBook awake with the lid closed while AI coding agents run, and shows what each one is doing. One-time purc...",
+      "couponCode": "BF50",
+      "url": "https://lidnight.app/en/buy/",
+      "source": "黑五开发与效率 2026",
+      "tags": [
+        "黑五特惠"
+      ],
+      "worth": "50% OFF",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-24T12:57:26Z",
+      "expiresAt": null
+    },
+    {
+      "id": "bf_dev_tools-d40704660b",
+      "title": "Perch — 40% OFF",
+      "category": "软件与云服务",
+      "summary": "40% OFF with code BLACKFRIDAY2026 (Nov 2 - Dec 1, first 500 orders)。A macOS menu bar app for Claude Code, Codex, Cursor and other AI coding agents: see every...",
+      "couponCode": "BLACKFRIDAY2026",
+      "url": "https://perch.run/black-friday?ref=Awesome-Black-Friday-Cyber-Monday",
+      "source": "黑五开发与效率 2026",
+      "tags": [
+        "黑五特惠"
+      ],
+      "worth": "40% OFF",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-24T12:57:26Z",
+      "expiresAt": null
+    },
+    {
+      "id": "bf_dev_tools-04fa49e5c2",
+      "title": "ConnectWizard — 50% off",
+      "category": "软件与云服务",
+      "summary": "Pro Annual 50% off ($100 → $50), Nov 27 - Dec 1。Unlock hidden App Store Connect Analytics.",
+      "couponCode": null,
+      "url": "https://apps.apple.com/us/app/asc-analytics-connectwizard/id6747314580",
+      "source": "黑五开发与效率 2026",
+      "tags": [
+        "黑五特惠"
+      ],
+      "worth": "50% off",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-24T12:57:26Z",
+      "expiresAt": null
+    },
+    {
+      "id": "bf_dev_tools-2f7da99d59",
+      "title": "WhaleDeck — 40% off",
+      "category": "软件与云服务",
+      "summary": "Lifetime 40% off ($57 → $35), Nov 27 - Dec 1。Effortlessly manage and monitor your Docker servers on your iPhone, iPad, and Mac.",
+      "couponCode": null,
+      "url": "https://apps.apple.com/us/app/docker-manager-gui-whaledeck/id1581548562",
+      "source": "黑五开发与效率 2026",
+      "tags": [
+        "黑五特惠"
+      ],
+      "worth": "40% off",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-24T12:57:26Z",
+      "expiresAt": null
+    },
+    {
+      "id": "bf_dev_tools-afc21a8751",
+      "title": "TablePro — 40% OFF",
+      "category": "软件与云服务",
+      "summary": "40% OFF Pro with code BLACKFRIDAY2026: one-time $79 → $47.40, yearly $39 → $23.40 for the first year (Nov 19 - Dec 1)。Native database client for macOS: Postg...",
+      "couponCode": "BLACKFRIDAY2026",
+      "url": "https://tablepro.app/black-friday?ref=Awesome-Black-Friday-Cyber-Monday",
+      "source": "黑五开发与效率 2026",
+      "tags": [
+        "黑五特惠"
+      ],
+      "worth": "40% OFF",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-24T12:57:26Z",
+      "expiresAt": null
+    },
+    {
+      "id": "bf_dev_tools-295a7542d8",
+      "title": "Proxyman — 30% OFF",
+      "category": "软件与云服务",
+      "summary": "Black Friday 2026: 30% OFF all plans with code BF2026, November 19 – December 3, 2026. For example, Standard: $62.30 USD.。HTTP/HTTPS debugging proxy to captu...",
+      "couponCode": "BF2026",
+      "url": "https://proxyman.com/pricing",
+      "source": "黑五开发与效率 2026",
+      "tags": [
+        "黑五特惠"
+      ],
+      "worth": "30% OFF",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-24T12:57:26Z",
+      "expiresAt": null
+    },
+    {
+      "id": "bf_dev_tools-ed91b7da27",
+      "title": "Device MCP — 30% OFF",
+      "category": "软件与云服务",
+      "summary": "Black Friday 2026: 30% OFF all plans with code BF2026, November 19 – December 3, 2026. Applies to early-bird prices: Standard $24.15, Pro $31.15, Lifetime $4...",
+      "couponCode": "BF2026",
+      "url": "https://devicemcp.ai/pricing",
+      "source": "黑五开发与效率 2026",
+      "tags": [
+        "黑五特惠"
+      ],
+      "worth": "30% OFF",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-24T12:57:26Z",
+      "expiresAt": null
+    },
+    {
+      "id": "nodeseek-1077608",
+      "title": "目前还可以使用的Muse额度互助机器人",
+      "category": "AI会员与额度",
+      "summary": "✅已加入批量兑换队列，消耗3次机会，剩余0次。邀请码：FQUMIU当前队列共20次。完成后机器人会主动通知你，也可点「📊我的助力」查看。✅助力完成！邀请码FQUMIU已完成3次兑换。bot链接：https://t.me/MusePromoteBot?start=ref6340429368还需要互助的小伙伴可以看",
+      "couponCode": null,
+      "url": "https://www.nodeseek.com/post-1077608-1",
+      "source": "NodeSeek 精选福利",
+      "tags": [],
+      "worth": null,
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-24T12:55:59Z",
+      "expiresAt": null
+    },
+    {
+      "id": "aihot-ddb4c17a41",
+      "title": "Qoder 国际版限时免费用 HungerG",
+      "category": "AI会员与额度",
+      "summary": "在最新版 Qoder 国际版桌面端或 Qoder IDE 选 HungerG。个人免费账号、零积分账号均可用，最高思考强度也不扣积分。达每日上限后次日恢复，付费账号上限更高。北京时间 11 月 30 日 24 点结束，此后按官方费率扣积分。 适用：Qoder 国际版及其 IDE 中的 HungerG",
+      "couponCode": null,
+      "url": "https://docs.qoder.com/zh/events/hungerg-free",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "AI福利",
         "免费白嫖"
       ],
-      "worth": null,
+      "worth": "免费",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-23T07:19:28Z",
-      "expiresAt": null
+      "publishedAt": "2026-11-24T10:05:00Z",
+      "expiresAt": "2026-11-30T16:00:00Z"
     },
     {
-      "id": "hn_deals-50608008",
-      "title": "Phoronix losing Amazon Ads Revenue from Reporting on Brain Fuck Scheduler",
-      "category": "生活与工具",
-      "summary": "Hacker News 讨论（热度 4 赞 / 1 评论）：Phoronix losing Amazon Ads Revenue from Reporting on Brain Fuck Scheduler",
-      "couponCode": null,
-      "url": "https://www.phoronix.com/news/Black-Friday-Week-2026",
-      "source": "Hacker News 福利",
-      "tags": [],
-      "worth": null,
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-23T05:57:48Z",
-      "expiresAt": null
-    },
-    {
-      "id": "appinn-httpswwwappinncomgoogle-",
-      "title": "Google Gemini 黑五五折！AI Pro/Plus 年费 100/24 美元",
+      "id": "aihot-6e02232017",
+      "title": "Qoder 国内版限时免费用 HungerG",
       "category": "AI会员与额度",
-      "summary": "Google Gemini 黑五促销开启，美区 Google AI Pro 年费最高五折，折后约 99.99 美元。符合条件的 Google One 老用户可提前参加，具体优惠以结算页面为准。",
+      "summary": "个人账号更新到最新版 Qoder 国内版或 Qoder 国内版 IDE，在模型选择器选 HungerG 即可。零积分也能用，调用 HungerG 不扣积分、每天不限次数。若功能另外调用其他模型，按对应模型正常计费。北京时间 11 月 30 日 24 点结束，之后按届时公布的费率扣积分。 适用：Qoder 国内版及...",
       "couponCode": null,
-      "url": "https://www.appinn.com/google-ai-pro-black-friday-2026/",
-      "source": "小众软件",
+      "url": "https://docs.qoder.cn/events/hungerg-free",
+      "source": "AI 免费额度 (aihot)",
       "tags": [
-        "黑五特惠"
+        "AI福利",
+        "免费白嫖"
       ],
-      "worth": null,
+      "worth": "免费",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-23T05:53:05Z",
-      "expiresAt": null
+      "publishedAt": "2026-11-24T10:05:00Z",
+      "expiresAt": "2026-11-30T16:00:00Z"
     },
     {
-      "id": "appinn-httpswwwappinncomparalle",
-      "title": "Parallels Desktop 27 最新优惠，黑五史低 249元/年，：在 Mac 上运行多个操作系统",
-      "category": "黑五与促销",
-      "summary": "Mac 用户熟悉的虚拟机软件 Parallels Desktop 27 迎来黑五优惠，限时五折。 Parallels Desktop 是老牌的 Mac 虚拟机软件，可以让 Mac 直接运行 Windows 11、Linux，甚至再运行一台 macOS。 并且在切换电脑时，就像普通应用一样。无需重启电",
-      "couponCode": null,
-      "url": "https://www.appinn.com/parallels-desktop-27/",
-      "source": "小众软件",
-      "tags": [
-        "黑五特惠"
-      ],
-      "worth": null,
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-23T02:52:38Z",
-      "expiresAt": null
-    },
-    {
-      "id": "appinn-httpswwwappinncomfaxian-",
-      "title": "发现频道：10款大家发现的好评软件[2026年第47期]",
-      "category": "软件与云服务",
-      "summary": "最近10日，来自小众软件论坛的发现频道的热门排行榜，由系统自动生成，直接列出来： 1️⃣ 水杉输入法。 英文名：MSIME(Meta Sequoia Input Method Editor) 链接：https://meta.appinn.net/t/96319 适用平台：Windows10、11 一",
-      "couponCode": null,
-      "url": "https://www.appinn.com/faxian-top10-2647/",
-      "source": "小众软件",
-      "tags": [],
-      "worth": null,
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-23T01:00:34Z",
-      "expiresAt": null
-    },
-    {
-      "id": "hn_deals-50605963",
-      "title": "Ask HN: Any VPS deals worth grabbing this Black Friday?",
-      "category": "软件与云服务",
-      "summary": "Hacker News 讨论（热度 1 赞 / 0 评论）：Ask HN: Any VPS deals worth grabbing this Black Friday?",
-      "couponCode": null,
-      "url": "https://news.ycombinator.com/item?id=50605963",
-      "source": "Hacker News 福利",
-      "tags": [
-        "黑五特惠"
-      ],
-      "worth": null,
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-23T00:50:38Z",
-      "expiresAt": null
-    },
-    {
-      "id": "hn_deals-50595724",
-      "title": "Show HN: Lifetime Black Friday Deals (Mega List)",
-      "category": "黑五与促销",
-      "summary": "Hacker News 讨论（热度 3 赞 / 0 评论）：Show HN: Lifetime Black Friday Deals (Mega List)",
-      "couponCode": null,
-      "url": "https://www.blackfridaydeals.directory/black-friday-lifetime-deals",
-      "source": "Hacker News 福利",
-      "tags": [
-        "黑五特惠"
-      ],
-      "worth": null,
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-22T02:47:09Z",
-      "expiresAt": null
-    },
-    {
-      "id": "hn_deals-50589936",
-      "title": "Show HN: Klistra – Make launch videos and product demos, all in one AI studio",
+      "id": "aihot-495bda564d",
+      "title": "小红书 dots3-note Preview 免费调用",
       "category": "AI会员与额度",
-      "summary": "Hacker News 讨论（热度 1 赞 / 3 评论）：Show HN: Klistra – Make launch videos and product demos, all in one AI studio",
+      "summary": "在 Dots 开放平台用手机号登录并创建 API Key。单个密钥默认每分钟 60 次请求、150 万 Token。恢复收费前，官方会在官网和开放平台提前告知。 适用：Dots 开放平台的 dots3-note-prev（dots3-note Preview）",
       "couponCode": null,
-      "url": "https://klistra.ai",
-      "source": "Hacker News 福利",
-      "tags": [],
-      "worth": null,
+      "url": "https://dots.ai/platform/docs",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "AI福利",
+        "免费白嫖"
+      ],
+      "worth": "免费",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-21T15:06:53Z",
+      "publishedAt": "2026-11-24T07:06:00Z",
       "expiresAt": null
     },
     {
-      "id": "hn_deals-50589229",
-      "title": "Show HN: Accounting built like Git, with files in your own storage",
-      "category": "生活与工具",
-      "summary": "Hacker News 讨论（热度 1 赞 / 0 评论）：Show HN: Accounting built like Git, with files in your own storage",
+      "id": "aihot-c2800190da",
+      "title": "EKHOS AI 每天免费本地转写 1 次，最长 30 分钟",
+      "category": "AI会员与额度",
+      "summary": "在 Windows 10 或更新版本安装 EKHOS AI。免费档需验证邮箱，每天登录一次，即可在电脑上离线转写音频、视频或录音。每台电脑限一位用户。 适用：EKHOS AI 免费档的本地 Whisper 语音转写",
       "couponCode": null,
-      "url": "https://github.com/spooky6G/bobalice_books",
-      "source": "Hacker News 福利",
-      "tags": [],
-      "worth": null,
+      "url": "https://ekhos.ai/membership-account/pricing/",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "每日可领",
+        "免费白嫖"
+      ],
+      "worth": "1 次",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-21T13:52:43Z",
+      "publishedAt": "2026-11-24T04:06:00Z",
       "expiresAt": null
     },
     {
-      "id": "hn_deals-50583629",
-      "title": "Another company I've never heard of lost my Data",
-      "category": "生活与工具",
-      "summary": "Hacker News 讨论（热度 13 赞 / 3 评论）：Another company I've never heard of lost my Data",
+      "id": "aihot-63e0d4b21f",
+      "title": "海绵音乐每天登录领 100 积分",
+      "category": "AI会员与额度",
+      "summary": "App 和网页各自发放每日登录积分，余额互通。官方条款列新用户每天 200 积分。写歌默认生成两首，扣 10 积分，改编或做同款默认扣 5 积分。每次有效分享另送 50 积分，每天最多 5 次，分享积分 3 个月后过期。 适用：海绵音乐内的 Music 5.3 写歌、歌曲生成与改编",
       "couponCode": null,
-      "url": "https://idiallo.com/byte-size/another-company-lost-my-data-and-free-credit-monitoring",
-      "source": "Hacker News 福利",
-      "tags": [],
-      "worth": null,
+      "url": "https://lf3-cdn-tos.draftstatic.com/obj/ies-hotsoon-draft/music/credit_terms.html",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "每日可领",
+        "免费白嫖",
+        "仅新用户"
+      ],
+      "worth": "100 积分",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-20T23:05:38Z",
+      "publishedAt": "2026-11-24T04:04:00Z",
+      "expiresAt": null
+    },
+    {
+      "id": "aihot-4e13eb0e49",
+      "title": "ZCode 新用户 5 天体验，每天 800 万 Token",
+      "category": "AI会员与额度",
+      "summary": "新用户登录 ZCode 后，在模型设置中打开 Start Plan 领取免费体验。两款模型每天各有一份额度，用量以 Start Plan 显示为准。 适用：GLM-5.4（每天 300 万 Token）和 GLM-5.3-Flash（每天 500 万 Token）；GLM-5.3 Flash",
+      "couponCode": null,
+      "url": "https://zcode.z.ai/cn/docs/configuration",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "AI福利",
+        "免费白嫖",
+        "仅新用户"
+      ],
+      "worth": "免费",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-24T04:04:00Z",
+      "expiresAt": null
+    },
+    {
+      "id": "aihot-bbe12e4ac7",
+      "title": "魔搭社区每天送 200 魔粒调模型 API",
+      "category": "AI会员与额度",
+      "summary": "每日登录可领 200 魔粒，绑定阿里云账号后每日再加 50。调用 API-Inference 需绑定已实名的阿里云账号、完善个人信息并验证邮箱；每次消耗多少魔粒以模型详情页调用规则为准。魔粒还可用于社区内的图像、视频、音频生成及训练。 适用：支持 API-Inference 的部分开源模型，如 DeepSeek-...",
+      "couponCode": null,
+      "url": "https://www.modelscope.cn/posts/435591",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "每日可领",
+        "免费白嫖"
+      ],
+      "worth": "200 魔粒",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-23T21:55:00Z",
+      "expiresAt": null
+    },
+    {
+      "id": "aihot-80f0b7f17a",
+      "title": "长亭 MonkeyCode 每日签到领 100 积分",
+      "category": "AI会员与额度",
+      "summary": "在 MonkeyCode 网页打开钱包，手动签到领取，每天可领一次。积分可用于 MonkeyCode 编程任务中的模型调用。 适用：MonkeyCode 内按积分计费的模型，如 DeepSeek V4 Pro、GLM-5.1",
+      "couponCode": null,
+      "url": "https://monkeycode.docs.baizhi.cloud/node/019d963c-425a-7c49-8126-d5308fd61cdc",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "每日可领",
+        "免费白嫖"
+      ],
+      "worth": "≈¥0.5",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-23T14:06:00Z",
+      "expiresAt": null
+    },
+    {
+      "id": "aihot-1845a79de7",
+      "title": "长亭 MonkeyCode 新人送 5000 积分",
+      "category": "AI会员与额度",
+      "summary": "新用户注册可获一份初始积分，用于 MonkeyCode 编程任务中的模型调用。 适用：MonkeyCode 内按积分计费的模型，如 DeepSeek V4 Pro、GLM-5.1",
+      "couponCode": null,
+      "url": "https://monkeycode.docs.baizhi.cloud/node/01a012e5-d949-76db-96d0-b9cf63283026",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "AI福利",
+        "免费白嫖",
+        "仅新用户"
+      ],
+      "worth": "≈¥25",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-23T14:06:00Z",
+      "expiresAt": null
+    },
+    {
+      "id": "aihot-9adf6599fd",
+      "title": "智谱 AutoClaw 国内版本周登录领 1 万积分",
+      "category": "AI会员与额度",
+      "summary": "活动期间使用手机号登录 AutoClaw 国内版桌面客户端，每个账号可领一次。1 万积分相当于官方所称的 1 亿 Tokens，仅在客户端内调用内置模型时使用；自接模型接口另计费。 适用：AutoClaw 内置 GLM 模型，如 GLM-5.3、GLM-5.3-Flash、GLM-5-Turbo、GLM-5V-T...",
+      "couponCode": null,
+      "url": "https://autoclaw.zhipuai.cn/blog/news/M11W4/",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "AI福利",
+        "免费白嫖"
+      ],
+      "worth": "1 万 积分",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-23T14:03:00Z",
+      "expiresAt": "2026-11-29T15:59:00Z"
+    },
+    {
+      "id": "aihot-ac1c49478e",
+      "title": "秒悟每天登录领 2000 积分",
+      "category": "AI会员与额度",
+      "summary": "每天首次登录获赠 2000 积分，可在秒悟使用模型生成应用。例如 DeepSeek V4.1 Flash 每千输入 Token 扣 2 积分、每千输出扣 8 积分。 适用：所有模型，如 Qwen4-Max、DeepSeek V4.1 Flash、Kimi K3.1 Pro、MiniMax M3.1 Flash、G...",
+      "couponCode": null,
+      "url": "https://docs.meoo.com/pricing",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "每日可领",
+        "免费白嫖"
+      ],
+      "worth": "2000 积分",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-22T16:38:00Z",
+      "expiresAt": null
+    },
+    {
+      "id": "aihot-cb113b6831",
+      "title": "阿里云在读学生领 300 元模型抵扣金",
+      "category": "AI会员与额度",
+      "summary": "中国高校在读学生完成学生实名认证后可领 300 元，认证有效期内每 12 个月可领一次。后付费调用须满足账户余额要求，余额须大于当月冻结金额。使用不适用的模型、超额或过期会按资费收费。 适用：百炼后付费推理、训练、部署、知识库；可抵高校 AI 通行证一次。2026 年 7 月 14 日后领取的券不抵三方直供及 H...",
+      "couponCode": null,
+      "url": "https://help.aliyun.com/zh/model-studio/introduction-to-yungongkaiwu",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "AI福利",
+        "免费白嫖",
+        "限量"
+      ],
+      "worth": "¥300",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-22T16:37:00Z",
+      "expiresAt": "2027-03-31T15:59:00Z"
+    },
+    {
+      "id": "aihot-a666845142",
+      "title": "哔哩哔哩 Index-Translate 免费图文翻译接口",
+      "category": "AI会员与额度",
+      "summary": "官方开放 Index-Translate-35B-A3B 公网推理接口，无需注册，可用于文字和图片翻译。兼容 OpenAI 接口，地址为 https://index-translate.bilibili.com/v1。 适用：Index-Translate-35B-A3B 文字及图片翻译",
+      "couponCode": null,
+      "url": "https://index-translate.bilibili.com/site/home.html",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "AI福利",
+        "免费白嫖"
+      ],
+      "worth": "免费",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-22T16:36:00Z",
+      "expiresAt": null
+    },
+    {
+      "id": "aihot-f75702e54c",
+      "title": "EdgeOne Makers 每月 50 万 Token",
+      "category": "AI会员与额度",
+      "summary": "Makers 免费版每个账号每月共享 50 万 Token，适合演示、教学和技术验证。聊天模型可通过兼容 OpenAI／Anthropic 的 API 调用；Jev 使用原生 System One 决策接口。内置模型勿用于生产环境，自带厂商密钥的调用按厂商账户另计费；额度商业化后可能调整。 适用：内置 DeepS...",
+      "couponCode": null,
+      "url": "https://pages.edgeone.ai/zh/document/limits-and-quotas",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "每月可领",
+        "免费白嫖"
+      ],
+      "worth": "≈¥0.3",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-22T16:35:00Z",
+      "expiresAt": null
+    },
+    {
+      "id": "aihot-7363e95f92",
+      "title": "商汤小浣熊限时免费用 SenseNova 6.8 Flash",
+      "category": "AI会员与额度",
+      "summary": "在商汤小浣熊内体验 SenseNova 6.8 Flash，可用于办公文档和设计生成。本次限免适用于小浣熊内的模型体验，开放平台的调用按其规则计费。 适用：商汤小浣熊内的 SenseNova 6.8 Flash",
+      "couponCode": null,
+      "url": "https://sensetime.com/cn/news/sensenova-6-8-flash-release-20261103-1421",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "AI福利",
+        "免费白嫖"
+      ],
+      "worth": "免费",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-22T16:34:00Z",
+      "expiresAt": "2026-12-01T15:59:00Z"
+    },
+    {
+      "id": "aihot-51c75c88e4",
+      "title": "硅基流动实名认证送 16 元代金券",
+      "category": "AI会员与额度",
+      "summary": "在硅基流动完成实名认证后，手动领一张 16 元通用代金券，老用户也能领；可用于平台上的模型 API。 适用：平台上的所有模型，含 Pro 模型和高速模型；API、批量推理、微调都能用",
+      "couponCode": null,
+      "url": "https://www.siliconflow.cn/news/od7wj9rr23p95uhihmhrombp",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "AI福利",
+        "免费白嫖"
+      ],
+      "worth": "¥16",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-22T16:33:00Z",
+      "expiresAt": "2026-12-31T16:00:00Z"
+    },
+    {
+      "id": "aihot-d8076e8045",
+      "title": "SoMark OXR 免费解析文档 API",
+      "category": "AI会员与额度",
+      "summary": "无需注册或申请密钥，可用 OXR 免费 API 将 PDF 和文档图片解析为 Markdown 或 JSON。请求需排队，官方不保证稳定性，不建议生产使用。国内用 free-oxr.somark.cn。 适用：仅 OXR 文档解析模型，不含 SoMark 其他服务",
+      "couponCode": null,
+      "url": "https://somark.cn/oxr",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "AI福利",
+        "免费白嫖"
+      ],
+      "worth": "免费",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-22T16:33:00Z",
+      "expiresAt": null
+    },
+    {
+      "id": "aihot-490cf0a4ef",
+      "title": "OpenCode 限时免费用 Hy4 flash、DeepSeek 等模型",
+      "category": "AI会员与额度",
+      "summary": "免费聊天模型在 OpenCode 内任选，无需账号。Hy4 flash、DeepSeek V4.1 Flash 的输入不保留、不用于训练。部分试用模型会收集反馈或用数据改进模型，Flint 保留 30 天。两款 Nemotron 仅供测试，勿提交个人或机密数据。Beam 排除中国大陆及港澳。 适用：Hy4 fla...",
+      "couponCode": null,
+      "url": "https://opencode.ai/docs/console/models/",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "AI福利",
+        "免费白嫖"
+      ],
+      "worth": "免费",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-22T16:29:00Z",
+      "expiresAt": null
+    },
+    {
+      "id": "aihot-4472933f82",
+      "title": "华为码道 Skill 创新赛每日签到领 1000 积分",
+      "category": "AI会员与额度",
+      "summary": "面向已完成赛事报名、具备应用软件开发能力的个人、学生和组织。每天在码道 IDE 或网页端“活动福利”手动领取；企业参赛需企业认证。积分仅用于码道内置模型，不能当通用 API 余额；旧 Token 套餐需先切换为积分套餐。 适用：码道内置模型，如 Kimi K3.1 Pro、GLM-5.3-Flash、DeepSe...",
+      "couponCode": null,
+      "url": "https://support.huaweicloud.com/offers-codeartsagent/codeartsagent_offers_0008.html",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "每日可领",
+        "免费白嫖"
+      ],
+      "worth": "1000 积分",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-22T14:10:00Z",
+      "expiresAt": "2026-12-05T15:59:00Z"
+    },
+    {
+      "id": "aihot-b5c3ddffad",
+      "title": "华为云码道免费版每日签到领 100 积分",
+      "category": "AI会员与额度",
+      "summary": "登录码道的“活动福利”点击“每日领取”；网页端、小程序、桌面端和 IDE 均可参与。积分只用于码道内置模型，不能当通用 API 余额；用完即停止调用。旧 Token 套餐需先切换为积分套餐。 适用：码道内置模型，如 Kimi K3.1 Pro、GLM-5.3-Flash、DeepSeek V4.1 Flash；自...",
+      "couponCode": null,
+      "url": "https://support.huaweicloud.com/offers-codeartsagent/codeartsagent_offers_0004.html",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "每日可领",
+        "免费白嫖"
+      ],
+      "worth": "100 积分",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-22T14:10:00Z",
+      "expiresAt": "2026-12-31T15:59:00Z"
+    },
+    {
+      "id": "aihot-74bfff8739",
+      "title": "TRAE 国内版每月 500 积分",
+      "category": "AI会员与额度",
+      "summary": "TRAE 国内版免费账号每月登录送 500 积分，当月有效，只能在 TRAE 里用。 适用：TRAE 里的所有内置模型，如 GLM-5.3、DeepSeek-V4-Pro 等；Seed-Evolving 只给会员用；DeepSeek V4 Pro",
+      "couponCode": null,
+      "url": "https://www.trae.cn/pricing",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "每月可领",
+        "免费白嫖"
+      ],
+      "worth": "500 积分",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-22T14:10:00Z",
+      "expiresAt": null
+    },
+    {
+      "id": "aihot-e6a7b4c743",
+      "title": "Telnyx 新用户送 25 美元 AI 额度",
+      "category": "AI会员与额度",
+      "summary": "用邮箱注册预试用账户后自动到账，无需绑卡；可抵 Telnyx Inference 等 AI 产品用量，用完即停。主动升级为完整账户后，原 25 美元优惠会被替换为 5 美元通用额度。约合 DeepSeek V4.1 Flash 1017 2.7 亿 Token。 适用：Telnyx AI 产品中的所有模型，包括自...",
+      "couponCode": null,
+      "url": "https://support.telnyx.com/en/articles/14327893-telnyx-pretrial-accounts",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "AI福利",
+        "免费白嫖",
+        "需绑卡记得取消",
+        "免绑卡",
+        "仅新用户"
+      ],
+      "worth": "≈¥167",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-22T14:08:00Z",
+      "expiresAt": null
+    },
+    {
+      "id": "aihot-4d9fdd8c4b",
+      "title": "Cloudflare Workers AI 每天免费 1 万 Neurons",
+      "category": "AI会员与额度",
+      "summary": "免费计划通过 Workers 或 REST API 调用，所有调用共用每天 10,000 Neurons，北京时间 08:00 重置。例如 Gemma 4 26B 每百万输入 Token 扣 9091 Neurons、每百万输出扣 27273，两者共同消耗。免费计划用尽后报错；部分前沿模型要求付费计费方式。 适用...",
+      "couponCode": null,
+      "url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "每日可领",
+        "免费白嫖"
+      ],
+      "worth": "1 万 Neurons",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-22T14:04:00Z",
+      "expiresAt": null
+    },
+    {
+      "id": "aihot-17c3b4b539",
+      "title": "Rime 每月 50 美元语音模型额度",
+      "category": "AI会员与额度",
+      "summary": "可用于 Prism 语音对话、Mist v3 和 Coda v2 语音合成，以及 Rime STT 转文字。50 美元约可合成 1667 分钟 Mist v3。免费额度用完后，需自行升级并绑卡才能继续。免费档限评估和开发，不得上传来电录音、健康信息或他人个人数据，符合条款的输入输出可用于训练。 适用：所有模型；P...",
+      "couponCode": null,
+      "url": "https://www.rime.ai/pricing",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "每月可领",
+        "免费白嫖",
+        "需绑卡记得取消",
+        "免绑卡"
+      ],
+      "worth": "≈¥333",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-22T14:04:00Z",
+      "expiresAt": null
+    },
+    {
+      "id": "aihot-5c4617b615",
+      "title": "蚂蚁百灵每月 1 日送 10 元抵扣券",
+      "category": "AI会员与额度",
+      "summary": "每月 1 日向已使用百灵新计费平台的计费账户发 10 元 Token 抵扣券，可抵扣模型 API；当月有效、不结转。月中完成升级不补发当月券，从下月 1 日开始发放。 适用：百灵开放平台上的所有模型，按各模型实际计费金额抵扣",
+      "couponCode": null,
+      "url": "https://developer.ant-ling.com/zh-CN/docs/getting-started/changelog/billing-upgrade/",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "每月可领",
+        "免费白嫖"
+      ],
+      "worth": "¥10",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-21T14:07:00Z",
       "expiresAt": null
     },
     {
@@ -552,73 +1019,80 @@
       "expiresAt": null
     },
     {
-      "id": "hn_deals-50564071",
-      "title": "A list of 1000 smart home deals for Amazon black Friday",
-      "category": "黑五与促销",
-      "summary": "Hacker News 讨论（热度 1 赞 / 0 评论）：A list of 1000 smart home deals for Amazon black Friday",
+      "id": "aihot-ba00aa4be9",
+      "title": "书生·端砚测试期每月送免费墨点",
+      "category": "AI会员与额度",
+      "summary": "测试期每月赠送墨点，具体数量在「科研模型」查看；创建 API Key 后可调用平台模型，多个 Key 共用余额。调用按模型当前价格扣点，可在用量查询中查看消耗。 适用：Token Plan 所有模型，如 DeepSeek-V4.1-Flash-1017、GLM-5.3、Qwen3.8-27B；各模型按当前价格消耗...",
       "couponCode": null,
-      "url": "https://smarthomescene.com/blog/best-amazon-black-friday-and-cyber-monday-smart-home-deals/",
-      "source": "Hacker News 福利",
+      "url": "https://www.shlab.org.cn/news/5444294",
+      "source": "AI 免费额度 (aihot)",
       "tags": [
-        "黑五特惠"
-      ],
-      "worth": null,
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-19T18:30:29Z",
-      "expiresAt": null
-    },
-    {
-      "id": "gamerpower-3855",
-      "title": "World of Warships: Black Friday Giveaway",
-      "category": "软件与云服务",
-      "summary": "[PC / DLC] New World of Warships players can unlock $300 worth of in-game rewards, including a Premium battleship, Premium Account time, Supercontainers and...",
-      "couponCode": null,
-      "url": "https://www.gamerpower.com/open/world-of-warships-black-friday-giveaway",
-      "source": "GamerPower 限免",
-      "tags": [
-        "免费白嫖",
-        "黑五特惠"
+        "每月可领",
+        "免费白嫖"
       ],
       "worth": "免费",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-19T12:30:29Z",
-      "expiresAt": "2026-12-04T23:59:00Z"
+      "publishedAt": "2026-11-20T14:08:00Z",
+      "expiresAt": null
     },
     {
-      "id": "gamerpower-3854",
-      "title": "Lonesome Village (Mobile) Giveaway",
-      "category": "软件与云服务",
-      "summary": "[Android, iOS / Game] Chants of Sennaar (Mobile version) is free until November 26 on the Epic Games Store App for iPhone, iPad, and Android. Note: May not b...",
+      "id": "aihot-b0c37f4582",
+      "title": "Drex 每月 5 美元模型调用额度",
+      "category": "AI会员与额度",
+      "summary": "首次月赠金在注册满一个月时到账，此后按注册日每月发 5 美元，下次发放时过期、不结转。需满足与新人赠金相同的 Google、满 30 天 GitHub 或验卡认证及邮箱、网络限额。与新人赠金共用账户余额，用于 Drex 决策、NDI 文档理解与 Drex Search。不开自动付费，用完即停；手动启用后超额会扣费...",
       "couponCode": null,
-      "url": "https://www.gamerpower.com/open/lonesome-village-mobile-giveaway",
-      "source": "GamerPower 限免",
+      "url": "https://console.nace.ai/docs/drex/reference/pricing",
+      "source": "AI 免费额度 (aihot)",
       "tags": [
-        "免费白嫖"
+        "每月可领",
+        "免费白嫖",
+        "需绑卡记得取消",
+        "免绑卡"
       ],
-      "worth": "$4.99",
+      "worth": "≈¥33",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-19T11:15:28Z",
-      "expiresAt": "2026-11-26T23:59:00Z"
+      "publishedAt": "2026-11-20T14:03:00Z",
+      "expiresAt": null
     },
     {
-      "id": "gamerpower-3853",
-      "title": "Mark of the Deep (Epic Games) Giveaway",
-      "category": "软件与云服务",
-      "summary": "[PC, Epic Games Store / Game] Score Mark of the Deep for free on Epic Games Store! Mark of the Deep is a pirate-themed adventure game with elements from Metr...",
+      "id": "aihot-d14d2bac70",
+      "title": "MobileClaw 每月登录领 1000 万 Token",
+      "category": "AI会员与额度",
+      "summary": "完成移动云账号实名认证后，在 MobileClaw 电脑客户端登录领取，每个账号每月限领一次，11 月和 12 月共可领两次。额度用于免费体验模型，先到期的额度优先抵扣。 适用：MobileClaw 免费体验模型，如 DeepSeek V4.1 Flash、GLM-5.3-Flash；仅产品内使用；GLM-5.3...",
       "couponCode": null,
-      "url": "https://www.gamerpower.com/open/mark-of-the-deep-epic-games-giveaway",
-      "source": "GamerPower 限免",
+      "url": "https://ecloud.10086.cn/mobilecloud/act/2026-double11",
+      "source": "AI 免费额度 (aihot)",
       "tags": [
+        "每月可领",
         "免费白嫖"
       ],
-      "worth": "$19.99",
+      "worth": "1000 万 Token",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-19T11:00:14Z",
-      "expiresAt": "2026-11-26T23:59:00Z"
+      "publishedAt": "2026-11-19T14:07:00Z",
+      "expiresAt": "2026-12-31T15:59:00Z"
+    },
+    {
+      "id": "aihot-ea2e269d64",
+      "title": "ElevenLabs 免费档每月 1 万积分",
+      "category": "AI会员与额度",
+      "summary": "免费注册后每个订阅周期获得 10,000 积分，支持文字转语音、转写、音效和音乐等免费档功能，可用 Eleven v4。无需绑卡，积分不结转；生成内容不可商用，公开发布须按官方要求署名；视频生成须付费。 适用：Eleven v4、v4 Turbo、v3 等免费档语音模型，以及转写、音效和音乐功能；不含视频生成、付...",
+      "couponCode": null,
+      "url": "https://elevenlabs.io/pricing",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "每月可领",
+        "免费白嫖",
+        "需绑卡记得取消",
+        "免绑卡"
+      ],
+      "worth": "1 万 积分",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-19T14:04:00Z",
+      "expiresAt": null
     },
     {
       "id": "v2ex_deals-1258227",
@@ -653,21 +1127,78 @@
       "expiresAt": null
     },
     {
-      "id": "gamerpower-3852",
-      "title": "Contractor: The Clean Up Part 2 (Epic Games) Giveaway",
-      "category": "软件与云服务",
-      "summary": "[PC, Epic Games Store / Game] Score Contractor: The Clean Up Part 2 for free via Epic Games Store! Take control of a powerful loader and clear construction s...",
+      "id": "aihot-ae05aeb643",
+      "title": "ACE Music 每天 20 积分，最多生成 10 首歌",
+      "category": "AI会员与额度",
+      "summary": "最初从 ACE Music 注册的免费账号每天刷新 20 积分。最初从 ACE Studio 注册的免费账号，在 ACE Music 每月刷新 100 积分。ACE Music v1 和 v1.1 Preview 每次消耗 4 积分、通常生成两首，免费档不能下载或商用。ACE-Step v1.5 基础生成免费，可...",
       "couponCode": null,
-      "url": "https://www.gamerpower.com/open/contractor-the-clean-up-part-2-epic-games-giveaway",
-      "source": "GamerPower 限免",
+      "url": "https://acemusic.ai/zh/help/articles/credits-usage/",
+      "source": "AI 免费额度 (aihot)",
       "tags": [
+        "每日可领",
         "免费白嫖"
       ],
-      "worth": "$4.99",
+      "worth": "20 积分",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-17T08:23:27Z",
-      "expiresAt": "2026-12-02T23:59:00Z"
+      "publishedAt": "2026-11-18T14:06:00Z",
+      "expiresAt": null
+    },
+    {
+      "id": "aihot-359c7b8a86",
+      "title": "ERNIE 5.5 Flash Preview 限免",
+      "category": "AI会员与额度",
+      "summary": "通过 OpenRouter 调用 baidu/ernie-5.5-flash-preview:free，输入和输出均免费，无需购买额度。与其他免费模型共享每天 50 次、每分钟 20 次上限，失败请求也计入每日次数。 适用：ERNIE 5.5 Flash Preview（baidu/ernie-5.5-flash...",
+      "couponCode": null,
+      "url": "https://openrouter.ai/baidu/ernie-5.5-flash-preview:free",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "每日可领",
+        "免费白嫖"
+      ],
+      "worth": "50 次",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-18T14:06:00Z",
+      "expiresAt": null
+    },
+    {
+      "id": "aihot-466d6d70fd",
+      "title": "华为果办 OfficeAce 免费版每日登录送 50 积分",
+      "category": "AI会员与额度",
+      "summary": "个人体验版用户登录并使用果办 OfficeAce 客户端或微信小程序，每天赠送 50 积分。积分可用于在果办中调用平台预置模型。 适用：果办平台预置模型，如 GLM-5.2",
+      "couponCode": null,
+      "url": "https://activity.huaweicloud.com/officeace.html#section-3",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "每日可领",
+        "免费白嫖"
+      ],
+      "worth": "50 积分",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-18T01:04:00Z",
+      "expiresAt": null
+    },
+    {
+      "id": "aihot-4014f7f15b",
+      "title": "LiveKit 每月送 2.50 美元模型推理额度",
+      "category": "AI会员与额度",
+      "summary": "Build 免费档通过 LiveKit Inference 调用文本、语音识别、语音合成和实时语音模型，支持 SDK 接入。额度用尽后停止新请求，不产生超额费用。另送的 1,000 分钟 Agent 托管时长不等于模型推理时长。约合 DeepSeek V4.1 Flash 2714 万 Token。 适用：Liv...",
+      "couponCode": null,
+      "url": "https://livekit.com/pricing",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "每月可领",
+        "免费白嫖",
+        "需绑卡记得取消",
+        "免绑卡"
+      ],
+      "worth": "≈¥17",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-17T14:05:00Z",
+      "expiresAt": null
     },
     {
       "id": "v2ex_deals-1257579",
@@ -705,7 +1236,7 @@
       "id": "v2ex_free-1257065",
       "title": "「网易云音乐」11 月领免费会员，随机 7 天 左右 ，共 256 天",
       "category": "软件与云服务",
-      "summary": "1http:/$iAJfAj34a01982$ [復淛整段文案并咑閞「网易云音乐」，领免费会员] 黑胶邀请官 五***信 送你网易云音乐 11 月黑胶会员卡，领取享 20+会员权益。https://163cn.tv/bkZkJJ9g",
+      "summary": "1http:/$iAJfAj34a01982$ [復淛整段文案并咑閞「网易云音乐」，领免费会员] 黑胶邀请官 五信 送你网易云音乐 11 月黑胶会员卡，领取享 20+会员权益。https://163cn.tv/bkZkJJ9g",
       "couponCode": null,
       "url": "https://www.v2ex.com/t/1257065",
       "source": "V2EX 免费赠送",
@@ -716,6 +1247,42 @@
       "status": "active",
       "pinned": false,
       "publishedAt": "2026-11-14T09:22:22Z",
+      "expiresAt": null
+    },
+    {
+      "id": "aihot-4a11fa46a1",
+      "title": "AStudio 体验版每天登录领 100 积分",
+      "category": "AI会员与额度",
+      "summary": "体验版每日登录客户端可免费领取 100 积分，用于 AStudio 内置模型的办公、代码与研究任务。需手机号登录；支持 Windows 10/11 64 位和 Apple 芯片 Mac，体验版权益为限时开放。模型与部分付费接口共用积分。 适用：体验版可选的内置模型，官方列有 Spark、DeepSeek、GLM、...",
+      "couponCode": null,
+      "url": "https://agent.xfyun.cn/studio-guide/pricing",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "每日可领",
+        "免费白嫖"
+      ],
+      "worth": "100 积分",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-13T19:05:00Z",
+      "expiresAt": null
+    },
+    {
+      "id": "aihot-74c34270b6",
+      "title": "腾讯云 ADP 体验版每月送 15,000 PU",
+      "category": "AI会员与额度",
+      "summary": "腾讯云实名主账号首次开通 ADP 后，按引导领取 0 元体验版。平台内模型推理与工具等用量共用这份 PU。 适用：ADP 体验版的 Auto 模型，不含自定义模型与专属算力",
+      "couponCode": null,
+      "url": "https://cloud.tencent.com/document/product/1759/139268",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "每月可领",
+        "免费白嫖"
+      ],
+      "worth": "1.5 万 PU",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-13T19:05:00Z",
       "expiresAt": null
     },
     {
@@ -749,23 +1316,6 @@
       "expiresAt": null
     },
     {
-      "id": "gamerpower-3849",
-      "title": "Kettlebell: Inferno Hotel Afterimage Effect Key Giveaway",
-      "category": "软件与云服务",
-      "summary": "[PC / DLC] Claim your free Kettlebell: Inferno Hotel Afterimage Effect Key! Please note that this giveaway requires 10 ARP (Arena Reward Points) to claim a key.",
-      "couponCode": null,
-      "url": "https://www.gamerpower.com/open/kettlebell-inferno-hotel-afterimage-effect-key-giveaway",
-      "source": "GamerPower 限免",
-      "tags": [
-        "免费白嫖"
-      ],
-      "worth": "免费",
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-10T13:29:13Z",
-      "expiresAt": null
-    },
-    {
       "id": "v2ex_deals-1255736",
       "title": "20261110 移动领 1-9 元话费",
       "category": "生活与工具",
@@ -784,7 +1334,7 @@
       "id": "v2ex_free-1255481",
       "title": "网易云音乐免费领取会员 7 天，需要自取",
       "category": "软件与云服务",
-      "summary": "1http:/$QFnINb346a0418$ [復淛整段文案并咑閞「网易云音乐」，领免费会员] 黑胶邀请官 _***围 送你网易云音乐 11 月黑胶会员卡，领取享 20+会员权益。https://163cn.tv/bkATxyw2",
+      "summary": "1http:/$QFnINb346a0418$ [復淛整段文案并咑閞「网易云音乐」，领免费会员] 黑胶邀请官 围 送你网易云音乐 11 月黑胶会员卡，领取享 20+会员权益。https://163cn.tv/bkATxyw2",
       "couponCode": null,
       "url": "https://www.v2ex.com/t/1255481",
       "source": "V2EX 免费赠送",
@@ -833,7 +1383,7 @@
       "id": "v2ex_free-1254653",
       "title": "网易云音乐会员名额快过期了，需要的自取",
       "category": "软件与云服务",
-      "summary": "1http:/$NzyYj2343199ae$ [復淛整段文案并咑閞「网易云音乐」，领免费会员] 黑胶邀请官 _***围 送你网易云音乐 11 月黑胶会员卡，领取享 20+会员权益。https://163cn.tv/bkhFQTos",
+      "summary": "1http:/$NzyYj2343199ae$ [復淛整段文案并咑閞「网易云音乐」，领免费会员] 黑胶邀请官 围 送你网易云音乐 11 月黑胶会员卡，领取享 20+会员权益。https://163cn.tv/bkhFQTos",
       "couponCode": null,
       "url": "https://www.v2ex.com/t/1254653",
       "source": "V2EX 免费赠送",
@@ -848,9 +1398,9 @@
     },
     {
       "id": "v2ex_free-1254395",
-      "title": "「网易云音乐」，领免费会员] 黑胶邀请官 一***i 送你网易云音乐 11 月黑胶会员卡，领取享 20+会员权益。",
+      "title": "「网易云音乐」，领免费会员] 黑胶邀请官 一i 送你网易云音乐 11 月黑胶会员卡，领取享 20+会员权益。",
       "category": "软件与云服务",
-      "summary": "1http:/$nAfeum34261fe8$ [復淛整段文案并咑閞「网易云音乐」，领免费会员] 黑胶邀请官 一***i 送你网易云音乐 11 月黑胶会员卡，领取享 20+会员权益。https://163cn.tv/bkd3YGmV",
+      "summary": "1http:/$nAfeum34261fe8$ [復淛整段文案并咑閞「网易云音乐」，领免费会员] 黑胶邀请官 一i 送你网易云音乐 11 月黑胶会员卡，领取享 20+会员权益。https://163cn.tv/bkd3YGmV",
       "couponCode": null,
       "url": "https://www.v2ex.com/t/1254395",
       "source": "V2EX 免费赠送",
@@ -867,7 +1417,7 @@
       "id": "v2ex_deals-1254084",
       "title": "[虚拟主机]分享个免费的虚拟主机",
       "category": "生活与工具",
-      "summary": "Dewlance 是一家成立于 2009 年 2 月 21 日的注册公司，至今已运营 17 年，主要提供虚拟主机等服务。现在 Dewlance 推出美国免费 NVMe 虚拟主机，1G NVMe 硬盘、每月 50G 流量，使用 DirectAdmin 面板，带免费 SSL ，无广告，官方称不会清除用户网站。 **F...",
+      "summary": "Dewlance 是一家成立于 2009 年 2 月 21 日的注册公司，至今已运营 17 年，主要提供虚拟主机等服务。现在 Dewlance 推出美国免费 NVMe 虚拟主机，1G NVMe 硬盘、每月 50G 流量，使用 DirectAdmin 面板，带免费 SSL ，无广告，官方称不会清除用户网站。 Fre...",
       "couponCode": null,
       "url": "https://www.v2ex.com/t/1254084",
       "source": "V2EX 优惠信息",
@@ -884,7 +1434,7 @@
       "id": "v2ex_free-1253682",
       "title": "「网易云音乐」11 月领免费会员，随机 7 天 左右 ，共 128 天",
       "category": "软件与云服务",
-      "summary": "1http:/$7naa6r3407f339$ [復淛整段文案并咑閞「网易云音乐」，领免费会员] 黑胶邀请官 L***文 送你网易云音乐 11 月黑胶会员卡，领取享 20+会员权益。https://163cn.tv/bj3XrzP6 领取了的，回来留个言",
+      "summary": "1http:/$7naa6r3407f339$ [復淛整段文案并咑閞「网易云音乐」，领免费会员] 黑胶邀请官 L文 送你网易云音乐 11 月黑胶会员卡，领取享 20+会员权益。https://163cn.tv/bj3XrzP6 领取了的，回来留个言",
       "couponCode": null,
       "url": "https://www.v2ex.com/t/1253682",
       "source": "V2EX 免费赠送",
@@ -915,78 +1465,10 @@
       "expiresAt": null
     },
     {
-      "id": "gamerpower-1546",
-      "title": "Dead by Daylight 100k Bloodpoints Key Giveaway",
-      "category": "软件与云服务",
-      "summary": "[PC / DLC] Grab your free Dead by Daylight 100k Bloodpoints Key and unlock 100.000 Bloodpoints (in-game currency)! Please note that 10 ARP (Arena Rewards Poi...",
-      "couponCode": null,
-      "url": "https://www.gamerpower.com/open/dead-by-daylight-100k-bloodpoints-key-giveaway",
-      "source": "GamerPower 限免",
-      "tags": [
-        "免费白嫖"
-      ],
-      "worth": "免费",
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-10-30T14:26:20Z",
-      "expiresAt": "2026-12-31T23:59:59Z"
-    },
-    {
-      "id": "gamerpower-3346",
-      "title": "My Darkest Witch (IndieGala) Giveaway",
-      "category": "软件与云服务",
-      "summary": "[PC, DRM-Free / Game] Score My Darkest Witch for free on IndieGala! My Darkest Witch is a 2d survival arena game with endless waves of enemies.",
-      "couponCode": null,
-      "url": "https://www.gamerpower.com/open/my-darkest-witch-pc-giveaway",
-      "source": "GamerPower 限免",
-      "tags": [
-        "免费白嫖"
-      ],
-      "worth": "$4.99",
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-10-30T13:33:46Z",
-      "expiresAt": null
-    },
-    {
-      "id": "gamerpower-3340",
-      "title": "ANCIENT EVIL (IndieGala) Giveaway",
-      "category": "软件与云服务",
-      "summary": "[PC, DRM-Free / Game] Download ANCIENT EVIL for free via IndieGala! Ancient Evil is a 2d tactical RPG with puzzle elements. Don´t miss it!",
-      "couponCode": null,
-      "url": "https://www.gamerpower.com/open/ancient-evil-pc-giveaway",
-      "source": "GamerPower 限免",
-      "tags": [
-        "免费白嫖"
-      ],
-      "worth": "$4.99",
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-10-26T11:04:23Z",
-      "expiresAt": null
-    },
-    {
-      "id": "gamerpower-3331",
-      "title": "Last Room (IndieGala) Giveaway",
-      "category": "软件与云服务",
-      "summary": "[PC, DRM-Free / Game] Dive into a world of puzzles today! Download Last Room for free on IndieGala! Last Room is a 3d puzzle game with interactive environmen...",
-      "couponCode": null,
-      "url": "https://www.gamerpower.com/open/last-room-pc-giveaway",
-      "source": "GamerPower 限免",
-      "tags": [
-        "免费白嫖"
-      ],
-      "worth": "$29.99",
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-10-19T11:58:10Z",
-      "expiresAt": null
-    },
-    {
       "id": "v2ex_free-1250007",
       "title": "「网易云音乐」10 月领免费会员，随机 7 天 左右 ，共 128 天",
       "category": "软件与云服务",
-      "summary": "1http:/$FRfiIr334ae24f$ [復淛整段文案并咑閞「网易云音乐」，领免费会员] 黑胶邀请官 L***文 送你网易云音乐 10 月黑胶会员卡，领取享 20+会员权益。https://163cn.tv/biY8eHrb 领取了的，回来留个言",
+      "summary": "1http:/$FRfiIr334ae24f$ [復淛整段文案并咑閞「网易云音乐」，领免费会员] 黑胶邀请官 L文 送你网易云音乐 10 月黑胶会员卡，领取享 20+会员权益。https://163cn.tv/biY8eHrb 领取了的，回来留个言",
       "couponCode": null,
       "url": "https://www.v2ex.com/t/1250007",
       "source": "V2EX 免费赠送",
@@ -1021,7 +1503,7 @@
       "id": "v2ex_free-1249001",
       "title": "7 天美团单车免费骑",
       "category": "软件与云服务",
-      "summary": "🎁 **送十张美团单车骑行卡！** 📲 **领取方式：** 复制下面整条信息，打开美团 App 即可领取。 > 1 美团会员送你单车骑行卡，快来领取吧❤️复制整条信息，打开👉美团👈 http:/💰o0YzdlZTBiMmQ💰",
+      "summary": "🎁 送十张美团单车骑行卡！ 📲 领取方式： 复制下面整条信息，打开美团 App 即可领取。 > 1 美团会员送你单车骑行卡，快来领取吧❤️复制整条信息，打开👉美团👈 http:/💰o0YzdlZTBiMmQ💰",
       "couponCode": null,
       "url": "https://www.v2ex.com/t/1249001",
       "source": "V2EX 免费赠送",
@@ -1033,57 +1515,6 @@
       "pinned": false,
       "publishedAt": "2026-10-15T05:06:02Z",
       "expiresAt": null
-    },
-    {
-      "id": "gamerpower-3803",
-      "title": "Everwind AW-51 Pack Steam Key Giveaway",
-      "category": "软件与云服务",
-      "summary": "[PC, Steam / DLC] Claim your free Everwind AW-51 Pack Steam Key! Please note that this DLC giveaway requires the base game and 10 ARP (Arena Reward Points) t...",
-      "couponCode": null,
-      "url": "https://www.gamerpower.com/open/everwind-aw-51-pack-steam-key-giveaway",
-      "source": "GamerPower 限免",
-      "tags": [
-        "免费白嫖"
-      ],
-      "worth": "免费",
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-10-06T10:44:38Z",
-      "expiresAt": null
-    },
-    {
-      "id": "gamerpower-3802",
-      "title": "Scallywags Playtest Steam Key Giveaway",
-      "category": "软件与云服务",
-      "summary": "[PC, Steam / Early Access] Claim your free Scallywags Playtest Steam Key and join the early access!",
-      "couponCode": null,
-      "url": "https://www.gamerpower.com/open/scallywags-playtest-steam-key-giveaway",
-      "source": "GamerPower 限免",
-      "tags": [
-        "免费白嫖"
-      ],
-      "worth": "免费",
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-10-05T14:55:52Z",
-      "expiresAt": null
-    },
-    {
-      "id": "gamerpower-3819",
-      "title": "Fathom Reach Playtest Steam Key Giveaway",
-      "category": "软件与云服务",
-      "summary": "[PC, Steam / Early Access] Claim your free Fathom Reach Playtest Steam Key and join the playtest!",
-      "couponCode": null,
-      "url": "https://www.gamerpower.com/open/fathom-reach-playtest-steam-key-giveaway",
-      "source": "GamerPower 限免",
-      "tags": [
-        "免费白嫖"
-      ],
-      "worth": "免费",
-      "status": "expired",
-      "pinned": false,
-      "publishedAt": "2026-10-16T10:59:09Z",
-      "expiresAt": "2026-11-03T23:59:00Z"
     }
   ]
 }

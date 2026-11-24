@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""每日羊毛新闻聚合抓取与清洗脚本（仅依赖 Python 3 标准库）。"""
+"""每日羊毛新闻聚合抓取与清洗脚本（高纯度 AI/黑五/云服务/羊毛版，仅依赖 Python 3 标准库）。"""
 
 from __future__ import annotations
 
@@ -11,7 +11,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 from typing import Any, Callable
@@ -21,16 +21,24 @@ ROOT_DIR = Path(__file__).resolve().parent.parent
 MANUAL_DEALS_PATH = ROOT_DIR / "data" / "manual_deals.json"
 OUTPUT_DEALS_PATH = ROOT_DIR / "data" / "deals.json"
 
-HTTP_TIMEOUT_SEC = 12
+AIHOT_FREE_TOKENS_URL = "https://aihot.news/free-tokens.md"
+BF_README_URL = "https://raw.githubusercontent.com/trungdq88/Awesome-Black-Friday-Cyber-Monday/master/README.md"
+NODESEEK_RSS_URL = "https://rss.nodeseek.com/"
+
+TZ_CN = timezone(timedelta(hours=8))
+HTTP_TIMEOUT_SEC = 15
 REQUEST_HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
         "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
     ),
-    "Accept": "application/json, application/xml, text/xml, */*;q=0.8",
+    "Accept": "application/json, application/xml, text/xml, text/markdown, text/plain, */*;q=0.8",
 }
 
-# 过滤非优惠码的大写常见词与年份
+# 单次运行内复用的远端文本缓存（避免重复拉取 Awesome Black Friday README）
+_FETCH_CACHE: dict[str, str] = {}
+
+# 过滤非优惠码的大写常见词与营销词
 COUPON_STOPWORDS = {
     "HTTP",
     "HTTPS",
@@ -47,6 +55,26 @@ COUPON_STOPWORDS = {
     "PROMO",
     "COUPON",
     "FREE",
+    "OFF",
+    "PRO",
+    "MAC",
+    "MACS",
+    "USD",
+    "DEAL",
+    "DEALS",
+    "SALE",
+    "SAVE",
+    "LIFETIME",
+    "ANNUAL",
+    "YEARLY",
+    "MONTHLY",
+    "BLACK",
+    "FRIDAY",
+    "CYBER",
+    "MONDAY",
+    "NEW",
+    "USERS",
+    "ONLY",
 }
 
 TRACKING_QUERY_KEYS = {
@@ -64,9 +92,15 @@ TRACKING_QUERY_KEYS = {
 
 COUPON_PATTERN = re.compile(
     r"(?i:优惠码|兑换码|折扣码|promo\s*code|coupon\s*code|coupon|code)"
-    r"\s*(?i:is)?\s*[:：#是为]?\s*['\"`「【\[]?"
+    r"\s*(?i:is)?\s*[:：#是为]?\s*[*'\"`「【\[]?"
     r"([A-Z0-9][A-Z0-9\-]{3,23})(?![A-Za-z0-9\-])"
 )
+BOLD_COUPON_PATTERN = re.compile(r"\*\*([A-Z0-9][A-Z0-9\-]{3,23})\*\*")
+BF_WORTH_PATTERN = re.compile(
+    r"(?i)(?:up\s+to\s+)?\d+%\s*OFF(?:\s+Lifetime)?|Lifetime\s+deal"
+)
+MD_LINK_PATTERN = re.compile(r"\[([^\]]+)\]\((https?://[^)\s]+)\)")
+STRIKETHROUGH_PATTERN = re.compile(r"~~[^~]+~~\s*")
 
 TAG_STRIP_PATTERN = re.compile(r"<[^>]+>")
 BLOCK_BREAK_PATTERN = re.compile(r"(?i)<\s*(?:br\s*/?|/p|/div|/li|/tr|/h[1-6])\s*>")
@@ -96,6 +130,9 @@ CATEGORY_RULES: list[tuple[str, tuple[str, ...], tuple[str, ...]]] = [
             "perplexity",
             "midjourney",
             "grok",
+            "glm",
+            "kimi",
+            "qwen",
         ),
         ("额度", "模型", "大模型", "算力", "人工智能"),
     ),
@@ -118,12 +155,11 @@ CATEGORY_RULES: list[tuple[str, tuple[str, ...], tuple[str, ...]]] = [
             "compare",
             "software",
             "saas",
-            "dlc",
-            "xbox",
-            "playstation",
-            "switch",
+            "macos",
+            "windows",
+            "ios",
         ),
-        ("域名", "软件", "云服务", "服务器", "激活码", "限免", "小众软件", "正版", "会员"),
+        ("域名", "软件", "云服务", "服务器", "激活码", "限免", "正版", "会员"),
     ),
     (
         "黑五与促销",
@@ -135,7 +171,6 @@ CATEGORY_RULES: list[tuple[str, tuple[str, ...], tuple[str, ...]]] = [
             "off",
             "discount",
             "sale",
-            "slickdeals",
             "promo",
         ),
         ("黑五", "折扣", "神价", "促销", "满减", "特价", "优惠券", "立减"),
@@ -147,18 +182,17 @@ CATEGORY_RULES: list[tuple[str, tuple[str, ...], tuple[str, ...]]] = [
     ),
 ]
 
-# 排除“免运费/试用/无某物”等不代表免费白嫖的 free 词组
-NON_FREEBIE_FREE_PATTERN = re.compile(
-    r"(?i)(?:\bfree\s+(?:s\s*&\s*h|shipping|delivery|pickup|returns?|trial)\b|"
-    r"\b(?:tax|hands|sugar|ad|gluten|caffeine)-free\b)"
-)
-
 # 门槛标签关键词配置
 TAG_RULES: list[tuple[str, tuple[str, ...], tuple[str, ...]]] = [
     (
         "需绑卡记得取消",
         ("credit card", "free trial", "trial", "auto-renew"),
         ("绑卡", "信用卡", "自动续费", "自动续订"),
+    ),
+    (
+        "免绑卡",
+        ("no credit card",),
+        ("免绑卡", "无需绑卡"),
     ),
     (
         "免费白嫖",
@@ -177,10 +211,59 @@ TAG_RULES: list[tuple[str, tuple[str, ...], tuple[str, ...]]] = [
     ),
     (
         "黑五特惠",
-        ("black friday", "cyber monday"),
+        ("black friday", "cyber monday", "bfcm"),
         ("黑五",),
     ),
 ]
+
+# 排除“免运费/试用/无某物”等不代表免费白嫖的 free 词组
+NON_FREEBIE_FREE_PATTERN = re.compile(
+    r"(?i)(?:\bfree\s+(?:s\s*&\s*h|shipping|delivery|pickup|returns?|trial)\b|"
+    r"\b(?:tax|hands|sugar|ad|gluten|caffeine)-free\b)"
+)
+
+# NodeSeek 去水过滤词
+NODESEEK_BLACKLIST = (
+    "[出]",
+    "【出】",
+    "[收]",
+    "【收】",
+    "想收",
+    "收个",
+    "收台",
+    "出个",
+    "出两",
+    "低价出",
+    "溢价出",
+    "【求助】",
+    "求助",
+    "求推荐",
+    "怎么买",
+    "怎么办",
+    "请问",
+    "收不到",
+)
+NODESEEK_WHITELIST_ZH = (
+    "免费",
+    "白嫖",
+    "羊毛",
+    "黑五",
+    "抽奖",
+    "优惠码",
+    "折扣",
+    "额度",
+    "免费鸡",
+    "限免",
+    "福利",
+    "体验月",
+    "赠金",
+    "会员",
+)
+NODESEEK_WHITELIST_ASCII = re.compile(
+    r"(?i)\b(?:black\s+friday|coupon|promo|credit|credits|off|free|giveaway)\b"
+)
+
+V2EX_QUESTION_PREFIXES = ("请问", "求助", "求问")
 
 
 def _compile_word_pattern(words: tuple[str, ...]) -> re.Pattern[str]:
@@ -198,11 +281,16 @@ TAG_ASCII_PATTERNS = {
 }
 
 
-def fetch_text(url: str, timeout: int = HTTP_TIMEOUT_SEC) -> str:
-    """发起 HTTP GET 请求并返回 UTF-8 文本。"""
+def fetch_text(url: str, timeout: int = HTTP_TIMEOUT_SEC, *, use_cache: bool = False) -> str:
+    """发起 HTTP GET 请求并返回 UTF-8 文本，可选在单次执行内缓存。"""
+    if use_cache and url in _FETCH_CACHE:
+        return _FETCH_CACHE[url]
     req = urllib.request.Request(url, headers=REQUEST_HEADERS)
     with urllib.request.urlopen(req, timeout=timeout) as resp:
-        return resp.read().decode("utf-8", errors="replace")
+        text = resp.read().decode("utf-8", errors="replace")
+    if use_cache:
+        _FETCH_CACHE[url] = text
+    return text
 
 
 def fetch_json(url: str, timeout: int = HTTP_TIMEOUT_SEC) -> Any:
@@ -219,6 +307,17 @@ def clean_html(raw: str | None) -> str:
     text = BLOCK_BREAK_PATTERN.sub(" ", text)
     text = TAG_STRIP_PATTERN.sub(" ", text)
     text = html.unescape(text)
+    return WHITESPACE_PATTERN.sub(" ", text).strip()
+
+
+def clean_markdown(raw: str | None) -> str:
+    """将常见 Markdown 标记规整为干净纯文本。"""
+    if not raw:
+        return ""
+    text = clean_html(raw)
+    text = STRIKETHROUGH_PATTERN.sub("", text)
+    text = MD_LINK_PATTERN.sub(r"\1", text)
+    text = re.sub(r"[*_`]+", "", text)
     return WHITESPACE_PATTERN.sub(" ", text).strip()
 
 
@@ -243,7 +342,6 @@ def parse_datetime(value: Any) -> datetime | None:
     if not raw or raw.upper() in {"N/A", "NA", "NULL", "NONE"}:
         return None
 
-    # 尝试 ISO-8601
     iso_candidate = raw[:-1] + "+00:00" if raw.endswith("Z") else raw
     try:
         dt = datetime.fromisoformat(iso_candidate)
@@ -253,20 +351,37 @@ def parse_datetime(value: Any) -> datetime | None:
     except ValueError:
         pass
 
-    # 尝试常见无时区格式
     for fmt in ("%Y-%m-%d %H:%M:%S", "%Y-%m-%d"):
         try:
             return datetime.strptime(raw, fmt).replace(tzinfo=timezone.utc)
         except ValueError:
             continue
 
-    # 尝试 RSS RFC 2822
     try:
         dt = parsedate_to_datetime(raw)
         if dt.tzinfo is None:
             dt = dt.replace(tzinfo=timezone.utc)
         return dt.astimezone(timezone.utc)
     except (TypeError, ValueError):
+        return None
+
+
+def parse_cn_datetime(raw: str | None) -> datetime | None:
+    """从包含中文描述的时间文本提取北京时间并转为 UTC aware datetime。"""
+    if not raw:
+        return None
+    match = re.search(r"(\d{4}-\d{2}-\d{2})(?:\s+(\d{2}:\d{2})(?::(\d{2}))?)?", raw)
+    if not match:
+        return None
+    date_part, hm_part, sec_part = match.groups()
+    try:
+        if hm_part:
+            sec = sec_part or "00"
+            dt = datetime.strptime(f"{date_part} {hm_part}:{sec}", "%Y-%m-%d %H:%M:%S")
+        else:
+            dt = datetime.strptime(date_part, "%Y-%m-%d")
+        return dt.replace(tzinfo=TZ_CN).astimezone(timezone.utc)
+    except ValueError:
         return None
 
 
@@ -295,38 +410,45 @@ def classify_deal(title: str, summary: str, source_id: str) -> str:
     if by_combined is not None:
         return by_combined
 
-    if source_id in {"gamerpower", "appinn"}:
+    if source_id in {"bf_dev_tools", "nodeseek_deals"}:
         return "软件与云服务"
-    if source_id == "slickdeals":
-        return "黑五与促销"
     return "生活与工具"
 
 
-def extract_coupon_code(text: str) -> str | None:
+def _is_valid_coupon(code: str) -> bool:
+    clean = code.strip("-")
+    if len(clean) < 4 or clean in COUPON_STOPWORDS:
+        return False
+    if clean.isdigit() and len(clean) == 4 and clean.startswith(("19", "20")):
+        return False
+    return any(ch.isalnum() for ch in clean)
+
+
+def extract_coupon_code(text: str, *, allow_bold_fallback: bool = False) -> str | None:
     """保守提取明确的优惠码/兑换码，避免误匹配常规英文单词。"""
     for match in COUPON_PATTERN.finditer(text):
         code = match.group(1).strip("-")
-        if len(code) < 4 or code in COUPON_STOPWORDS:
-            continue
-        if code.isdigit() and len(code) == 4 and code.startswith(("19", "20")):
-            continue
-        if not any(ch.isalnum() for ch in code):
-            continue
-        return code
+        if _is_valid_coupon(code):
+            return code
+
+    if allow_bold_fallback and "no code" not in text.lower():
+        for match in BOLD_COUPON_PATTERN.finditer(text):
+            code = match.group(1).strip("-")
+            if _is_valid_coupon(code):
+                return code
     return None
 
 
 def extract_tags(text: str, source_id: str, worth: str | None) -> list[str]:
     """提取门槛与福利标签。"""
     tags: list[str] = []
-    # 剥离免运费/试用等干扰词后再判断“免费白嫖”
     freebie_text = NON_FREEBIE_FREE_PATTERN.sub(" ", text)
     for tag, _, zh_words in TAG_RULES:
         target = freebie_text if tag == "免费白嫖" else text
         if TAG_ASCII_PATTERNS[tag].search(target) or any(zw in target for zw in zh_words):
             tags.append(tag)
 
-    if source_id in {"v2ex_free", "gamerpower"} and "免费白嫖" not in tags:
+    if source_id in {"v2ex_free", "aihot_free_tokens"} and "免费白嫖" not in tags:
         tags.append("免费白嫖")
     elif worth and ("免费" in worth or worth.strip().lower() == "free") and "免费白嫖" not in tags:
         tags.append("免费白嫖")
@@ -378,8 +500,8 @@ def build_deal(
     pinned: bool = False,
 ) -> dict[str, Any]:
     """构造统一规范的羊毛条目对象。"""
-    clean_title = clean_html(title) or "未命名优惠"
-    clean_desc = clean_html(summary_raw)
+    clean_title = clean_markdown(title) or "未命名优惠"
+    clean_desc = clean_markdown(summary_raw)
     summary = truncate_summary(clean_desc)
     combined_text = f"{clean_title} {clean_desc}"
 
@@ -407,6 +529,247 @@ def build_deal(
     }
 
 
+def _extract_aihot_worth(raw: str) -> str | None:
+    """精简 aihot 的『能领多少』字段（去掉过长括号说明，<=36字）。"""
+    if not raw:
+        return None
+    stripped = re.sub(r"[（(][^）)]*[）)]", "", raw).strip(" ，,；;·")
+    candidate = stripped if stripped else raw.strip()
+    if len(candidate) > 36:
+        candidate = candidate[:33].rstrip() + "..."
+    return candidate or None
+
+
+def _extract_aihot_url(raw: str) -> str:
+    """从『去领』字段提取 URL，异常时回退到聚合页。"""
+    if raw:
+        md_match = MD_LINK_PATTERN.search(raw)
+        if md_match:
+            return md_match.group(2).strip()
+        url_match = re.search(r"https?://[^\s)>]+", raw)
+        if url_match:
+            return url_match.group(0).strip()
+    return "https://aihot.news/free-tokens"
+
+
+def _parse_aihot_entry(
+    title: str,
+    fields: dict[str, str],
+    group_tag: str,
+    now_utc: datetime,
+) -> dict[str, Any]:
+    """将单条 aihot Markdown 块规范化为 Deal。"""
+    target_url = _extract_aihot_url(fields.get("去领", ""))
+    worth = _extract_aihot_worth(fields.get("能领多少", ""))
+    how = fields.get("怎么领", "").strip()
+    usable = fields.get("能用在", "").strip()
+    threshold = fields.get("门槛", "").strip()
+    validity = fields.get("有效期", "").strip()
+
+    summary_parts = []
+    if how:
+        summary_parts.append(how)
+    if usable:
+        summary_parts.append(f"适用：{usable}")
+    elif validity:
+        summary_parts.append(f"有效期：{validity}")
+
+    published_dt = parse_cn_datetime(fields.get("核实")) or now_utc
+    expires_dt = parse_cn_datetime(fields.get("截止"))
+
+    tag_seed = f"{title} {threshold} {how}"
+    tags = [group_tag, "免费白嫖"] + extract_tags(tag_seed, "aihot_free_tokens", worth)
+
+    return build_deal(
+        deal_id=make_deal_id("aihot", None, f"{target_url}#{title}"),
+        title=title,
+        summary_raw=" ".join(summary_parts),
+        url=target_url,
+        source_id="aihot_free_tokens",
+        source_name="AI 免费额度 (aihot)",
+        published_dt=published_dt,
+        expires_dt=expires_dt,
+        now_utc=now_utc,
+        worth=worth,
+        category="AI会员与额度",
+        tags=list(dict.fromkeys(tags)),
+    )
+
+
+def fetch_aihot_free_tokens(now_utc: datetime) -> list[dict[str, Any]]:
+    """抓取并解析 aihot.news/free-tokens.md 分组免费 AI 额度。"""
+    md_text = fetch_text(AIHOT_FREE_TOKENS_URL)
+    section_buckets: dict[str, list[tuple[str, dict[str, str]]]] = {
+        "每日可领": [],
+        "每月可领": [],
+        "AI福利": [],
+    }
+
+    current_group: str | None = None
+    current_title: str | None = None
+    current_fields: dict[str, str] = {}
+
+    def flush_entry() -> None:
+        if current_group and current_title:
+            section_buckets[current_group].append((current_title, dict(current_fields)))
+
+    for raw_line in md_text.splitlines():
+        line = raw_line.strip()
+        if line.startswith("## "):
+            flush_entry()
+            current_title = None
+            current_fields = {}
+            heading = line[3:].strip()
+            if "每天都能领" in heading:
+                current_group = "每日可领"
+            elif "每月都能领" in heading:
+                current_group = "每月可领"
+            elif "其他福利" in heading:
+                current_group = "AI福利"
+            else:
+                current_group = None
+            continue
+
+        if current_group is None:
+            continue
+
+        if line.startswith("### "):
+            flush_entry()
+            current_title = line[4:].strip()
+            current_fields = {}
+            continue
+
+        if current_title and line.startswith("- "):
+            kv_match = re.match(r"^-\s*([^：:]+)[：:]\s*(.+)$", line)
+            if kv_match:
+                key, val = kv_match.groups()
+                current_fields[key.strip()] = val.strip()
+
+    flush_entry()
+
+    daily_deals = [
+        _parse_aihot_entry(t, f, "每日可领", now_utc)
+        for t, f in section_buckets["每日可领"][:12]
+    ]
+    monthly_deals = [
+        _parse_aihot_entry(t, f, "每月可领", now_utc)
+        for t, f in section_buckets["每月可领"][:10]
+    ]
+    other_deals = [
+        _parse_aihot_entry(t, f, "AI福利", now_utc)
+        for t, f in section_buckets["AI福利"]
+    ]
+    # 其他福利按核实时间倒序取最新 13 条
+    other_deals.sort(
+        key=lambda d: (parse_datetime(d["publishedAt"]) or now_utc).timestamp(),
+        reverse=True,
+    )
+
+    return daily_deals + monthly_deals + other_deals[:13]
+
+
+def _parse_bf_sections(
+    section_keywords: tuple[str, ...],
+    *,
+    source_id: str,
+    source_name: str,
+    category: str,
+    limit: int,
+    prioritize_star: bool,
+    now_utc: datetime,
+) -> list[dict[str, Any]]:
+    """解析 Awesome Black Friday / Cyber Monday 2026 表格指定分节。"""
+    md_text = fetch_text(BF_README_URL, use_cache=True)
+    rows: list[tuple[bool, str, str, str, str]] = []
+    in_section = False
+
+    for raw_line in md_text.splitlines():
+        line = raw_line.strip()
+        if line.startswith("## "):
+            in_section = any(kw in line for kw in section_keywords)
+            continue
+        if not in_section or not line.startswith("|"):
+            continue
+
+        cols = [c.strip() for c in line.strip("|").split("|")]
+        if len(cols) < 4:
+            continue
+        icon_col = cols[0]
+        name_col = cols[1]
+        desc_col = cols[2]
+        terms_col = " | ".join(cols[3:])
+
+        if name_col.lower() == "name" or set(name_col) <= set("-: "):
+            continue
+        link_match = MD_LINK_PATTERN.search(name_col)
+        if not link_match:
+            continue
+
+        name, url = link_match.group(1).strip(), link_match.group(2).strip()
+        is_star = "⭐" in icon_col
+        rows.append((is_star, name, url, desc_col, terms_col))
+
+    if prioritize_star:
+        rows.sort(key=lambda r: 0 if r[0] else 1)
+
+    results: list[dict[str, Any]] = []
+    for _, name, url, desc_col, terms_col in rows[:limit]:
+        worth_match = BF_WORTH_PATTERN.search(terms_col)
+        worth = worth_match.group(0).strip() if worth_match else None
+        coupon = extract_coupon_code(terms_col, allow_bold_fallback=True)
+
+        clean_desc = clean_markdown(desc_col)
+        clean_terms = clean_markdown(terms_col)
+        summary_raw = f"{clean_terms}。{clean_desc}" if clean_terms else clean_desc
+        title = f"{name} — {worth}" if worth else name
+
+        tags = ["黑五特惠"] + extract_tags(f"{title} {clean_terms}", source_id, worth)
+        results.append(
+            build_deal(
+                deal_id=make_deal_id(source_id, None, url),
+                title=title,
+                summary_raw=summary_raw,
+                url=url,
+                source_id=source_id,
+                source_name=source_name,
+                published_dt=now_utc,
+                expires_dt=None,
+                now_utc=now_utc,
+                worth=worth,
+                coupon_code=coupon,
+                category=category,
+                tags=list(dict.fromkeys(tags)),
+            )
+        )
+    return results
+
+
+def fetch_bf_ai_tools(now_utc: datetime) -> list[dict[str, Any]]:
+    """抓取 2026 黑五 AI Tools 专区（前 15 条）。"""
+    return _parse_bf_sections(
+        ("AI Tools",),
+        source_id="bf_ai_tools",
+        source_name="黑五 AI 工具 2026",
+        category="AI会员与额度",
+        limit=15,
+        prioritize_star=False,
+        now_utc=now_utc,
+    )
+
+
+def fetch_bf_dev_tools(now_utc: datetime) -> list[dict[str, Any]]:
+    """抓取 2026 黑五 Developer Tools & Productivity 专区（优先 ⭐ 条目，前 12 条）。"""
+    return _parse_bf_sections(
+        ("Developer Tools", "Productivity"),
+        source_id="bf_dev_tools",
+        source_name="黑五开发与效率 2026",
+        category="软件与云服务",
+        limit=12,
+        prioritize_star=True,
+        now_utc=now_utc,
+    )
+
+
 def _rss_child_text(item: ET.Element, *candidates: str) -> str:
     """兼容命名空间读取 RSS item 子节点文本。"""
     for name in candidates:
@@ -420,11 +783,66 @@ def _rss_child_text(item: ET.Element, *candidates: str) -> str:
     return ""
 
 
-def _fetch_v2ex_node(source_id: str, source_name: str, node_name: str, limit: int, now_utc: datetime) -> list[dict[str, Any]]:
+def fetch_nodeseek_deals(now_utc: datetime) -> list[dict[str, Any]]:
+    """抓取 NodeSeek RSS 并用严格黑白名单过滤二手交易与水贴。"""
+    xml_text = fetch_text(NODESEEK_RSS_URL)
+    root = ET.fromstring(xml_text)
+    results: list[dict[str, Any]] = []
+
+    for item in root.findall("./channel/item"):
+        title = clean_html(_rss_child_text(item, "title"))
+        link = _rss_child_text(item, "link", "guid").strip()
+        if not title or not link:
+            continue
+
+        # 排除明显二手交易与纯求助贴
+        if any(bad in title for bad in NODESEEK_BLACKLIST):
+            continue
+
+        desc = clean_html(_rss_child_text(item, "description", "encoded"))
+        combined = f"{title} {desc}"
+        if not (
+            any(good in combined for good in NODESEEK_WHITELIST_ZH)
+            or NODESEEK_WHITELIST_ASCII.search(combined)
+        ):
+            continue
+
+        pub_raw = _rss_child_text(item, "pubDate", "published", "updated")
+        guid = _rss_child_text(item, "guid")
+        results.append(
+            build_deal(
+                deal_id=make_deal_id("nodeseek", guid or None, link),
+                title=title,
+                summary_raw=desc or title,
+                url=link,
+                source_id="nodeseek_deals",
+                source_name="NodeSeek 精选福利",
+                published_dt=parse_datetime(pub_raw),
+                expires_dt=None,
+                now_utc=now_utc,
+            )
+        )
+        if len(results) >= 10:
+            break
+
+    return results
+
+
+def _fetch_v2ex_node(
+    source_id: str,
+    source_name: str,
+    node_name: str,
+    limit: int,
+    now_utc: datetime,
+) -> list[dict[str, Any]]:
     url = f"https://www.v2ex.com/api/topics/show.json?node_name={node_name}"
     items = fetch_json(url)
     results: list[dict[str, Any]] = []
-    for item in items[:limit]:
+    for item in items:
+        title = clean_html(item.get("title", ""))
+        if not title or title.startswith(V2EX_QUESTION_PREFIXES):
+            continue
+
         topic_url = item.get("url") or f"https://www.v2ex.com/t/{item.get('id')}"
         content = item.get("content") or item.get("content_rendered") or ""
         replies = item.get("replies")
@@ -432,7 +850,7 @@ def _fetch_v2ex_node(source_id: str, source_name: str, node_name: str, limit: in
         results.append(
             build_deal(
                 deal_id=make_deal_id(source_id, item.get("id"), topic_url),
-                title=item.get("title", ""),
+                title=title,
                 summary_raw=summary_src,
                 url=topic_url,
                 source_id=source_id,
@@ -443,148 +861,28 @@ def _fetch_v2ex_node(source_id: str, source_name: str, node_name: str, limit: in
                 worth="免费" if node_name == "free" else None,
             )
         )
+        if len(results) >= limit:
+            break
     return results
 
 
 def fetch_v2ex_deals(now_utc: datetime) -> list[dict[str, Any]]:
-    """抓取 V2EX 优惠信息节点最新 15 条。"""
-    return _fetch_v2ex_node("v2ex_deals", "V2EX 优惠信息", "deals", 15, now_utc)
+    """抓取 V2EX 优惠信息节点（过滤纯提问水贴，最多 10 条）。"""
+    return _fetch_v2ex_node("v2ex_deals", "V2EX 优惠信息", "deals", 10, now_utc)
 
 
 def fetch_v2ex_free(now_utc: datetime) -> list[dict[str, Any]]:
-    """抓取 V2EX 免费赠送节点最新 10 条。"""
+    """抓取 V2EX 免费赠送节点（过滤纯提问水贴，最多 10 条）。"""
     return _fetch_v2ex_node("v2ex_free", "V2EX 免费赠送", "free", 10, now_utc)
 
 
-def fetch_gamerpower(now_utc: datetime) -> list[dict[str, Any]]:
-    """抓取 GamerPower 限免赠送最新 12 条。"""
-    items = fetch_json("https://www.gamerpower.com/api/giveaways?sort-by=date")
-    results: list[dict[str, Any]] = []
-    for item in items[:12]:
-        target_url = item.get("open_giveaway_url") or item.get("gamerpower_url") or ""
-        if not target_url:
-            continue
-        raw_worth = item.get("worth")
-        worth = None if not raw_worth or str(raw_worth).upper() == "N/A" else str(raw_worth)
-        platforms = item.get("platforms") or ""
-        g_type = item.get("type") or ""
-        desc = item.get("description") or item.get("instructions") or ""
-        prefix = f"[{platforms} / {g_type}] " if platforms or g_type else ""
-        results.append(
-            build_deal(
-                deal_id=make_deal_id("gamerpower", item.get("id"), target_url),
-                title=item.get("title", ""),
-                summary_raw=f"{prefix}{desc}",
-                url=target_url,
-                source_id="gamerpower",
-                source_name="GamerPower 限免",
-                published_dt=parse_datetime(item.get("published_date")),
-                expires_dt=parse_datetime(item.get("end_date")),
-                now_utc=now_utc,
-                worth=worth or "免费",
-            )
-        )
-    return results
-
-
-def _fetch_rss(source_id: str, source_name: str, feed_url: str, limit: int, now_utc: datetime) -> list[dict[str, Any]]:
-    xml_text = fetch_text(feed_url)
-    root = ET.fromstring(xml_text)
-    items = root.findall("./channel/item")
-    results: list[dict[str, Any]] = []
-    for item in items[:limit]:
-        title = _rss_child_text(item, "title")
-        link = _rss_child_text(item, "link", "guid")
-        if not link:
-            continue
-        desc = _rss_child_text(item, "description", "encoded")
-        pub_raw = _rss_child_text(item, "pubDate", "published", "updated")
-        guid = _rss_child_text(item, "guid")
-        results.append(
-            build_deal(
-                deal_id=make_deal_id(source_id, guid or None, link),
-                title=title,
-                summary_raw=desc,
-                url=link,
-                source_id=source_id,
-                source_name=source_name,
-                published_dt=parse_datetime(pub_raw),
-                expires_dt=None,
-                now_utc=now_utc,
-            )
-        )
-    return results
-
-
-def fetch_slickdeals(now_utc: datetime) -> list[dict[str, Any]]:
-    """抓取 Slickdeals 首页精选最新 12 条。"""
-    return _fetch_rss(
-        "slickdeals",
-        "Slickdeals 精选",
-        "https://slickdeals.net/newsearch.php?mode=frontpage&searcharea=deals&searchin=first&rss=1",
-        12,
-        now_utc,
-    )
-
-
-def fetch_appinn(now_utc: datetime) -> list[dict[str, Any]]:
-    """抓取小众软件最新 8 条。"""
-    return _fetch_rss("appinn", "小众软件", "https://www.appinn.com/feed/", 8, now_utc)
-
-
-def fetch_hn_deals(now_utc: datetime) -> list[dict[str, Any]]:
-    """抓取 Hacker News 近期免费额度与促销讨论（合并检索避免 Algolia 字面 OR 匹配为空）。"""
-    queries = [
-        "https://hn.algolia.com/api/v1/search_by_date?query=black+friday&tags=story&hitsPerPage=6",
-        "https://hn.algolia.com/api/v1/search_by_date?query=free+credits&tags=story&hitsPerPage=6",
-        "https://hn.algolia.com/api/v1/search_by_date?query=giveaway&tags=story&hitsPerPage=6",
-    ]
-    seen_ids: set[str] = set()
-    merged_hits: list[dict[str, Any]] = []
-    for query_url in queries:
-        data = fetch_json(query_url)
-        for hit in data.get("hits", []):
-            oid = str(hit.get("objectID") or "")
-            if oid and oid not in seen_ids:
-                seen_ids.add(oid)
-                merged_hits.append(hit)
-
-    # 按时间倒序截取前 10 条
-    merged_hits.sort(
-        key=lambda h: (parse_datetime(h.get("created_at")) or now_utc).timestamp(),
-        reverse=True,
-    )
-
-    results: list[dict[str, Any]] = []
-    for hit in merged_hits[:10]:
-        oid = str(hit.get("objectID") or "")
-        target_url = (hit.get("url") or "").strip() or f"https://news.ycombinator.com/item?id={oid}"
-        points = hit.get("points") or 0
-        comments = hit.get("num_comments") or 0
-        summary_raw = f"Hacker News 讨论（热度 {points} 赞 / {comments} 评论）：{hit.get('title', '')}"
-        results.append(
-            build_deal(
-                deal_id=make_deal_id("hn_deals", oid, target_url),
-                title=hit.get("title", ""),
-                summary_raw=summary_raw,
-                url=target_url,
-                source_id="hn_deals",
-                source_name="Hacker News 福利",
-                published_dt=parse_datetime(hit.get("created_at")),
-                expires_dt=None,
-                now_utc=now_utc,
-            )
-        )
-    return results
-
-
 SOURCE_FETCHERS: list[tuple[str, str, Callable[[datetime], list[dict[str, Any]]]]] = [
+    ("aihot_free_tokens", "AI 免费额度 (aihot)", fetch_aihot_free_tokens),
+    ("bf_ai_tools", "黑五 AI 工具 2026", fetch_bf_ai_tools),
+    ("bf_dev_tools", "黑五开发与效率 2026", fetch_bf_dev_tools),
+    ("nodeseek_deals", "NodeSeek 精选福利", fetch_nodeseek_deals),
     ("v2ex_deals", "V2EX 优惠信息", fetch_v2ex_deals),
     ("v2ex_free", "V2EX 免费赠送", fetch_v2ex_free),
-    ("gamerpower", "GamerPower 限免", fetch_gamerpower),
-    ("slickdeals", "Slickdeals 精选", fetch_slickdeals),
-    ("appinn", "小众软件", fetch_appinn),
-    ("hn_deals", "Hacker News 福利", fetch_hn_deals),
 ]
 
 
@@ -625,6 +923,7 @@ def load_manual_deals(now_utc: datetime) -> list[dict[str, Any]]:
 
 def main() -> int:
     """执行全量抓取、清洗、去重并写入 data/deals.json。"""
+    _FETCH_CACHE.clear()
     now_utc = datetime.now(timezone.utc)
     sources_status: list[dict[str, Any]] = []
     collected: list[dict[str, Any]] = load_manual_deals(now_utc)

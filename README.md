@@ -1,6 +1,6 @@
 # Daily Deals Hub（每日羊毛新闻看板数据源）
 
-自动化聚合公开羊毛、限免与促销线索，清洗去重后输出为标准静态 JSON（`data/deals.json`），供 **Caffeine.ai** 前端看板或任意静态网站直接消费，彻底避免链上爬虫消耗和跨站限制。
+自动化聚合高纯度 AI 免费额度、黑五开发软件促销与中文技术社区福利，清洗去重后输出为标准静态 JSON（`data/deals.json`），供 **Caffeine.ai** 前端看板或任意静态网站直接消费，彻底避免链上爬虫消耗和跨站限制。
 
 ## 目录结构
 
@@ -8,6 +8,8 @@
 daily-deals-hub/
 ├── .github/workflows/
 │   └── update-deals.yml      # GitHub Actions 每日两次自动抓取并提交更新
+├── workflows_template/
+│   └── update-deals.yml      # 工作流模板备份
 ├── data/
 │   ├── manual_deals.json     # 人工维护置顶精选列表（脚本永不覆盖）
 │   └── deals.json            # 自动生成的聚合标准输出（前端直接读取）
@@ -15,17 +17,19 @@ daily-deals-hub/
 │   └── fetch_deals.py        # 零依赖 Python 3 抓取与清洗脚本
 ├── caffeine_prompts.md       # Caffeine.ai 两轮省积分建站 Prompt
 ├── README.md
-└── STATUS.md                 # 当前进度与待办记录
+└── STATUS.md                 # 当前进度与项目链接记录
 ```
 
-## 已接入数据源（6 个公开源）
+## 已接入数据源（6 个高纯度公开源）
 
-1. **V2EX 优惠信息**（`/deals` API，最新 15 条）
-2. **V2EX 免费赠送**（`/free` API，最新 10 条）
-3. **GamerPower 限免**（公开 Giveaways API，最新 12 条）
-4. **Slickdeals 精选**（首页精选 RSS，最新 12 条）
-5. **小众软件**（官网 RSS，最新 8 条）
-6. **Hacker News 福利**（Algolia API 检索促销/免费额度/赠送讨论，最新 10 条）
+1. **AI 免费额度 (aihot)**（`https://aihot.news/free-tokens.md`，每日可领 / 每月可领 / 最新 AI 福利，最多 35 条）
+2. **黑五 AI 工具 2026**（`Awesome-Black-Friday-Cyber-Monday` AI Tools 专区，前 15 条，自动提取折扣与优惠码）
+3. **黑五开发与效率 2026**（`Awesome-Black-Friday-Cyber-Monday` Developer Tools & Productivity 专区，优先 `⭐` 高折条目，前 12 条）
+4. **NodeSeek 精选福利**（官方 RSS + 严格黑白名单过滤二手出机/求助贴，最多 10 条）
+5. **V2EX 优惠信息**（`/deals` API，过滤纯提问水贴，最多 10 条）
+6. **V2EX 免费赠送**（`/free` API，过滤纯提问水贴，最多 10 条）
+
+> **关于 Linux.do**：社区官方 RSS/JSON 均启用了 Cloudflare 防护（直接抓取返回 403）且核心福利帖需登录态，出于合规与稳定性考虑不做绕盾抓取；在浏览器看到优质神车时，可通过看板「快速新增」或写入 `data/manual_deals.json` 置顶。
 
 ## 本地运行
 
