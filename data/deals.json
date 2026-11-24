@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-24T12:57:26Z",
-  "total": 84,
+  "updatedAt": "2026-11-24T12:58:32Z",
+  "total": 85,
   "sources": [
     {
       "id": "aihot_free_tokens",
@@ -28,7 +28,7 @@
       "id": "nodeseek_deals",
       "name": "NodeSeek 精选福利",
       "ok": true,
-      "count": 1,
+      "count": 2,
       "error": null
     },
     {
@@ -99,7 +99,7 @@
       "worth": "60% OFF Lifetime",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:57:26Z",
+      "publishedAt": "2026-11-24T12:58:32Z",
       "expiresAt": null
     },
     {
@@ -116,7 +116,7 @@
       "worth": "40% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:57:26Z",
+      "publishedAt": "2026-11-24T12:58:32Z",
       "expiresAt": null
     },
     {
@@ -133,7 +133,7 @@
       "worth": "Up to 45% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:57:26Z",
+      "publishedAt": "2026-11-24T12:58:32Z",
       "expiresAt": null
     },
     {
@@ -150,7 +150,7 @@
       "worth": "51% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:57:26Z",
+      "publishedAt": "2026-11-24T12:58:32Z",
       "expiresAt": null
     },
     {
@@ -167,7 +167,7 @@
       "worth": "25% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:57:26Z",
+      "publishedAt": "2026-11-24T12:58:32Z",
       "expiresAt": null
     },
     {
@@ -184,7 +184,7 @@
       "worth": "30% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:57:26Z",
+      "publishedAt": "2026-11-24T12:58:32Z",
       "expiresAt": null
     },
     {
@@ -201,7 +201,7 @@
       "worth": "50% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:57:26Z",
+      "publishedAt": "2026-11-24T12:58:32Z",
       "expiresAt": null
     },
     {
@@ -218,7 +218,7 @@
       "worth": "20% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:57:26Z",
+      "publishedAt": "2026-11-24T12:58:32Z",
       "expiresAt": null
     },
     {
@@ -235,7 +235,7 @@
       "worth": null,
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:57:26Z",
+      "publishedAt": "2026-11-24T12:58:32Z",
       "expiresAt": null
     },
     {
@@ -252,7 +252,7 @@
       "worth": "40% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:57:26Z",
+      "publishedAt": "2026-11-24T12:58:32Z",
       "expiresAt": null
     },
     {
@@ -269,7 +269,7 @@
       "worth": "30% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:57:26Z",
+      "publishedAt": "2026-11-24T12:58:32Z",
       "expiresAt": null
     },
     {
@@ -286,7 +286,7 @@
       "worth": null,
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:57:26Z",
+      "publishedAt": "2026-11-24T12:58:32Z",
       "expiresAt": null
     },
     {
@@ -303,7 +303,7 @@
       "worth": "50% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:57:26Z",
+      "publishedAt": "2026-11-24T12:58:32Z",
       "expiresAt": null
     },
     {
@@ -320,7 +320,7 @@
       "worth": "50% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:57:26Z",
+      "publishedAt": "2026-11-24T12:58:32Z",
       "expiresAt": null
     },
     {
@@ -337,7 +337,7 @@
       "worth": "35% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:57:26Z",
+      "publishedAt": "2026-11-24T12:58:32Z",
       "expiresAt": null
     },
     {
@@ -354,7 +354,7 @@
       "worth": "60% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:57:26Z",
+      "publishedAt": "2026-11-24T12:58:32Z",
       "expiresAt": null
     },
     {
@@ -371,7 +371,7 @@
       "worth": "40% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:57:26Z",
+      "publishedAt": "2026-11-24T12:58:32Z",
       "expiresAt": null
     },
     {
@@ -388,7 +388,7 @@
       "worth": "25% off",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:57:26Z",
+      "publishedAt": "2026-11-24T12:58:32Z",
       "expiresAt": null
     },
     {
@@ -405,7 +405,7 @@
       "worth": "40% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:57:26Z",
+      "publishedAt": "2026-11-24T12:58:32Z",
       "expiresAt": null
     },
     {
@@ -422,7 +422,7 @@
       "worth": "50% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:57:26Z",
+      "publishedAt": "2026-11-24T12:58:32Z",
       "expiresAt": null
     },
     {
@@ -439,7 +439,7 @@
       "worth": "40% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:57:26Z",
+      "publishedAt": "2026-11-24T12:58:32Z",
       "expiresAt": null
     },
     {
@@ -456,7 +456,7 @@
       "worth": "50% off",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:57:26Z",
+      "publishedAt": "2026-11-24T12:58:32Z",
       "expiresAt": null
     },
     {
@@ -473,7 +473,7 @@
       "worth": "40% off",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:57:26Z",
+      "publishedAt": "2026-11-24T12:58:32Z",
       "expiresAt": null
     },
     {
@@ -490,7 +490,7 @@
       "worth": "40% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:57:26Z",
+      "publishedAt": "2026-11-24T12:58:32Z",
       "expiresAt": null
     },
     {
@@ -507,7 +507,7 @@
       "worth": "30% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:57:26Z",
+      "publishedAt": "2026-11-24T12:58:32Z",
       "expiresAt": null
     },
     {
@@ -524,7 +524,24 @@
       "worth": "30% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:57:26Z",
+      "publishedAt": "2026-11-24T12:58:32Z",
+      "expiresAt": null
+    },
+    {
+      "id": "nodeseek-1077614",
+      "title": "【抽奖】 免费送 bytevirt 台湾动态 HiNet 2.5刀 包PUSH",
+      "category": "软件与云服务",
+      "summary": "NAT-512-LXC-DYNAMICIP起价$2.50USD每月1Core(s)(FairShare)512MBRAM2GBSSD20IPv4NATPorts1/80IPv6Subnet2TB@500MbpspermonthLXCVirtualization下次付款日期2026/12/19挂了一天没人要，直接抽了",
+      "couponCode": null,
+      "url": "https://www.nodeseek.com/post-1077614-1",
+      "source": "NodeSeek 精选福利",
+      "tags": [
+        "免费白嫖"
+      ],
+      "worth": null,
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-24T12:57:38Z",
       "expiresAt": null
     },
     {
