@@ -12,9 +12,11 @@ daily-deals-hub/
 │   └── update-deals.yml      # 工作流模板备份
 ├── data/
 │   ├── manual_deals.json     # 人工维护置顶精选列表（脚本永不覆盖）
-│   └── deals.json            # 自动生成的聚合标准输出（前端直接读取）
+│   ├── deals.json            # 自动生成的聚合羊毛标准输出（前端直接读取）
+│   └── ai_radar.json         # 自动生成的 AI 前沿源头情报输出（AI 前沿源头 Tab 读取）
 ├── scripts/
-│   └── fetch_deals.py        # 零依赖 Python 3 抓取与清洗脚本
+│   ├── fetch_deals.py        # 零依赖 Python 3 羊毛抓取与清洗脚本
+│   └── fetch_ai_radar.py     # 零依赖 Python 3 AI 一手前沿源头抓取脚本
 ├── caffeine_prompts.md       # Caffeine.ai 两轮省积分建站 Prompt
 ├── README.md
 └── STATUS.md                 # 当前进度与项目链接记录
@@ -37,9 +39,16 @@ daily-deals-hub/
 
 ```bash
 python scripts/fetch_deals.py
+python scripts/fetch_ai_radar.py
 ```
 
-执行后会刷新 `data/deals.json`，并在终端打印本次条数与成功数据源统计。
+执行后会分别刷新 `data/deals.json` 与 `data/ai_radar.json`，并在终端打印本次条数与成功数据源统计。
+
+## 已接入 AI 前沿一手源头（`data/ai_radar.json`）
+
+- **日报与周报（`briefings`）**：AI News（`https://news.smol.ai` → `latent.space` 最新动态）、The Batch（吴恩达团队周报）
+- **热门与最新论文（`papers`）**：Hugging Face Daily Papers（按点赞排序 Top 12）、arXiv `cs.AI` 最新预印本（去重后 Top 8），每篇均附带 `arXiv 原文` 与 `alphaXiv 讨论区` 直达链接
+- **常驻评测与源头入口（`benchmarks`）**：LMArena（真人盲测）、Artificial Analysis（质量/速度/价格横评）、alphaXiv、arXiv `cs.AI`
 
 ## 如何添加置顶精选羊毛
 

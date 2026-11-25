@@ -53,3 +53,39 @@
 
 开始构建。
 ```
+
+---
+
+## 迭代增量：新增独立「AI 前沿源头」Tab（方案 B，单轮直接构建）
+
+```text
+请基于现有的「每日羊毛新闻看板」进行一次增量迭代，严格保持原有功能不变，并在顶部导航新增第 3 个独立 Tab「AI 前沿源头」（无需再次确认，直接修改代码并重新构建部署草稿）。
+
+一、严格保留原有功能（不要改动或污染）
+1. 原有的「羊毛看板」Tab、「我的已薅 / 退订提醒」Tab、4 个固定羊毛分类、deals.json 远程拉取与本地回退、快速新增、标记已领/退订提醒、JSON 备份、.ics 日历导出、深浅色主题全部原样保留。
+2. 绝对不要把 AI 新闻或论文混进「羊毛看板」的 deals 列表中。
+
+二、「AI 前沿源头」Tab 独立数据源（含优雅降级）
+1. 默认远程 JSON URL：https://raw.githubusercontent.com/lilychou725-cdk/daily-deals-hub/main/data/ai_radar.json
+2. 在原有设置弹窗中新增一个「AI 前沿源头 JSON URL」输入框（持久化到 localStorage，支持重置回默认地址）。
+3. Tab 顶部显示该数据源的最近更新时间（updatedAt）、各来源抓取状态徽章（sources）与「手动刷新」按钮；若 fetch 失败或超时，自动优雅回退到内置的示例数据（含 4 张基准入口卡 + 4 条资讯/论文示例）并给出轻提示，绝不白屏。
+4. 严格兼容以下 JSON Schema：
+   顶层：{ "schemaVersion": "1.0", "updatedAt": "ISO-8601", "total": number, "sources": [{ "id": string, "name": string, "ok": boolean, "count": number, "error": string | null }], "benchmarks": BenchmarkTool[], "items": RadarItem[] }
+   BenchmarkTool：{ "id": string, "name": string, "category": string, "description": string, "url": string, "mirrorUrl": string | null, "mirrorLabel": string | null, "tags": string[] }
+   RadarItem：{ "id": string, "section": "briefings" | "papers", "sourceId": "ai_news" | "the_batch" | "hf_papers" | "arxiv_ai", "sourceName": string, "title": string, "summary": string, "url": string, "arxivId": string | null, "arxivUrl": string | null, "alphaXivUrl": string | null, "githubUrl": string | null, "upvotes": number | null, "readTime": string | null, "tags": string[], "publishedAt": "ISO-8601" }
+
+三、「AI 前沿源头」Tab 页面结构与交互（沿用当前极客高对比深/浅色卡片风格）
+1. 顶部常驻区「模型评测与源头入口」：
+   - 以 PC 端 2×2 / 4 列、手机端单列紧凑网格展示 benchmarks（LMArena、Artificial Analysis、alphaXiv、arXiv cs.AI）。
+   - 每张卡片展示：分类徽章、名称、简介、标签、主直达按钮（新标签页打开 `url`）；若 `mirrorUrl` 非空，额外显示次级跳转按钮（文案用 `mirrorLabel`）。
+2. 筛选与搜索栏：
+   - 板块切换：全部 / 日报与周报（briefings）/ 热门论文（papers）
+   - 来源筛选：全部 / AI News / The Batch / HF Papers / arXiv cs.AI
+   - 关键词搜索（匹配 title / summary / tags / arxivId）
+   - 「仅看已收藏」开关（AI 前沿收藏列表单独存 localStorage，不与羊毛已薅清单混淆）
+3. 信息流卡片网格（PC 端 2~3 列自适应，手机端单列）：
+   - 日报/周报（briefings）卡片：显示来源徽章、相对与精确时间、readTime（如有）、标题、摘要、标签、收藏按钮、直达原文按钮。
+   - 论文（papers）卡片：显示来源徽章、点赞数徽章（upvotes 非空时显示，如 `👍 32`）、arxivId 徽章、标题、摘要、标签、收藏按钮，以及底部的快捷按钮组：主链接（url）、`arXiv 原文`（arxivUrl）、`alphaXiv 讨论区`（alphaXivUrl）、`GitHub 代码`（githubUrl 非空时显示）。
+
+请直接完成编码、构建并部署新的草稿。
+```

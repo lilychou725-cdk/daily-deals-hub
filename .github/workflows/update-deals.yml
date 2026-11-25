@@ -24,14 +24,17 @@ jobs:
       - name: Fetch and normalize daily deals
         run: python scripts/fetch_deals.py
 
-      - name: Commit and push updated deals.json
+      - name: Fetch and normalize AI frontier radar
+        run: python scripts/fetch_ai_radar.py
+
+      - name: Commit and push updated feeds
         run: |
-          if git diff --quiet data/deals.json && [ -z "$(git status --porcelain data/deals.json)" ]; then
-            echo "No changes in data/deals.json"
+          if git diff --quiet data/deals.json data/ai_radar.json && [ -z "$(git status --porcelain data/deals.json data/ai_radar.json)" ]; then
+            echo "No changes in data feeds"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/deals.json
-          git commit -m "chore: update daily deals feed"
+          git add data/deals.json data/ai_radar.json
+          git commit -m "chore: update daily deals and ai radar feeds"
           git push
