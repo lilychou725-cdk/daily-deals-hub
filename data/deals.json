@@ -1,13 +1,13 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-24T12:58:32Z",
-  "total": 85,
+  "updatedAt": "2026-11-25T09:00:49Z",
+  "total": 86,
   "sources": [
     {
       "id": "aihot_free_tokens",
       "name": "AI 免费额度 (aihot)",
       "ok": true,
-      "count": 35,
+      "count": 34,
       "error": null
     },
     {
@@ -28,7 +28,7 @@
       "id": "nodeseek_deals",
       "name": "NodeSeek 精选福利",
       "ok": true,
-      "count": 2,
+      "count": 4,
       "error": null
     },
     {
@@ -99,7 +99,7 @@
       "worth": "60% OFF Lifetime",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:58:32Z",
+      "publishedAt": "2026-11-25T09:00:49Z",
       "expiresAt": null
     },
     {
@@ -116,7 +116,7 @@
       "worth": "40% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:58:32Z",
+      "publishedAt": "2026-11-25T09:00:49Z",
       "expiresAt": null
     },
     {
@@ -133,7 +133,7 @@
       "worth": "Up to 45% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:58:32Z",
+      "publishedAt": "2026-11-25T09:00:49Z",
       "expiresAt": null
     },
     {
@@ -150,7 +150,7 @@
       "worth": "51% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:58:32Z",
+      "publishedAt": "2026-11-25T09:00:49Z",
       "expiresAt": null
     },
     {
@@ -167,7 +167,7 @@
       "worth": "25% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:58:32Z",
+      "publishedAt": "2026-11-25T09:00:49Z",
       "expiresAt": null
     },
     {
@@ -184,7 +184,7 @@
       "worth": "30% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:58:32Z",
+      "publishedAt": "2026-11-25T09:00:49Z",
       "expiresAt": null
     },
     {
@@ -201,7 +201,24 @@
       "worth": "50% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:58:32Z",
+      "publishedAt": "2026-11-25T09:00:49Z",
+      "expiresAt": null
+    },
+    {
+      "id": "bf_ai_tools-cdf8bb30ac",
+      "title": "Rakazo — 30% OFF",
+      "category": "AI会员与额度",
+      "summary": "30% OFF the first year of any new yearly plan with code BLACKFRIDAY30 (from $12/mo to $8.40/mo). Until Nov 30, 2026。Open source Grok Bot alternative for pers...",
+      "couponCode": "BLACKFRIDAY30",
+      "url": "https://rakazo.com/black-friday/",
+      "source": "黑五 AI 工具 2026",
+      "tags": [
+        "黑五特惠"
+      ],
+      "worth": "30% OFF",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-25T09:00:49Z",
       "expiresAt": null
     },
     {
@@ -218,7 +235,7 @@
       "worth": "20% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:58:32Z",
+      "publishedAt": "2026-11-25T09:00:49Z",
       "expiresAt": null
     },
     {
@@ -235,7 +252,7 @@
       "worth": null,
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:58:32Z",
+      "publishedAt": "2026-11-25T09:00:49Z",
       "expiresAt": null
     },
     {
@@ -252,7 +269,7 @@
       "worth": "40% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:58:32Z",
+      "publishedAt": "2026-11-25T09:00:49Z",
       "expiresAt": null
     },
     {
@@ -269,7 +286,7 @@
       "worth": "30% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:58:32Z",
+      "publishedAt": "2026-11-25T09:00:49Z",
       "expiresAt": null
     },
     {
@@ -286,7 +303,7 @@
       "worth": null,
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:58:32Z",
+      "publishedAt": "2026-11-25T09:00:49Z",
       "expiresAt": null
     },
     {
@@ -303,7 +320,7 @@
       "worth": "50% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:58:32Z",
+      "publishedAt": "2026-11-25T09:00:49Z",
       "expiresAt": null
     },
     {
@@ -320,24 +337,7 @@
       "worth": "50% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:58:32Z",
-      "expiresAt": null
-    },
-    {
-      "id": "bf_ai_tools-0dfd2256da",
-      "title": "Refine — 35% OFF",
-      "category": "AI会员与额度",
-      "summary": "35% OFF one-time license, no code needed, applied at checkout: 1 Mac $24.70. Until Nov 30, 2026。Offline AI writing assistant for Mac. Grammar, autocomplete,...",
-      "couponCode": null,
-      "url": "https://refine.sh/#pricing",
-      "source": "黑五 AI 工具 2026",
-      "tags": [
-        "黑五特惠"
-      ],
-      "worth": "35% OFF",
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-24T12:58:32Z",
+      "publishedAt": "2026-11-25T09:00:49Z",
       "expiresAt": null
     },
     {
@@ -354,7 +354,7 @@
       "worth": "60% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:58:32Z",
+      "publishedAt": "2026-11-25T09:00:49Z",
       "expiresAt": null
     },
     {
@@ -371,7 +371,7 @@
       "worth": "40% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:58:32Z",
+      "publishedAt": "2026-11-25T09:00:49Z",
       "expiresAt": null
     },
     {
@@ -388,7 +388,7 @@
       "worth": "25% off",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:58:32Z",
+      "publishedAt": "2026-11-25T09:00:49Z",
       "expiresAt": null
     },
     {
@@ -405,7 +405,7 @@
       "worth": "40% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:58:32Z",
+      "publishedAt": "2026-11-25T09:00:49Z",
       "expiresAt": null
     },
     {
@@ -422,7 +422,7 @@
       "worth": "50% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:58:32Z",
+      "publishedAt": "2026-11-25T09:00:49Z",
       "expiresAt": null
     },
     {
@@ -439,7 +439,7 @@
       "worth": "40% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:58:32Z",
+      "publishedAt": "2026-11-25T09:00:49Z",
       "expiresAt": null
     },
     {
@@ -456,7 +456,7 @@
       "worth": "50% off",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:58:32Z",
+      "publishedAt": "2026-11-25T09:00:49Z",
       "expiresAt": null
     },
     {
@@ -473,7 +473,7 @@
       "worth": "40% off",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:58:32Z",
+      "publishedAt": "2026-11-25T09:00:49Z",
       "expiresAt": null
     },
     {
@@ -490,7 +490,7 @@
       "worth": "40% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:58:32Z",
+      "publishedAt": "2026-11-25T09:00:49Z",
       "expiresAt": null
     },
     {
@@ -507,7 +507,7 @@
       "worth": "30% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:58:32Z",
+      "publishedAt": "2026-11-25T09:00:49Z",
       "expiresAt": null
     },
     {
@@ -524,16 +524,16 @@
       "worth": "30% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:58:32Z",
+      "publishedAt": "2026-11-25T09:00:49Z",
       "expiresAt": null
     },
     {
-      "id": "nodeseek-1077614",
-      "title": "【抽奖】 免费送 bytevirt 台湾动态 HiNet 2.5刀 包PUSH",
-      "category": "软件与云服务",
-      "summary": "NAT-512-LXC-DYNAMICIP起价$2.50USD每月1Core(s)(FairShare)512MBRAM2GBSSD20IPv4NATPorts1/80IPv6Subnet2TB@500MbpspermonthLXCVirtualization下次付款日期2026/12/19挂了一天没人要，直接抽了",
+      "id": "nodeseek-1079806",
+      "title": "Google AI Pro /plus 免费用 12 个月",
+      "category": "AI会员与额度",
+      "summary": "GoogleAIPro还能免费用12个月。现在还有！！TG验证学生资格一年9元（TG机器人评论区附上）这个羊毛先领，再用个人Gmail打开优惠页，点获取报价，按提示完成SheerID读验证。开通前确认写的是AIPro、免费12个月、今天充0美元。再次强调地区除啦美区之外的google账号都是plushttps://",
       "couponCode": null,
-      "url": "https://www.nodeseek.com/post-1077614-1",
+      "url": "https://www.nodeseek.com/post-1079806-1",
       "source": "NodeSeek 精选福利",
       "tags": [
         "免费白嫖"
@@ -541,22 +541,297 @@
       "worth": null,
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:57:38Z",
+      "publishedAt": "2026-11-25T08:59:28Z",
       "expiresAt": null
     },
     {
-      "id": "nodeseek-1077608",
-      "title": "目前还可以使用的Muse额度互助机器人",
-      "category": "AI会员与额度",
-      "summary": "✅已加入批量兑换队列，消耗3次机会，剩余0次。邀请码：FQUMIU当前队列共20次。完成后机器人会主动通知你，也可点「📊我的助力」查看。✅助力完成！邀请码FQUMIU已完成3次兑换。bot链接：https://t.me/MusePromoteBot?start=ref6340429368还需要互助的小伙伴可以看",
+      "id": "nodeseek-1079795",
+      "title": "关于甲骨文日本（大阪）开Arm处理器的事",
+      "category": "软件与云服务",
+      "summary": "我这里看着都开龟壳，然后就申请了张卡试下，然后第一天地址填错了，报了abc，然后间隔了24小时试又可以了，然后准备开通arm（A1），看着好像没有了，问AI说开通付费的可以尝试一下，开通会员确实也可以了。现在纠结的是还要不要继续开一个Arm备着，怕后期又没有了。然后下面的ADM要不要关闭终止啊。上传了两张图片网址，",
       "couponCode": null,
-      "url": "https://www.nodeseek.com/post-1077608-1",
+      "url": "https://www.nodeseek.com/post-1079795-1",
       "source": "NodeSeek 精选福利",
       "tags": [],
       "worth": null,
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-24T12:55:59Z",
+      "publishedAt": "2026-11-25T08:57:17Z",
+      "expiresAt": null
+    },
+    {
+      "id": "nodeseek-1079794",
+      "title": "Claude Team 原价拼车(2/5)",
+      "category": "AI会员与额度",
+      "summary": "只开Premium席位850r/月需要提供一个Gmail邮箱，不要Outlook/域名，太容易封了子号封禁•首次封禁：账单期间内，可免费更换一次账号•二次封禁：不提供任何售后母号封禁无售后一车就五个账号，母号不使用，不接蒸馏/号商单，我自己还要用需要用户自己有家宽和防封意识，小白不要来（",
+      "couponCode": null,
+      "url": "https://www.nodeseek.com/post-1079794-1",
+      "source": "NodeSeek 精选福利",
+      "tags": [
+        "免费白嫖"
+      ],
+      "worth": null,
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-25T08:55:59Z",
+      "expiresAt": null
+    },
+    {
+      "id": "nodeseek-1079793",
+      "title": "duet里的额度似乎不如正常耐用",
+      "category": "AI会员与额度",
+      "summary": "消耗速度感觉至少两倍",
+      "couponCode": null,
+      "url": "https://www.nodeseek.com/post-1079793-1",
+      "source": "NodeSeek 精选福利",
+      "tags": [],
+      "worth": null,
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-25T08:55:47Z",
+      "expiresAt": null
+    },
+    {
+      "id": "aihot-ea2e269d64",
+      "title": "ElevenLabs 免费档每月 1 万积分",
+      "category": "AI会员与额度",
+      "summary": "免费注册无需绑卡，每个订阅周期获得 10,000 积分，积分不结转。可用于语音合成、转写、音效、音乐等免费档功能，也可通过接口调用支持的语音模型。图片每天最多生成 3 张。免费生成内容限非商用，公开发布须按官方要求署名。 适用：Eleven v4、v4 Turbo、v3、Multilingual v2 等免费档语...",
+      "couponCode": null,
+      "url": "https://elevenlabs.io/pricing",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "每月可领",
+        "免费白嫖",
+        "需绑卡记得取消",
+        "免绑卡"
+      ],
+      "worth": "1 万 积分",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-25T07:05:00Z",
+      "expiresAt": null
+    },
+    {
+      "id": "aihot-6e02232017",
+      "title": "Qoder 国内版限时免费用 HungerG",
+      "category": "AI会员与额度",
+      "summary": "个人账号更新到最新版 Qoder 国内版或 Qoder 国内版 IDE，选择 HungerG 即可。零积分也能用，调用 HungerG 不扣积分。每个账号有每日使用上限，具体次数以客户端为准。到上限后等次日恢复，当天无法用积分继续。其他模型按各自规则计费。北京时间 11 月 30 日 24 点结束，之后按官方公布...",
+      "couponCode": null,
+      "url": "https://docs.qoder.cn/events/hungerg-free",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "AI福利",
+        "免费白嫖"
+      ],
+      "worth": "免费",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-25T07:05:00Z",
+      "expiresAt": "2026-11-30T16:00:00Z"
+    },
+    {
+      "id": "aihot-2bdbde9155",
+      "title": "微信小程序送 10 亿 Token 与 10 万张生图",
+      "category": "AI会员与额度",
+      "summary": "需微信小程序账号，在公众平台报名成长计划，每账号一次。赠送额度限小程序基础库、小程序调用云函数或云托管、云开发控制台使用。Token 用完后，资源点套餐继续扣套餐，非资源点套餐调用失败。生图用完停止。改用 Hy-Image-3.5-preview 需手动适配。未有环境者另赠 6 个月个人版环境。 适用：生文：hy...",
+      "couponCode": null,
+      "url": "https://docs.cloudbase.net/ai/ai-inspire-plan",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "AI福利",
+        "免费白嫖"
+      ],
+      "worth": "10 亿 Token",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-25T07:05:00Z",
+      "expiresAt": "2026-12-31T15:59:00Z"
+    },
+    {
+      "id": "aihot-dbf00f62ff",
+      "title": "智谱 GLM Coding Plan 免费领 7 天体验卡",
+      "category": "AI会员与额度",
+      "summary": "从未订阅过 GLM Coding Plan 的用户每人可领一次，领取后立即生效。积分可在 ZCode、Claude Code、Codex、Cursor 等智谱支持的工具中使用，需用个人编程套餐的密钥，不能抵扣标准模型接口费用。 适用：GLM Coding Plan 支持的模型，包括 GLM-5.4、GLM-5.3...",
+      "couponCode": null,
+      "url": "https://bigmodel.cn/activity/trial-card/PU9MTWG0PM",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "AI福利",
+        "免费白嫖"
+      ],
+      "worth": "2000 积分",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-25T04:05:00Z",
+      "expiresAt": null
+    },
+    {
+      "id": "aihot-490cf0a4ef",
+      "title": "OpenCode 限时免费用 Hy4 flash、DeepSeek 等模型",
+      "category": "AI会员与额度",
+      "summary": "免费聊天模型在 OpenCode 内任选，无需账号。Hy4 flash、DeepSeek V4.1 Flash 的输入不保留、不用于训练。部分试用模型会收集反馈或用数据改进模型，Flint 保留 30 天。两款 Nemotron 仅供测试，勿提交个人或机密数据。Beam 排除中国大陆及港澳。 适用：Hy4 fla...",
+      "couponCode": null,
+      "url": "https://opencode.ai/docs/console/models/",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "AI福利",
+        "免费白嫖"
+      ],
+      "worth": "免费",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-25T04:05:00Z",
+      "expiresAt": null
+    },
+    {
+      "id": "aihot-1845a79de7",
+      "title": "长亭 MonkeyCode 新人送 5000 积分",
+      "category": "AI会员与额度",
+      "summary": "新用户注册可获一份初始积分，用于 MonkeyCode 编程任务中的模型调用。 适用：MonkeyCode 内按积分计费的模型，如 DeepSeek V4 Pro、GLM-5.1",
+      "couponCode": null,
+      "url": "https://monkeycode.docs.baizhi.cloud/node/01a012e5-d949-76db-96d0-b9cf63283026",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "AI福利",
+        "免费白嫖",
+        "仅新用户"
+      ],
+      "worth": "≈¥25",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-25T01:10:00Z",
+      "expiresAt": null
+    },
+    {
+      "id": "aihot-9adf6599fd",
+      "title": "智谱 AutoClaw 国内版本周登录领 1 万积分",
+      "category": "AI会员与额度",
+      "summary": "活动期间使用手机号登录 AutoClaw 国内版桌面客户端，每个账号可领一次。1 万积分相当于官方所称的 1 亿 Tokens，仅在客户端内调用内置模型时使用；自接模型接口另计费。 适用：AutoClaw 内置 GLM 模型，如 GLM-5.3、GLM-5.3-Flash、GLM-5-Turbo、GLM-5V-T...",
+      "couponCode": null,
+      "url": "https://autoclaw.zhipuai.cn/blog/news/M11W4/",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "AI福利",
+        "免费白嫖"
+      ],
+      "worth": "1 万 积分",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-25T01:03:00Z",
+      "expiresAt": "2026-11-29T15:59:00Z"
+    },
+    {
+      "id": "aihot-4e13eb0e49",
+      "title": "ZCode 新用户 5 天体验，每天 800 万 Token",
+      "category": "AI会员与额度",
+      "summary": "新用户登录 ZCode 后，在模型设置中打开 Start Plan 领取免费体验。两款模型每天各有一份额度，用量以 Start Plan 显示为准。 适用：GLM-5.4（每天 300 万 Token）和 GLM-5.3-Flash（每天 500 万 Token）；GLM-5.3 Flash",
+      "couponCode": null,
+      "url": "https://zcode.z.ai/cn/docs/configuration",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "AI福利",
+        "免费白嫖",
+        "仅新用户"
+      ],
+      "worth": "免费",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-25T01:03:00Z",
+      "expiresAt": null
+    },
+    {
+      "id": "aihot-4014f7f15b",
+      "title": "LiveKit 每月送 2.50 美元模型推理额度",
+      "category": "AI会员与额度",
+      "summary": "Build 免费档通过 LiveKit Inference 调用文本、语音识别、语音合成和实时语音模型，支持 SDK 接入。额度用尽后停止新请求，不产生超额费用。另送的 1,000 分钟 Agent 托管时长不等于模型推理时长。约合 DeepSeek V4.1 Flash 2714 万 Token。 适用：Liv...",
+      "couponCode": null,
+      "url": "https://livekit.com/pricing",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "每月可领",
+        "免费白嫖",
+        "需绑卡记得取消",
+        "免绑卡"
+      ],
+      "worth": "≈¥17",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-24T14:07:00Z",
+      "expiresAt": null
+    },
+    {
+      "id": "aihot-7e3ea24e69",
+      "title": "千问办公首次激活桌面端送 30 天基础版",
+      "category": "AI会员与额度",
+      "summary": "此前未在千问办公桌面端发起过任务，且当前没有生效的付费会员，下载桌面端并完成新手任务，系统校验后自动发放个人基础版。基础版含 500 通用积分，活动期间标准模式的纯文本任务不限量，图片、音视频等任务按实际用量扣积分。 适用：千问办公个人基础版可用模型，如 Qwen 3.8 Max",
+      "couponCode": null,
+      "url": "https://docs.qwenwork.cn/activity/desktop-activation-benefit",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "AI福利",
+        "免费白嫖",
+        "限量"
+      ],
+      "worth": "500 积分",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-24T14:06:00Z",
+      "expiresAt": null
+    },
+    {
+      "id": "aihot-94b2af185c",
+      "title": "七牛云免费调用 Nemotron 3 Ultra",
+      "category": "AI会员与额度",
+      "summary": "在七牛云控制台创建 API Key，调用 nvidia/nemotron-3-ultra-550b-a55b0-free，输入和输出均为 0 元。未实名的新用户从首次使用起可试用 24 小时，之后须实名才能继续调用。 适用：仅 Nemotron 3 Ultra 550B A55B 免费版",
+      "couponCode": null,
+      "url": "https://www.qiniu.com/ai/models",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "AI福利",
+        "免费白嫖",
+        "仅新用户"
+      ],
+      "worth": "免费",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-24T14:05:00Z",
+      "expiresAt": null
+    },
+    {
+      "id": "aihot-a814fc47ca",
+      "title": "Zed 14 天试用领 5 美元模型额度",
+      "category": "AI会员与额度",
+      "summary": "开启 Zed Pro 试用后获得 5 美元 GPT-6 Luna 用量，与 Delta 共用同一笔试用余额；无需信用卡，到期自动转免费版。 适用：GPT-6 Luna；试用期不含其他托管模型",
+      "couponCode": null,
+      "url": "https://zed.dev/docs/account/plans-and-pricing",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "AI福利",
+        "免费白嫖",
+        "需绑卡记得取消"
+      ],
+      "worth": "≈¥33",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-24T14:03:00Z",
+      "expiresAt": null
+    },
+    {
+      "id": "aihot-3a65e5e28d",
+      "title": "小米 MiMo 三款 V2.5 语音合成模型限时免费",
+      "category": "AI会员与额度",
+      "summary": "用小米 MiMo 开放平台账号创建普通接口密钥，即可调用语音合成、音色克隆和音色设计模型。三款模型分别按每账号每分钟 100 次请求、1000 万 Token 限流。其他模型和联网服务按各自价格计费。 适用：MiMo V2.5 TTS、MiMo V2.5 TTS VoiceClone、MiMo V2.5 TTS...",
+      "couponCode": null,
+      "url": "https://mimo.mi.com/docs/zh-CN/price/pay-as-you-go",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "AI福利",
+        "免费白嫖"
+      ],
+      "worth": "免费",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-24T14:03:00Z",
       "expiresAt": null
     },
     {
@@ -566,24 +841,6 @@
       "summary": "在最新版 Qoder 国际版桌面端或 Qoder IDE 选 HungerG。个人免费账号、零积分账号均可用，最高思考强度也不扣积分。达每日上限后次日恢复，付费账号上限更高。北京时间 11 月 30 日 24 点结束，此后按官方费率扣积分。 适用：Qoder 国际版及其 IDE 中的 HungerG",
       "couponCode": null,
       "url": "https://docs.qoder.com/zh/events/hungerg-free",
-      "source": "AI 免费额度 (aihot)",
-      "tags": [
-        "AI福利",
-        "免费白嫖"
-      ],
-      "worth": "免费",
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-24T10:05:00Z",
-      "expiresAt": "2026-11-30T16:00:00Z"
-    },
-    {
-      "id": "aihot-6e02232017",
-      "title": "Qoder 国内版限时免费用 HungerG",
-      "category": "AI会员与额度",
-      "summary": "个人账号更新到最新版 Qoder 国内版或 Qoder 国内版 IDE，在模型选择器选 HungerG 即可。零积分也能用，调用 HungerG 不扣积分、每天不限次数。若功能另外调用其他模型，按对应模型正常计费。北京时间 11 月 30 日 24 点结束，之后按届时公布的费率扣积分。 适用：Qoder 国内版及...",
-      "couponCode": null,
-      "url": "https://docs.qoder.cn/events/hungerg-free",
       "source": "AI 免费额度 (aihot)",
       "tags": [
         "AI福利",
@@ -651,25 +908,6 @@
       "expiresAt": null
     },
     {
-      "id": "aihot-4e13eb0e49",
-      "title": "ZCode 新用户 5 天体验，每天 800 万 Token",
-      "category": "AI会员与额度",
-      "summary": "新用户登录 ZCode 后，在模型设置中打开 Start Plan 领取免费体验。两款模型每天各有一份额度，用量以 Start Plan 显示为准。 适用：GLM-5.4（每天 300 万 Token）和 GLM-5.3-Flash（每天 500 万 Token）；GLM-5.3 Flash",
-      "couponCode": null,
-      "url": "https://zcode.z.ai/cn/docs/configuration",
-      "source": "AI 免费额度 (aihot)",
-      "tags": [
-        "AI福利",
-        "免费白嫖",
-        "仅新用户"
-      ],
-      "worth": "免费",
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-24T04:04:00Z",
-      "expiresAt": null
-    },
-    {
       "id": "aihot-bbe12e4ac7",
       "title": "魔搭社区每天送 200 魔粒调模型 API",
       "category": "AI会员与额度",
@@ -706,43 +944,6 @@
       "expiresAt": null
     },
     {
-      "id": "aihot-1845a79de7",
-      "title": "长亭 MonkeyCode 新人送 5000 积分",
-      "category": "AI会员与额度",
-      "summary": "新用户注册可获一份初始积分，用于 MonkeyCode 编程任务中的模型调用。 适用：MonkeyCode 内按积分计费的模型，如 DeepSeek V4 Pro、GLM-5.1",
-      "couponCode": null,
-      "url": "https://monkeycode.docs.baizhi.cloud/node/01a012e5-d949-76db-96d0-b9cf63283026",
-      "source": "AI 免费额度 (aihot)",
-      "tags": [
-        "AI福利",
-        "免费白嫖",
-        "仅新用户"
-      ],
-      "worth": "≈¥25",
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-23T14:06:00Z",
-      "expiresAt": null
-    },
-    {
-      "id": "aihot-9adf6599fd",
-      "title": "智谱 AutoClaw 国内版本周登录领 1 万积分",
-      "category": "AI会员与额度",
-      "summary": "活动期间使用手机号登录 AutoClaw 国内版桌面客户端，每个账号可领一次。1 万积分相当于官方所称的 1 亿 Tokens，仅在客户端内调用内置模型时使用；自接模型接口另计费。 适用：AutoClaw 内置 GLM 模型，如 GLM-5.3、GLM-5.3-Flash、GLM-5-Turbo、GLM-5V-T...",
-      "couponCode": null,
-      "url": "https://autoclaw.zhipuai.cn/blog/news/M11W4/",
-      "source": "AI 免费额度 (aihot)",
-      "tags": [
-        "AI福利",
-        "免费白嫖"
-      ],
-      "worth": "1 万 积分",
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-23T14:03:00Z",
-      "expiresAt": "2026-11-29T15:59:00Z"
-    },
-    {
       "id": "aihot-ac1c49478e",
       "title": "秒悟每天登录领 2000 积分",
       "category": "AI会员与额度",
@@ -761,43 +962,6 @@
       "expiresAt": null
     },
     {
-      "id": "aihot-cb113b6831",
-      "title": "阿里云在读学生领 300 元模型抵扣金",
-      "category": "AI会员与额度",
-      "summary": "中国高校在读学生完成学生实名认证后可领 300 元，认证有效期内每 12 个月可领一次。后付费调用须满足账户余额要求，余额须大于当月冻结金额。使用不适用的模型、超额或过期会按资费收费。 适用：百炼后付费推理、训练、部署、知识库；可抵高校 AI 通行证一次。2026 年 7 月 14 日后领取的券不抵三方直供及 H...",
-      "couponCode": null,
-      "url": "https://help.aliyun.com/zh/model-studio/introduction-to-yungongkaiwu",
-      "source": "AI 免费额度 (aihot)",
-      "tags": [
-        "AI福利",
-        "免费白嫖",
-        "限量"
-      ],
-      "worth": "¥300",
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-22T16:37:00Z",
-      "expiresAt": "2027-03-31T15:59:00Z"
-    },
-    {
-      "id": "aihot-a666845142",
-      "title": "哔哩哔哩 Index-Translate 免费图文翻译接口",
-      "category": "AI会员与额度",
-      "summary": "官方开放 Index-Translate-35B-A3B 公网推理接口，无需注册，可用于文字和图片翻译。兼容 OpenAI 接口，地址为 https://index-translate.bilibili.com/v1。 适用：Index-Translate-35B-A3B 文字及图片翻译",
-      "couponCode": null,
-      "url": "https://index-translate.bilibili.com/site/home.html",
-      "source": "AI 免费额度 (aihot)",
-      "tags": [
-        "AI福利",
-        "免费白嫖"
-      ],
-      "worth": "免费",
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-22T16:36:00Z",
-      "expiresAt": null
-    },
-    {
       "id": "aihot-f75702e54c",
       "title": "EdgeOne Makers 每月 50 万 Token",
       "category": "AI会员与额度",
@@ -813,78 +977,6 @@
       "status": "active",
       "pinned": false,
       "publishedAt": "2026-11-22T16:35:00Z",
-      "expiresAt": null
-    },
-    {
-      "id": "aihot-7363e95f92",
-      "title": "商汤小浣熊限时免费用 SenseNova 6.8 Flash",
-      "category": "AI会员与额度",
-      "summary": "在商汤小浣熊内体验 SenseNova 6.8 Flash，可用于办公文档和设计生成。本次限免适用于小浣熊内的模型体验，开放平台的调用按其规则计费。 适用：商汤小浣熊内的 SenseNova 6.8 Flash",
-      "couponCode": null,
-      "url": "https://sensetime.com/cn/news/sensenova-6-8-flash-release-20261103-1421",
-      "source": "AI 免费额度 (aihot)",
-      "tags": [
-        "AI福利",
-        "免费白嫖"
-      ],
-      "worth": "免费",
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-22T16:34:00Z",
-      "expiresAt": "2026-12-01T15:59:00Z"
-    },
-    {
-      "id": "aihot-51c75c88e4",
-      "title": "硅基流动实名认证送 16 元代金券",
-      "category": "AI会员与额度",
-      "summary": "在硅基流动完成实名认证后，手动领一张 16 元通用代金券，老用户也能领；可用于平台上的模型 API。 适用：平台上的所有模型，含 Pro 模型和高速模型；API、批量推理、微调都能用",
-      "couponCode": null,
-      "url": "https://www.siliconflow.cn/news/od7wj9rr23p95uhihmhrombp",
-      "source": "AI 免费额度 (aihot)",
-      "tags": [
-        "AI福利",
-        "免费白嫖"
-      ],
-      "worth": "¥16",
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-22T16:33:00Z",
-      "expiresAt": "2026-12-31T16:00:00Z"
-    },
-    {
-      "id": "aihot-d8076e8045",
-      "title": "SoMark OXR 免费解析文档 API",
-      "category": "AI会员与额度",
-      "summary": "无需注册或申请密钥，可用 OXR 免费 API 将 PDF 和文档图片解析为 Markdown 或 JSON。请求需排队，官方不保证稳定性，不建议生产使用。国内用 free-oxr.somark.cn。 适用：仅 OXR 文档解析模型，不含 SoMark 其他服务",
-      "couponCode": null,
-      "url": "https://somark.cn/oxr",
-      "source": "AI 免费额度 (aihot)",
-      "tags": [
-        "AI福利",
-        "免费白嫖"
-      ],
-      "worth": "免费",
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-22T16:33:00Z",
-      "expiresAt": null
-    },
-    {
-      "id": "aihot-490cf0a4ef",
-      "title": "OpenCode 限时免费用 Hy4 flash、DeepSeek 等模型",
-      "category": "AI会员与额度",
-      "summary": "免费聊天模型在 OpenCode 内任选，无需账号。Hy4 flash、DeepSeek V4.1 Flash 的输入不保留、不用于训练。部分试用模型会收集反馈或用数据改进模型，Flint 保留 30 天。两款 Nemotron 仅供测试，勿提交个人或机密数据。Beam 排除中国大陆及港澳。 适用：Hy4 fla...",
-      "couponCode": null,
-      "url": "https://opencode.ai/docs/console/models/",
-      "source": "AI 免费额度 (aihot)",
-      "tags": [
-        "AI福利",
-        "免费白嫖"
-      ],
-      "worth": "免费",
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-22T16:29:00Z",
       "expiresAt": null
     },
     {
@@ -939,27 +1031,6 @@
       "status": "active",
       "pinned": false,
       "publishedAt": "2026-11-22T14:10:00Z",
-      "expiresAt": null
-    },
-    {
-      "id": "aihot-e6a7b4c743",
-      "title": "Telnyx 新用户送 25 美元 AI 额度",
-      "category": "AI会员与额度",
-      "summary": "用邮箱注册预试用账户后自动到账，无需绑卡；可抵 Telnyx Inference 等 AI 产品用量，用完即停。主动升级为完整账户后，原 25 美元优惠会被替换为 5 美元通用额度。约合 DeepSeek V4.1 Flash 1017 2.7 亿 Token。 适用：Telnyx AI 产品中的所有模型，包括自...",
-      "couponCode": null,
-      "url": "https://support.telnyx.com/en/articles/14327893-telnyx-pretrial-accounts",
-      "source": "AI 免费额度 (aihot)",
-      "tags": [
-        "AI福利",
-        "免费白嫖",
-        "需绑卡记得取消",
-        "免绑卡",
-        "仅新用户"
-      ],
-      "worth": "≈¥167",
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-22T14:08:00Z",
       "expiresAt": null
     },
     {
@@ -1092,26 +1163,6 @@
       "expiresAt": "2026-12-31T15:59:00Z"
     },
     {
-      "id": "aihot-ea2e269d64",
-      "title": "ElevenLabs 免费档每月 1 万积分",
-      "category": "AI会员与额度",
-      "summary": "免费注册后每个订阅周期获得 10,000 积分，支持文字转语音、转写、音效和音乐等免费档功能，可用 Eleven v4。无需绑卡，积分不结转；生成内容不可商用，公开发布须按官方要求署名；视频生成须付费。 适用：Eleven v4、v4 Turbo、v3 等免费档语音模型，以及转写、音效和音乐功能；不含视频生成、付...",
-      "couponCode": null,
-      "url": "https://elevenlabs.io/pricing",
-      "source": "AI 免费额度 (aihot)",
-      "tags": [
-        "每月可领",
-        "免费白嫖",
-        "需绑卡记得取消",
-        "免绑卡"
-      ],
-      "worth": "1 万 积分",
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-19T14:04:00Z",
-      "expiresAt": null
-    },
-    {
       "id": "v2ex_deals-1258227",
       "title": "支付宝黄金活动（领 18、15 无门槛红包）",
       "category": "生活与工具",
@@ -1198,26 +1249,6 @@
       "expiresAt": null
     },
     {
-      "id": "aihot-4014f7f15b",
-      "title": "LiveKit 每月送 2.50 美元模型推理额度",
-      "category": "AI会员与额度",
-      "summary": "Build 免费档通过 LiveKit Inference 调用文本、语音识别、语音合成和实时语音模型，支持 SDK 接入。额度用尽后停止新请求，不产生超额费用。另送的 1,000 分钟 Agent 托管时长不等于模型推理时长。约合 DeepSeek V4.1 Flash 2714 万 Token。 适用：Liv...",
-      "couponCode": null,
-      "url": "https://livekit.com/pricing",
-      "source": "AI 免费额度 (aihot)",
-      "tags": [
-        "每月可领",
-        "免费白嫖",
-        "需绑卡记得取消",
-        "免绑卡"
-      ],
-      "worth": "≈¥17",
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-17T14:05:00Z",
-      "expiresAt": null
-    },
-    {
       "id": "v2ex_deals-1257579",
       "title": "20261117 移动领 1-9 元话费",
       "category": "生活与工具",
@@ -1279,24 +1310,6 @@
         "免费白嫖"
       ],
       "worth": "100 积分",
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-13T19:05:00Z",
-      "expiresAt": null
-    },
-    {
-      "id": "aihot-74c34270b6",
-      "title": "腾讯云 ADP 体验版每月送 15,000 PU",
-      "category": "AI会员与额度",
-      "summary": "腾讯云实名主账号首次开通 ADP 后，按引导领取 0 元体验版。平台内模型推理与工具等用量共用这份 PU。 适用：ADP 体验版的 Auto 模型，不含自定义模型与专属算力",
-      "couponCode": null,
-      "url": "https://cloud.tencent.com/document/product/1759/139268",
-      "source": "AI 免费额度 (aihot)",
-      "tags": [
-        "每月可领",
-        "免费白嫖"
-      ],
-      "worth": "1.5 万 PU",
       "status": "active",
       "pinned": false,
       "publishedAt": "2026-11-13T19:05:00Z",
