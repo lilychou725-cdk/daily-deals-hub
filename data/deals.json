@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-25T09:00:49Z",
-  "total": 86,
+  "updatedAt": "2026-11-25T15:49:59Z",
+  "total": 84,
   "sources": [
     {
       "id": "aihot_free_tokens",
@@ -28,7 +28,7 @@
       "id": "nodeseek_deals",
       "name": "NodeSeek 精选福利",
       "ok": true,
-      "count": 4,
+      "count": 2,
       "error": null
     },
     {
@@ -99,7 +99,7 @@
       "worth": "60% OFF Lifetime",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T09:00:49Z",
+      "publishedAt": "2026-11-25T15:49:59Z",
       "expiresAt": null
     },
     {
@@ -116,7 +116,7 @@
       "worth": "40% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T09:00:49Z",
+      "publishedAt": "2026-11-25T15:49:59Z",
       "expiresAt": null
     },
     {
@@ -133,7 +133,7 @@
       "worth": "Up to 45% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T09:00:49Z",
+      "publishedAt": "2026-11-25T15:49:59Z",
       "expiresAt": null
     },
     {
@@ -150,7 +150,7 @@
       "worth": "51% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T09:00:49Z",
+      "publishedAt": "2026-11-25T15:49:59Z",
       "expiresAt": null
     },
     {
@@ -167,7 +167,7 @@
       "worth": "25% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T09:00:49Z",
+      "publishedAt": "2026-11-25T15:49:59Z",
       "expiresAt": null
     },
     {
@@ -184,7 +184,7 @@
       "worth": "30% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T09:00:49Z",
+      "publishedAt": "2026-11-25T15:49:59Z",
       "expiresAt": null
     },
     {
@@ -201,7 +201,7 @@
       "worth": "50% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T09:00:49Z",
+      "publishedAt": "2026-11-25T15:49:59Z",
       "expiresAt": null
     },
     {
@@ -218,7 +218,7 @@
       "worth": "30% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T09:00:49Z",
+      "publishedAt": "2026-11-25T15:49:59Z",
       "expiresAt": null
     },
     {
@@ -235,7 +235,7 @@
       "worth": "20% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T09:00:49Z",
+      "publishedAt": "2026-11-25T15:49:59Z",
       "expiresAt": null
     },
     {
@@ -252,7 +252,7 @@
       "worth": null,
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T09:00:49Z",
+      "publishedAt": "2026-11-25T15:49:59Z",
       "expiresAt": null
     },
     {
@@ -269,7 +269,7 @@
       "worth": "40% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T09:00:49Z",
+      "publishedAt": "2026-11-25T15:49:59Z",
       "expiresAt": null
     },
     {
@@ -286,7 +286,7 @@
       "worth": "30% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T09:00:49Z",
+      "publishedAt": "2026-11-25T15:49:59Z",
       "expiresAt": null
     },
     {
@@ -303,7 +303,7 @@
       "worth": null,
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T09:00:49Z",
+      "publishedAt": "2026-11-25T15:49:59Z",
       "expiresAt": null
     },
     {
@@ -320,7 +320,7 @@
       "worth": "50% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T09:00:49Z",
+      "publishedAt": "2026-11-25T15:49:59Z",
       "expiresAt": null
     },
     {
@@ -337,7 +337,7 @@
       "worth": "50% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T09:00:49Z",
+      "publishedAt": "2026-11-25T15:49:59Z",
       "expiresAt": null
     },
     {
@@ -354,7 +354,7 @@
       "worth": "60% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T09:00:49Z",
+      "publishedAt": "2026-11-25T15:49:59Z",
       "expiresAt": null
     },
     {
@@ -371,7 +371,7 @@
       "worth": "40% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T09:00:49Z",
+      "publishedAt": "2026-11-25T15:49:59Z",
       "expiresAt": null
     },
     {
@@ -388,7 +388,7 @@
       "worth": "25% off",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T09:00:49Z",
+      "publishedAt": "2026-11-25T15:49:59Z",
       "expiresAt": null
     },
     {
@@ -405,7 +405,7 @@
       "worth": "40% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T09:00:49Z",
+      "publishedAt": "2026-11-25T15:49:59Z",
       "expiresAt": null
     },
     {
@@ -422,7 +422,7 @@
       "worth": "50% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T09:00:49Z",
+      "publishedAt": "2026-11-25T15:49:59Z",
       "expiresAt": null
     },
     {
@@ -439,7 +439,7 @@
       "worth": "40% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T09:00:49Z",
+      "publishedAt": "2026-11-25T15:49:59Z",
       "expiresAt": null
     },
     {
@@ -456,7 +456,7 @@
       "worth": "50% off",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T09:00:49Z",
+      "publishedAt": "2026-11-25T15:49:59Z",
       "expiresAt": null
     },
     {
@@ -473,7 +473,7 @@
       "worth": "40% off",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T09:00:49Z",
+      "publishedAt": "2026-11-25T15:49:59Z",
       "expiresAt": null
     },
     {
@@ -490,7 +490,7 @@
       "worth": "40% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T09:00:49Z",
+      "publishedAt": "2026-11-25T15:49:59Z",
       "expiresAt": null
     },
     {
@@ -507,7 +507,7 @@
       "worth": "30% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T09:00:49Z",
+      "publishedAt": "2026-11-25T15:49:59Z",
       "expiresAt": null
     },
     {
@@ -524,48 +524,16 @@
       "worth": "30% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T09:00:49Z",
+      "publishedAt": "2026-11-25T15:49:59Z",
       "expiresAt": null
     },
     {
-      "id": "nodeseek-1079806",
-      "title": "Google AI Pro /plus 免费用 12 个月",
-      "category": "AI会员与额度",
-      "summary": "GoogleAIPro还能免费用12个月。现在还有！！TG验证学生资格一年9元（TG机器人评论区附上）这个羊毛先领，再用个人Gmail打开优惠页，点获取报价，按提示完成SheerID读验证。开通前确认写的是AIPro、免费12个月、今天充0美元。再次强调地区除啦美区之外的google账号都是plushttps://",
-      "couponCode": null,
-      "url": "https://www.nodeseek.com/post-1079806-1",
-      "source": "NodeSeek 精选福利",
-      "tags": [
-        "免费白嫖"
-      ],
-      "worth": null,
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-25T08:59:28Z",
-      "expiresAt": null
-    },
-    {
-      "id": "nodeseek-1079795",
-      "title": "关于甲骨文日本（大阪）开Arm处理器的事",
+      "id": "nodeseek-1080866",
+      "title": "【已出】AdsPower指纹浏览器永久5环境老号",
       "category": "软件与云服务",
-      "summary": "我这里看着都开龟壳，然后就申请了张卡试下，然后第一天地址填错了，报了abc，然后间隔了24小时试又可以了，然后准备开通arm（A1），看着好像没有了，问AI说开通付费的可以尝试一下，开通会员确实也可以了。现在纠结的是还要不要继续开一个Arm备着，怕后期又没有了。然后下面的ADM要不要关闭终止啊。上传了两张图片网址，",
+      "summary": "24年充值过，永久五个环境免费，正常使用无任何绑定，130改邮箱出这玩意这么火热的吗，上来就是一堆口令",
       "couponCode": null,
-      "url": "https://www.nodeseek.com/post-1079795-1",
-      "source": "NodeSeek 精选福利",
-      "tags": [],
-      "worth": null,
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-25T08:57:17Z",
-      "expiresAt": null
-    },
-    {
-      "id": "nodeseek-1079794",
-      "title": "Claude Team 原价拼车(2/5)",
-      "category": "AI会员与额度",
-      "summary": "只开Premium席位850r/月需要提供一个Gmail邮箱，不要Outlook/域名，太容易封了子号封禁•首次封禁：账单期间内，可免费更换一次账号•二次封禁：不提供任何售后母号封禁无售后一车就五个账号，母号不使用，不接蒸馏/号商单，我自己还要用需要用户自己有家宽和防封意识，小白不要来（",
-      "couponCode": null,
-      "url": "https://www.nodeseek.com/post-1079794-1",
+      "url": "https://www.nodeseek.com/post-1080866-1",
       "source": "NodeSeek 精选福利",
       "tags": [
         "免费白嫖"
@@ -573,23 +541,115 @@
       "worth": null,
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T08:55:59Z",
+      "publishedAt": "2026-11-25T15:42:34Z",
       "expiresAt": null
     },
     {
-      "id": "nodeseek-1079793",
-      "title": "duet里的额度似乎不如正常耐用",
+      "id": "nodeseek-1080860",
+      "title": "谷歌的家庭组额度可以叠加吗？",
       "category": "AI会员与额度",
-      "summary": "消耗速度感觉至少两倍",
+      "summary": "小号开了个日区的学生pro，看坛里说这个不稳，准备大号再开个黑五pro。能开个家庭组，两个号加进去，大号用两个pro的额度吗？省得agy里切号了问问万能mjj",
       "couponCode": null,
-      "url": "https://www.nodeseek.com/post-1079793-1",
+      "url": "https://www.nodeseek.com/post-1080860-1",
       "source": "NodeSeek 精选福利",
-      "tags": [],
+      "tags": [
+        "黑五特惠"
+      ],
       "worth": null,
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T08:55:47Z",
+      "publishedAt": "2026-11-25T15:41:21Z",
       "expiresAt": null
+    },
+    {
+      "id": "aihot-dfb0f42430",
+      "title": "WorkBuddy Hy4 flash 限时免费",
+      "category": "AI会员与额度",
+      "summary": "在 WorkBuddy 模型选择器选 Hy4 flash。限免期间每天有免费额度，用完后继续使用消耗积分，额度和刷新时间以产品内显示为准。腾讯云 TokenHub 的 Hy4 flash 接口单独计费。 适用：WorkBuddy 内的 Hy4 flash；其他模型及腾讯云 TokenHub 接口不包含在本次限免中",
+      "couponCode": null,
+      "url": "https://hunyuan.tencent.com/research/100145?langVersion=zh",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "AI福利",
+        "免费白嫖"
+      ],
+      "worth": "免费",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-25T14:05:00Z",
+      "expiresAt": "2026-11-30T15:59:00Z"
+    },
+    {
+      "id": "aihot-ae05aeb643",
+      "title": "ACE Music 每天 20 积分，最多生成 10 首歌",
+      "category": "AI会员与额度",
+      "summary": "最初从 ACE Music 注册的免费账号每天刷新 20 积分。最初从 ACE Studio 注册的免费账号，在 ACE Music 每月刷新 100 积分。ACE Music v1 和 v1.1 Preview 每次消耗 4 积分、通常生成两首，免费档不能下载或商用。ACE-Step v1.5 基础生成免费，可...",
+      "couponCode": null,
+      "url": "https://acemusic.ai/zh/help/articles/credits-usage/",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "每日可领",
+        "免费白嫖"
+      ],
+      "worth": "20 积分",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-25T14:03:00Z",
+      "expiresAt": null
+    },
+    {
+      "id": "aihot-b3c503363a",
+      "title": "Agnes AI 文本、图片与视频模型限免",
+      "category": "AI会员与额度",
+      "summary": "在中国站用免费／默认账号创建免费 API 密钥后调用，支持文本、图像生成与编辑、视频生成。每分钟请求数随平台容量动态调整，以控制台显示为准；同类型密钥共用限额。仅指定 Flash 型号免费，Pro 系列及普通 Video 2.5 收费；Agent Plan 订阅密钥按刊例价扣积分，不参与限免。 适用：文本 Agn...",
+      "couponCode": null,
+      "url": "https://wiki.agnes-ai.cn/zh-Hans/docs/pricing",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "AI福利",
+        "免费白嫖"
+      ],
+      "worth": "免费",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-25T14:03:00Z",
+      "expiresAt": null
+    },
+    {
+      "id": "aihot-359c7b8a86",
+      "title": "ERNIE 5.5 Flash Preview 限免",
+      "category": "AI会员与额度",
+      "summary": "通过 OpenRouter 调用 baidu/ernie-5.5-flash-preview:free，输入和输出均免费，无需购买额度。与其他免费模型共享每天 50 次、每分钟 20 次上限，失败请求也计入每日次数。 适用：ERNIE 5.5 Flash Preview（baidu/ernie-5.5-flash...",
+      "couponCode": null,
+      "url": "https://openrouter.ai/baidu/ernie-5.5-flash-preview:free",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "每日可领",
+        "免费白嫖"
+      ],
+      "worth": "50 次",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-25T14:02:00Z",
+      "expiresAt": null
+    },
+    {
+      "id": "aihot-ddb4c17a41",
+      "title": "Qoder 国际版限时免费用 HungerG",
+      "category": "AI会员与额度",
+      "summary": "在最新版 Qoder 国际版桌面端或 Qoder IDE 选 HungerG。个人免费账号、零积分账号均可用，最高思考强度也不扣积分。达每日上限后次日恢复，付费账号上限更高。北京时间 11 月 30 日 24 点结束，此后按官方费率扣积分。 适用：Qoder 国际版及其 IDE 中的 HungerG",
+      "couponCode": null,
+      "url": "https://docs.qoder.com/zh/events/hungerg-free",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "AI福利",
+        "免费白嫖"
+      ],
+      "worth": "免费",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-25T14:02:00Z",
+      "expiresAt": "2026-11-30T16:00:00Z"
     },
     {
       "id": "aihot-ea2e269d64",
@@ -814,60 +874,6 @@
       "status": "active",
       "pinned": false,
       "publishedAt": "2026-11-24T14:03:00Z",
-      "expiresAt": null
-    },
-    {
-      "id": "aihot-3a65e5e28d",
-      "title": "小米 MiMo 三款 V2.5 语音合成模型限时免费",
-      "category": "AI会员与额度",
-      "summary": "用小米 MiMo 开放平台账号创建普通接口密钥，即可调用语音合成、音色克隆和音色设计模型。三款模型分别按每账号每分钟 100 次请求、1000 万 Token 限流。其他模型和联网服务按各自价格计费。 适用：MiMo V2.5 TTS、MiMo V2.5 TTS VoiceClone、MiMo V2.5 TTS...",
-      "couponCode": null,
-      "url": "https://mimo.mi.com/docs/zh-CN/price/pay-as-you-go",
-      "source": "AI 免费额度 (aihot)",
-      "tags": [
-        "AI福利",
-        "免费白嫖"
-      ],
-      "worth": "免费",
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-24T14:03:00Z",
-      "expiresAt": null
-    },
-    {
-      "id": "aihot-ddb4c17a41",
-      "title": "Qoder 国际版限时免费用 HungerG",
-      "category": "AI会员与额度",
-      "summary": "在最新版 Qoder 国际版桌面端或 Qoder IDE 选 HungerG。个人免费账号、零积分账号均可用，最高思考强度也不扣积分。达每日上限后次日恢复，付费账号上限更高。北京时间 11 月 30 日 24 点结束，此后按官方费率扣积分。 适用：Qoder 国际版及其 IDE 中的 HungerG",
-      "couponCode": null,
-      "url": "https://docs.qoder.com/zh/events/hungerg-free",
-      "source": "AI 免费额度 (aihot)",
-      "tags": [
-        "AI福利",
-        "免费白嫖"
-      ],
-      "worth": "免费",
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-24T10:05:00Z",
-      "expiresAt": "2026-11-30T16:00:00Z"
-    },
-    {
-      "id": "aihot-495bda564d",
-      "title": "小红书 dots3-note Preview 免费调用",
-      "category": "AI会员与额度",
-      "summary": "在 Dots 开放平台用手机号登录并创建 API Key。单个密钥默认每分钟 60 次请求、150 万 Token。恢复收费前，官方会在官网和开放平台提前告知。 适用：Dots 开放平台的 dots3-note-prev（dots3-note Preview）",
-      "couponCode": null,
-      "url": "https://dots.ai/platform/docs",
-      "source": "AI 免费额度 (aihot)",
-      "tags": [
-        "AI福利",
-        "免费白嫖"
-      ],
-      "worth": "免费",
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-24T07:06:00Z",
       "expiresAt": null
     },
     {
@@ -1192,42 +1198,6 @@
       "status": "active",
       "pinned": false,
       "publishedAt": "2026-11-19T02:00:38Z",
-      "expiresAt": null
-    },
-    {
-      "id": "aihot-ae05aeb643",
-      "title": "ACE Music 每天 20 积分，最多生成 10 首歌",
-      "category": "AI会员与额度",
-      "summary": "最初从 ACE Music 注册的免费账号每天刷新 20 积分。最初从 ACE Studio 注册的免费账号，在 ACE Music 每月刷新 100 积分。ACE Music v1 和 v1.1 Preview 每次消耗 4 积分、通常生成两首，免费档不能下载或商用。ACE-Step v1.5 基础生成免费，可...",
-      "couponCode": null,
-      "url": "https://acemusic.ai/zh/help/articles/credits-usage/",
-      "source": "AI 免费额度 (aihot)",
-      "tags": [
-        "每日可领",
-        "免费白嫖"
-      ],
-      "worth": "20 积分",
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-18T14:06:00Z",
-      "expiresAt": null
-    },
-    {
-      "id": "aihot-359c7b8a86",
-      "title": "ERNIE 5.5 Flash Preview 限免",
-      "category": "AI会员与额度",
-      "summary": "通过 OpenRouter 调用 baidu/ernie-5.5-flash-preview:free，输入和输出均免费，无需购买额度。与其他免费模型共享每天 50 次、每分钟 20 次上限，失败请求也计入每日次数。 适用：ERNIE 5.5 Flash Preview（baidu/ernie-5.5-flash...",
-      "couponCode": null,
-      "url": "https://openrouter.ai/baidu/ernie-5.5-flash-preview:free",
-      "source": "AI 免费额度 (aihot)",
-      "tags": [
-        "每日可领",
-        "免费白嫖"
-      ],
-      "worth": "50 次",
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-18T14:06:00Z",
       "expiresAt": null
     },
     {

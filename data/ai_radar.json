@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-25T15:48:06Z",
-  "total": 32,
+  "updatedAt": "2026-11-25T15:50:01Z",
+  "total": 28,
   "sources": [
     {
       "id": "ai_news",
@@ -13,9 +13,9 @@
     {
       "id": "the_batch",
       "name": "The Batch (DeepLearning.AI)",
-      "ok": true,
-      "count": 4,
-      "error": null
+      "ok": false,
+      "count": 0,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "id": "hf_papers",
@@ -257,90 +257,6 @@
         "15 min read"
       ],
       "publishedAt": "2026-11-14T08:31:02Z"
-    },
-    {
-      "id": "thebatch-issue-380",
-      "section": "briefings",
-      "sourceId": "the_batch",
-      "sourceName": "The Batch",
-      "title": "Issue #380｜Jensen Huang’s Nvidia legacy, Claude Fable 5.2 and Anthropic’s IPO, World Labs Releases Atlas to Developers",
-      "summary": "I was saddened to hear about Jensen Huang resigning from Nvidia last week. Yes, Jensen made serious mistakes.",
-      "url": "https://www.deeplearning.ai/the-batch/issue-380/",
-      "arxivId": null,
-      "arxivUrl": null,
-      "alphaXivUrl": null,
-      "githubUrl": null,
-      "upvotes": null,
-      "readTime": null,
-      "tags": [
-        "AI周报",
-        "Issue #380",
-        "吴恩达团队"
-      ],
-      "publishedAt": "2026-11-20T15:00:00Z"
-    },
-    {
-      "id": "thebatch-issue-379",
-      "section": "briefings",
-      "sourceId": "the_batch",
-      "sourceName": "The Batch",
-      "title": "Issue #379｜GPT-6 Cyber Versus Linux, The Problem With LLM-Powered Search, LLMs Edit Model Weights, Agentic Doc Retrieval",
-      "summary": "Building an agent harness has been a rapidly growing method to build an AI agent.",
-      "url": "https://www.deeplearning.ai/the-batch/issue-379/",
-      "arxivId": null,
-      "arxivUrl": null,
-      "alphaXivUrl": null,
-      "githubUrl": null,
-      "upvotes": null,
-      "readTime": null,
-      "tags": [
-        "AI周报",
-        "Issue #379",
-        "吴恩达团队"
-      ],
-      "publishedAt": "2026-11-13T15:00:00Z"
-    },
-    {
-      "id": "thebatch-issue-378",
-      "section": "briefings",
-      "sourceId": "the_batch",
-      "sourceName": "The Batch",
-      "title": "Issue #378｜Gemini 4 Carbon Heads Toward Wider Availability, What Anthropic's IPO Means for Developers, Genie 4 Combines with Gemini to Train Robots",
-      "summary": "LinkedIn data shows that AI has helped create 2 million jobs.",
-      "url": "https://www.deeplearning.ai/the-batch/issue-378/",
-      "arxivId": null,
-      "arxivUrl": null,
-      "alphaXivUrl": null,
-      "githubUrl": null,
-      "upvotes": null,
-      "readTime": null,
-      "tags": [
-        "AI周报",
-        "Issue #378",
-        "吴恩达团队"
-      ],
-      "publishedAt": "2026-11-06T15:00:00Z"
-    },
-    {
-      "id": "thebatch-issue-377",
-      "section": "briefings",
-      "sourceId": "the_batch",
-      "sourceName": "The Batch",
-      "title": "Issue #377｜Zombie Agents, Vampire Models, Witch Hunts, and the Mummy's Curse: AI Fears for Halloween 2026",
-      "summary": "Following our annual tradition, this special Halloween edition of The Batch treats leading AI fears.",
-      "url": "https://www.deeplearning.ai/the-batch/issue-377/",
-      "arxivId": null,
-      "arxivUrl": null,
-      "alphaXivUrl": null,
-      "githubUrl": null,
-      "upvotes": null,
-      "readTime": null,
-      "tags": [
-        "AI周报",
-        "Issue #377",
-        "吴恩达团队"
-      ],
-      "publishedAt": "2026-10-30T14:00:00Z"
     },
     {
       "id": "hf-2611.25403",
