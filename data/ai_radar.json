@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-25T15:50:01Z",
+  "updatedAt": "2026-11-25T21:57:03Z",
   "total": 28,
   "sources": [
     {
@@ -270,31 +270,12 @@
       "arxivUrl": "https://arxiv.org/abs/2611.25403",
       "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.25403",
       "githubUrl": null,
-      "upvotes": 97,
+      "upvotes": 101,
       "readTime": null,
       "tags": [
         "热门论文"
       ],
       "publishedAt": "2026-11-18T19:00:00Z"
-    },
-    {
-      "id": "hf-2611.30634",
-      "section": "papers",
-      "sourceId": "hf_papers",
-      "sourceName": "HF Papers",
-      "title": "Rewirable Circuits in Transformers with Loom Attention",
-      "summary": "We propose loom attention, which allows a Transformer to dynamically rewire its circuits at every token by interweaving a head's vertical attention over the outputs of earlier heads (to obtain its query, key and value) with its horizontal attention over tokens. We instantiate ve…",
-      "url": "https://huggingface.co/papers/2611.30634",
-      "arxivId": "2611.30634",
-      "arxivUrl": "https://arxiv.org/abs/2611.30634",
-      "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.30634",
-      "githubUrl": "https://github.com/Caiyun-AI/LoomFormer",
-      "upvotes": 83,
-      "readTime": null,
-      "tags": [
-        "开源代码"
-      ],
-      "publishedAt": "2026-11-22T19:00:00Z"
     },
     {
       "id": "hf-2611.32884",
@@ -308,7 +289,7 @@
       "arxivUrl": "https://arxiv.org/abs/2611.32884",
       "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.32884",
       "githubUrl": "https://github.com/declare-lab/RLVB",
-      "upvotes": 80,
+      "upvotes": 87,
       "readTime": null,
       "tags": [
         "Reinforcement Learning with Verifiable Beliefs (RLVB)",
@@ -319,21 +300,21 @@
       "publishedAt": "2026-11-23T19:00:00Z"
     },
     {
-      "id": "hf-2611.31358",
+      "id": "hf-2611.30634",
       "section": "papers",
       "sourceId": "hf_papers",
       "sourceName": "HF Papers",
-      "title": "Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation",
-      "summary": "Visual creation demands expressive imagery together with precise control over text, layout, and structure. We introduce Nemotron-Labs-VisualCreation, an agentic framework that connects these capabilities through Pixel as Code. Raster images are represented by learned discrete vi…",
-      "url": "https://huggingface.co/papers/2611.31358",
-      "arxivId": "2611.31358",
-      "arxivUrl": "https://arxiv.org/abs/2611.31358",
-      "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.31358",
-      "githubUrl": null,
-      "upvotes": 75,
+      "title": "Rewirable Circuits in Transformers with Loom Attention",
+      "summary": "We propose loom attention, which allows a Transformer to dynamically rewire its circuits at every token by interweaving a head's vertical attention over the outputs of earlier heads (to obtain its query, key and value) with its horizontal attention over tokens. We instantiate ve…",
+      "url": "https://huggingface.co/papers/2611.30634",
+      "arxivId": "2611.30634",
+      "arxivUrl": "https://arxiv.org/abs/2611.30634",
+      "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.30634",
+      "githubUrl": "https://github.com/Caiyun-AI/LoomFormer",
+      "upvotes": 86,
       "readTime": null,
       "tags": [
-        "热门论文"
+        "开源代码"
       ],
       "publishedAt": "2026-11-22T19:00:00Z"
     },
@@ -349,7 +330,7 @@
       "arxivUrl": "https://arxiv.org/abs/2611.28947",
       "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.28947",
       "githubUrl": "https://github.com/SuJQ0722/NightWatch",
-      "upvotes": 63,
+      "upvotes": 84,
       "readTime": null,
       "tags": [
         "vision-language models",
@@ -358,6 +339,25 @@
         "开源代码"
       ],
       "publishedAt": "2026-11-20T19:00:00Z"
+    },
+    {
+      "id": "hf-2611.31358",
+      "section": "papers",
+      "sourceId": "hf_papers",
+      "sourceName": "HF Papers",
+      "title": "Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation",
+      "summary": "Visual creation demands expressive imagery together with precise control over text, layout, and structure. We introduce Nemotron-Labs-VisualCreation, an agentic framework that connects these capabilities through Pixel as Code. Raster images are represented by learned discrete vi…",
+      "url": "https://huggingface.co/papers/2611.31358",
+      "arxivId": "2611.31358",
+      "arxivUrl": "https://arxiv.org/abs/2611.31358",
+      "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.31358",
+      "githubUrl": null,
+      "upvotes": 80,
+      "readTime": null,
+      "tags": [
+        "热门论文"
+      ],
+      "publishedAt": "2026-11-22T19:00:00Z"
     },
     {
       "id": "hf-2611.31205",
@@ -390,7 +390,7 @@
       "arxivUrl": "https://arxiv.org/abs/2611.30962",
       "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.30962",
       "githubUrl": null,
-      "upvotes": 42,
+      "upvotes": 45,
       "readTime": null,
       "tags": [
         "computer-use agents",
@@ -398,25 +398,6 @@
         "executable verifiers"
       ],
       "publishedAt": "2026-11-22T19:00:00Z"
-    },
-    {
-      "id": "hf-2611.28649",
-      "section": "papers",
-      "sourceId": "hf_papers",
-      "sourceName": "HF Papers",
-      "title": "S-Mind: Internalizing Multi-View Geometry for Spatial Intelligence",
-      "summary": "Spatial intelligence, the ability to reason about 3D space from visual observations, becomes essential as multimodal large language models (MLLMs) move into the physical world. Beyond perceiving each view, it rests on two cornerstones of human cognition: fusing multiple views in…",
-      "url": "https://huggingface.co/papers/2611.28649",
-      "arxivId": "2611.28649",
-      "arxivUrl": "https://arxiv.org/abs/2611.28649",
-      "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.28649",
-      "githubUrl": "https://github.com/KANABOON1/S-Mind",
-      "upvotes": 41,
-      "readTime": null,
-      "tags": [
-        "开源代码"
-      ],
-      "publishedAt": "2026-11-20T19:00:00Z"
     },
     {
       "id": "hf-2611.25509",
@@ -449,7 +430,7 @@
       "arxivUrl": "https://arxiv.org/abs/2611.32554",
       "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.32554",
       "githubUrl": "https://github.com/yangcaoai/PartAgent_Agent_for_3D_Part_Seg",
-      "upvotes": 32,
+      "upvotes": 33,
       "readTime": null,
       "tags": [
         "3D part segmentation",
@@ -501,6 +482,28 @@
         "prototype banks"
       ],
       "publishedAt": "2026-11-18T19:00:00Z"
+    },
+    {
+      "id": "hf-2611.32183",
+      "section": "papers",
+      "sourceId": "hf_papers",
+      "sourceName": "HF Papers",
+      "title": "ThinkMorph-SSL: Scaling Interleaved Multimodal Reasoning with Pretext Tasks",
+      "summary": "A two-stage training approach uses visual pretext tasks to generate interleaved image-text reasoning traces and automatically built demonstrations, improving multimodal reasoning over instruction tuning alone.",
+      "url": "https://huggingface.co/papers/2611.32183",
+      "arxivId": "2611.32183",
+      "arxivUrl": "https://arxiv.org/abs/2611.32183",
+      "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.32183",
+      "githubUrl": "https://github.com/ThinkMorph/ThinkMorph-SSL",
+      "upvotes": 21,
+      "readTime": null,
+      "tags": [
+        "ThinkMorph-SSL",
+        "interleaved multimodal reasoning",
+        "intermediate images",
+        "开源代码"
+      ],
+      "publishedAt": "2026-11-23T19:00:00Z"
     },
     {
       "id": "arxiv-2611.33158",
