@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-25T21:56:56Z",
-  "total": 85,
+  "updatedAt": "2026-11-26T08:49:19Z",
+  "total": 87,
   "sources": [
     {
       "id": "aihot_free_tokens",
@@ -28,7 +28,7 @@
       "id": "nodeseek_deals",
       "name": "NodeSeek 精选福利",
       "ok": true,
-      "count": 3,
+      "count": 5,
       "error": null
     },
     {
@@ -99,7 +99,7 @@
       "worth": "60% OFF Lifetime",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T21:56:56Z",
+      "publishedAt": "2026-11-26T08:49:19Z",
       "expiresAt": null
     },
     {
@@ -116,7 +116,7 @@
       "worth": "40% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T21:56:56Z",
+      "publishedAt": "2026-11-26T08:49:19Z",
       "expiresAt": null
     },
     {
@@ -133,7 +133,7 @@
       "worth": "Up to 45% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T21:56:56Z",
+      "publishedAt": "2026-11-26T08:49:19Z",
       "expiresAt": null
     },
     {
@@ -150,7 +150,7 @@
       "worth": "51% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T21:56:56Z",
+      "publishedAt": "2026-11-26T08:49:19Z",
       "expiresAt": null
     },
     {
@@ -167,7 +167,7 @@
       "worth": "25% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T21:56:56Z",
+      "publishedAt": "2026-11-26T08:49:19Z",
       "expiresAt": null
     },
     {
@@ -184,7 +184,7 @@
       "worth": "30% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T21:56:56Z",
+      "publishedAt": "2026-11-26T08:49:19Z",
       "expiresAt": null
     },
     {
@@ -201,7 +201,7 @@
       "worth": "50% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T21:56:56Z",
+      "publishedAt": "2026-11-26T08:49:19Z",
       "expiresAt": null
     },
     {
@@ -218,7 +218,7 @@
       "worth": "30% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T21:56:56Z",
+      "publishedAt": "2026-11-26T08:49:19Z",
       "expiresAt": null
     },
     {
@@ -235,7 +235,7 @@
       "worth": "20% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T21:56:56Z",
+      "publishedAt": "2026-11-26T08:49:19Z",
       "expiresAt": null
     },
     {
@@ -252,7 +252,7 @@
       "worth": null,
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T21:56:56Z",
+      "publishedAt": "2026-11-26T08:49:19Z",
       "expiresAt": null
     },
     {
@@ -269,7 +269,7 @@
       "worth": "40% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T21:56:56Z",
+      "publishedAt": "2026-11-26T08:49:19Z",
       "expiresAt": null
     },
     {
@@ -286,7 +286,7 @@
       "worth": "30% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T21:56:56Z",
+      "publishedAt": "2026-11-26T08:49:19Z",
       "expiresAt": null
     },
     {
@@ -303,7 +303,7 @@
       "worth": null,
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T21:56:56Z",
+      "publishedAt": "2026-11-26T08:49:19Z",
       "expiresAt": null
     },
     {
@@ -320,7 +320,7 @@
       "worth": "50% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T21:56:56Z",
+      "publishedAt": "2026-11-26T08:49:19Z",
       "expiresAt": null
     },
     {
@@ -337,7 +337,7 @@
       "worth": "50% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T21:56:56Z",
+      "publishedAt": "2026-11-26T08:49:19Z",
       "expiresAt": null
     },
     {
@@ -354,7 +354,7 @@
       "worth": "60% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T21:56:56Z",
+      "publishedAt": "2026-11-26T08:49:19Z",
       "expiresAt": null
     },
     {
@@ -371,7 +371,7 @@
       "worth": "40% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T21:56:56Z",
+      "publishedAt": "2026-11-26T08:49:19Z",
       "expiresAt": null
     },
     {
@@ -388,7 +388,7 @@
       "worth": "25% off",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T21:56:56Z",
+      "publishedAt": "2026-11-26T08:49:19Z",
       "expiresAt": null
     },
     {
@@ -405,7 +405,7 @@
       "worth": "40% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T21:56:56Z",
+      "publishedAt": "2026-11-26T08:49:19Z",
       "expiresAt": null
     },
     {
@@ -422,7 +422,7 @@
       "worth": "50% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T21:56:56Z",
+      "publishedAt": "2026-11-26T08:49:19Z",
       "expiresAt": null
     },
     {
@@ -439,7 +439,7 @@
       "worth": "40% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T21:56:56Z",
+      "publishedAt": "2026-11-26T08:49:19Z",
       "expiresAt": null
     },
     {
@@ -456,7 +456,7 @@
       "worth": "50% off",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T21:56:56Z",
+      "publishedAt": "2026-11-26T08:49:19Z",
       "expiresAt": null
     },
     {
@@ -473,7 +473,7 @@
       "worth": "40% off",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T21:56:56Z",
+      "publishedAt": "2026-11-26T08:49:19Z",
       "expiresAt": null
     },
     {
@@ -490,7 +490,7 @@
       "worth": "40% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T21:56:56Z",
+      "publishedAt": "2026-11-26T08:49:19Z",
       "expiresAt": null
     },
     {
@@ -507,7 +507,7 @@
       "worth": "30% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T21:56:56Z",
+      "publishedAt": "2026-11-26T08:49:19Z",
       "expiresAt": null
     },
     {
@@ -524,48 +524,16 @@
       "worth": "30% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T21:56:56Z",
+      "publishedAt": "2026-11-26T08:49:19Z",
       "expiresAt": null
     },
     {
-      "id": "nodeseek-1081149",
-      "title": "Claude 送了3个重置？？？？？？？？？？",
+      "id": "nodeseek-1082595",
+      "title": "Google AI Pro 黑五的活动，确定 27 号还会有吗？",
       "category": "AI会员与额度",
-      "summary": "我的pro本来没有多少额度了，想着最后蹬一下，突然发现3个重置卡！舒服！",
+      "summary": "我的号没订阅过GoogleAi的套餐，我想等27号之后再订这次$99的活动。但是听有人说26号是最后一天？",
       "couponCode": null,
-      "url": "https://www.nodeseek.com/post-1081149-1",
-      "source": "NodeSeek 精选福利",
-      "tags": [],
-      "worth": null,
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-25T21:22:01Z",
-      "expiresAt": null
-    },
-    {
-      "id": "nodeseek-1081147",
-      "title": "大豆包的学生优惠是什么逻辑？",
-      "category": "软件与云服务",
-      "summary": "好像是去年验证的资格，在一个免费的网站上过的，开了之后就没有管过；去年的Plus，今年的Pro都一直没事，可能我的谷歌账号是老号了",
-      "couponCode": null,
-      "url": "https://www.nodeseek.com/post-1081147-1",
-      "source": "NodeSeek 精选福利",
-      "tags": [
-        "免费白嫖"
-      ],
-      "worth": null,
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-25T21:10:31Z",
-      "expiresAt": null
-    },
-    {
-      "id": "nodeseek-1081135",
-      "title": "gemini黑五活动什么时候结束",
-      "category": "黑五与促销",
-      "summary": "gemini黑五活动什么时候结束",
-      "couponCode": null,
-      "url": "https://www.nodeseek.com/post-1081135-1",
+      "url": "https://www.nodeseek.com/post-1082595-1",
       "source": "NodeSeek 精选福利",
       "tags": [
         "黑五特惠"
@@ -573,8 +541,127 @@
       "worth": null,
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-25T20:14:46Z",
+      "publishedAt": "2026-11-26T08:49:16Z",
       "expiresAt": null
+    },
+    {
+      "id": "nodeseek-1082588",
+      "title": "【0/5】40出team席位，当前活动有2x额度，月抛车，有质保",
+      "category": "AI会员与额度",
+      "summary": "请不要做任何破限、逆向、网络安全、模型蒸馏类的危险操作，个人账号出问题不退母号翻车按比例退款。上车私信发我口令红包和账号现在活动有2x额度。到期时间2026年12月26日，提前2天踢人，可用28天",
+      "couponCode": null,
+      "url": "https://www.nodeseek.com/post-1082588-1",
+      "source": "NodeSeek 精选福利",
+      "tags": [],
+      "worth": null,
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-26T08:47:46Z",
+      "expiresAt": null
+    },
+    {
+      "id": "nodeseek-1082582",
+      "title": "没人关注kiro活动吗？",
+      "category": "软件与云服务",
+      "summary": "20刀的Pro才1000积分，现在直接免费赠送10000积分：12月2日之前所有付费订户可获得1万Kiro积分：可以使用opus5.5，2027.1.31前有效如果是新号，12.1日开一个kiro会员，首月Pro免费。如果可以同时享受，就是0元11500积分。",
+      "couponCode": null,
+      "url": "https://www.nodeseek.com/post-1082582-1",
+      "source": "NodeSeek 精选福利",
+      "tags": [
+        "免费白嫖",
+        "仅新用户"
+      ],
+      "worth": null,
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-26T08:45:12Z",
+      "expiresAt": null
+    },
+    {
+      "id": "nodeseek-1082581",
+      "title": "[日常]反重力只重置了Gemini模型啊，Claude和GPT的周额度没重置啊",
+      "category": "AI会员与额度",
+      "summary": "[日常]反重力只重置了Gemini模型啊，Claude和GPT的周额度没重置啊",
+      "couponCode": null,
+      "url": "https://www.nodeseek.com/post-1082581-1",
+      "source": "NodeSeek 精选福利",
+      "tags": [],
+      "worth": null,
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-26T08:45:05Z",
+      "expiresAt": null
+    },
+    {
+      "id": "nodeseek-1082579",
+      "title": "NQ留档 Zouter JP 216 16.8和SG 免费",
+      "category": "软件与云服务",
+      "summary": "俩回程路由全裂了ZouterJP21616.8💻基本信息[H[J[3J++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[1m硬件质量体检报告：[36m216.23..[0m[4mhttps://gi",
+      "couponCode": null,
+      "url": "https://www.nodeseek.com/post-1082579-1",
+      "source": "NodeSeek 精选福利",
+      "tags": [
+        "免费白嫖"
+      ],
+      "worth": null,
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-26T08:44:31Z",
+      "expiresAt": null
+    },
+    {
+      "id": "aihot-3c650cac59",
+      "title": "fal Seedance 2.5 新账号登录送 2 段视频",
+      "category": "AI会员与额度",
+      "summary": "账号注册未满 7 天时登录，可免费生成 2 段，每段 10 秒、480p，次数不补充。注册后 7 天内添加付款方式验证可再得 3 段。工作流、API 调用和超额生成按量收费。 适用：Seedance 2.5 文生视频、图生视频和参考生视频，限 fal 网页 Playground、Sandbox 和 fal Agent",
+      "couponCode": null,
+      "url": "https://fal.ai/seedance-2.5",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "AI福利",
+        "免费白嫖"
+      ],
+      "worth": "2 段",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-26T04:03:00Z",
+      "expiresAt": null
+    },
+    {
+      "id": "aihot-bf10775fda",
+      "title": "华为码道 Skill 创新赛每日签到领 100 积分",
+      "category": "AI会员与额度",
+      "summary": "面向已完成赛事报名、具备应用软件开发能力的个人、学生和组织。每天在码道 IDE 或网页端“活动福利”手动领取；企业参赛需企业认证。积分仅用于码道内置模型，不能当通用 API 余额；旧 Token 套餐需先切换为积分套餐。 适用：码道内置模型，如 Kimi K3.1 Pro、GLM-5.3-Flash、DeepSe...",
+      "couponCode": null,
+      "url": "https://support.huaweicloud.com/offers-codeartsagent/codeartsagent_offers_0008.html",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "每日可领",
+        "免费白嫖"
+      ],
+      "worth": "100 积分",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-26T01:03:00Z",
+      "expiresAt": "2026-12-05T15:59:00Z"
+    },
+    {
+      "id": "aihot-6e02232017",
+      "title": "Qoder 国内版限时免费用 HungerG",
+      "category": "AI会员与额度",
+      "summary": "个人账号更新到最新版 Qoder 国内版或 Qoder 国内版 IDE，选择 HungerG 即可。零积分也能用，调用 HungerG 不扣积分。每个账号有每日使用上限，具体次数以客户端为准。到上限后等次日恢复，当天无法用积分继续。其他模型按各自规则计费。北京时间 11 月 30 日 24 点结束，之后按官方公布...",
+      "couponCode": null,
+      "url": "https://docs.qoder.cn/events/hungerg-free",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "AI福利",
+        "免费白嫖"
+      ],
+      "worth": "免费",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-26T01:03:00Z",
+      "expiresAt": "2026-11-30T16:00:00Z"
     },
     {
       "id": "aihot-dfb0f42430",
@@ -685,24 +772,6 @@
       "pinned": false,
       "publishedAt": "2026-11-25T07:05:00Z",
       "expiresAt": null
-    },
-    {
-      "id": "aihot-6e02232017",
-      "title": "Qoder 国内版限时免费用 HungerG",
-      "category": "AI会员与额度",
-      "summary": "个人账号更新到最新版 Qoder 国内版或 Qoder 国内版 IDE，选择 HungerG 即可。零积分也能用，调用 HungerG 不扣积分。每个账号有每日使用上限，具体次数以客户端为准。到上限后等次日恢复，当天无法用积分继续。其他模型按各自规则计费。北京时间 11 月 30 日 24 点结束，之后按官方公布...",
-      "couponCode": null,
-      "url": "https://docs.qoder.cn/events/hungerg-free",
-      "source": "AI 免费额度 (aihot)",
-      "tags": [
-        "AI福利",
-        "免费白嫖"
-      ],
-      "worth": "免费",
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-25T07:05:00Z",
-      "expiresAt": "2026-11-30T16:00:00Z"
     },
     {
       "id": "aihot-2bdbde9155",
@@ -873,25 +942,6 @@
       "expiresAt": null
     },
     {
-      "id": "aihot-a814fc47ca",
-      "title": "Zed 14 天试用领 5 美元模型额度",
-      "category": "AI会员与额度",
-      "summary": "开启 Zed Pro 试用后获得 5 美元 GPT-6 Luna 用量，与 Delta 共用同一笔试用余额；无需信用卡，到期自动转免费版。 适用：GPT-6 Luna；试用期不含其他托管模型",
-      "couponCode": null,
-      "url": "https://zed.dev/docs/account/plans-and-pricing",
-      "source": "AI 免费额度 (aihot)",
-      "tags": [
-        "AI福利",
-        "免费白嫖",
-        "需绑卡记得取消"
-      ],
-      "worth": "≈¥33",
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-24T14:03:00Z",
-      "expiresAt": null
-    },
-    {
       "id": "aihot-c2800190da",
       "title": "EKHOS AI 每天免费本地转写 1 次，最长 30 分钟",
       "category": "AI会员与额度",
@@ -999,24 +1049,6 @@
       "pinned": false,
       "publishedAt": "2026-11-22T16:35:00Z",
       "expiresAt": null
-    },
-    {
-      "id": "aihot-4472933f82",
-      "title": "华为码道 Skill 创新赛每日签到领 1000 积分",
-      "category": "AI会员与额度",
-      "summary": "面向已完成赛事报名、具备应用软件开发能力的个人、学生和组织。每天在码道 IDE 或网页端“活动福利”手动领取；企业参赛需企业认证。积分仅用于码道内置模型，不能当通用 API 余额；旧 Token 套餐需先切换为积分套餐。 适用：码道内置模型，如 Kimi K3.1 Pro、GLM-5.3-Flash、DeepSe...",
-      "couponCode": null,
-      "url": "https://support.huaweicloud.com/offers-codeartsagent/codeartsagent_offers_0008.html",
-      "source": "AI 免费额度 (aihot)",
-      "tags": [
-        "每日可领",
-        "免费白嫖"
-      ],
-      "worth": "1000 积分",
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-22T14:10:00Z",
-      "expiresAt": "2026-12-05T15:59:00Z"
     },
     {
       "id": "aihot-b5c3ddffad",
