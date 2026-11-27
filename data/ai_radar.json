@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-27T08:58:43Z",
+  "updatedAt": "2026-11-27T21:34:59Z",
   "total": 28,
   "sources": [
     {
@@ -259,28 +259,6 @@
       "publishedAt": "2026-11-17T09:24:56Z"
     },
     {
-      "id": "hf-2611.34232",
-      "section": "papers",
-      "sourceId": "hf_papers",
-      "sourceName": "HF Papers",
-      "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
-      "summary": "A live cross-platform benchmark evaluates computer-using agents on long-horizon workflows across Windows, Ubuntu, macOS, iOS, Android, and Web, showing that current agents remain far from platform-robust computer use and trail humans on iOS and macOS.",
-      "url": "https://huggingface.co/papers/2611.34232",
-      "arxivId": "2611.34232",
-      "arxivUrl": "https://arxiv.org/abs/2611.34232",
-      "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.34232",
-      "githubUrl": "https://github.com/OS-Copilot/OS-Omni",
-      "upvotes": 89,
-      "readTime": null,
-      "tags": [
-        "computer-using agents",
-        "generalist agent",
-        "long-horizon workflows",
-        "开源代码"
-      ],
-      "publishedAt": "2026-11-24T19:00:00Z"
-    },
-    {
       "id": "hf-2611.34051",
       "section": "papers",
       "sourceId": "hf_papers",
@@ -292,7 +270,7 @@
       "arxivUrl": "https://arxiv.org/abs/2611.34051",
       "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.34051",
       "githubUrl": null,
-      "upvotes": 85,
+      "upvotes": 126,
       "readTime": null,
       "tags": [
         "热门论文"
@@ -300,46 +278,43 @@
       "publishedAt": "2026-11-24T19:00:00Z"
     },
     {
-      "id": "hf-2611.34923",
+      "id": "hf-2611.34232",
       "section": "papers",
       "sourceId": "hf_papers",
       "sourceName": "HF Papers",
-      "title": "Mixture-of-Loops Transformer",
-      "summary": "A Mixture-of-Loops Transformer reuses key-value memory across loops and depths, and its U-shaped variant improves pretraining efficiency and inference latency.",
-      "url": "https://huggingface.co/papers/2611.34923",
-      "arxivId": "2611.34923",
-      "arxivUrl": "https://arxiv.org/abs/2611.34923",
-      "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.34923",
-      "githubUrl": "https://github.com/hustvl/MoLT",
-      "upvotes": 70,
+      "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+      "summary": "A live cross-platform benchmark evaluates computer-using agents on long-horizon workflows across Windows, Ubuntu, macOS, iOS, Android, and Web, showing that current agents remain far from platform-robust computer use and trail humans on iOS and macOS.",
+      "url": "https://huggingface.co/papers/2611.34232",
+      "arxivId": "2611.34232",
+      "arxivUrl": "https://arxiv.org/abs/2611.34232",
+      "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.34232",
+      "githubUrl": "https://github.com/OS-Copilot/OS-Omni",
+      "upvotes": 101,
       "readTime": null,
       "tags": [
-        "Looped Transformers",
-        "Mixture-of-Loops Transformer (MoLT)",
-        "Mixture-of-Loops Attention (MoLA)",
+        "computer-using agents",
+        "generalist agent",
+        "long-horizon workflows",
         "开源代码"
       ],
       "publishedAt": "2026-11-24T19:00:00Z"
     },
     {
-      "id": "hf-2611.34457",
+      "id": "hf-2611.34813",
       "section": "papers",
       "sourceId": "hf_papers",
       "sourceName": "HF Papers",
-      "title": "ProxyGenBench: Benchmarking Proxy-Guided Video Generation",
-      "summary": "A benchmark assesses how well video generators follow animated 3D blockouts while preserving structure, filling missing content, correcting proxy artifacts, and binding multimodal conditions to the correct entities and events.",
-      "url": "https://huggingface.co/papers/2611.34457",
-      "arxivId": "2611.34457",
-      "arxivUrl": "https://arxiv.org/abs/2611.34457",
-      "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.34457",
-      "githubUrl": "https://github.com/2kxx/ProxyGenBench",
-      "upvotes": 35,
+      "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
+      "summary": "Video generation models are increasingly evaluated as visual reasoners: given a first frame and a natural-language prompt, can the model produce the video in which the specified task is carried out? The paradigm is considered advantageous because the reasoning is native to the v…",
+      "url": "https://huggingface.co/papers/2611.34813",
+      "arxivId": "2611.34813",
+      "arxivUrl": "https://arxiv.org/abs/2611.34813",
+      "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.34813",
+      "githubUrl": null,
+      "upvotes": 58,
       "readTime": null,
       "tags": [
-        "video generators",
-        "structural proxies",
-        "animated 3D blockouts",
-        "开源代码"
+        "热门论文"
       ],
       "publishedAt": "2026-11-24T19:00:00Z"
     },
@@ -355,7 +330,7 @@
       "arxivUrl": "https://arxiv.org/abs/2611.31619",
       "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.31619",
       "githubUrl": "https://github.com/therealram18/vernier",
-      "upvotes": 29,
+      "upvotes": 57,
       "readTime": null,
       "tags": [
         "foundation model",
@@ -364,6 +339,28 @@
         "开源代码"
       ],
       "publishedAt": "2026-11-22T19:00:00Z"
+    },
+    {
+      "id": "hf-2611.34457",
+      "section": "papers",
+      "sourceId": "hf_papers",
+      "sourceName": "HF Papers",
+      "title": "ProxyGenBench: Benchmarking Proxy-Guided Video Generation",
+      "summary": "A benchmark assesses how well video generators follow animated 3D blockouts while preserving structure, filling missing content, correcting proxy artifacts, and binding multimodal conditions to the correct entities and events.",
+      "url": "https://huggingface.co/papers/2611.34457",
+      "arxivId": "2611.34457",
+      "arxivUrl": "https://arxiv.org/abs/2611.34457",
+      "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.34457",
+      "githubUrl": "https://github.com/2kxx/ProxyGenBench",
+      "upvotes": 36,
+      "readTime": null,
+      "tags": [
+        "video generators",
+        "structural proxies",
+        "animated 3D blockouts",
+        "开源代码"
+      ],
+      "publishedAt": "2026-11-24T19:00:00Z"
     },
     {
       "id": "hf-2611.28732",
@@ -377,7 +374,7 @@
       "arxivUrl": "https://arxiv.org/abs/2611.28732",
       "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.28732",
       "githubUrl": null,
-      "upvotes": 28,
+      "upvotes": 34,
       "readTime": null,
       "tags": [
         "热门论文"
@@ -402,6 +399,28 @@
         "vision-language models",
         "vision encoder",
         "language model",
+        "开源代码"
+      ],
+      "publishedAt": "2026-11-24T19:00:00Z"
+    },
+    {
+      "id": "hf-2611.34290",
+      "section": "papers",
+      "sourceId": "hf_papers",
+      "sourceName": "HF Papers",
+      "title": "StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation",
+      "summary": "StateWeaver improves long-video generation by preserving cross-shot consistency and updating visual references through active state tracking and hierarchical collaboration.",
+      "url": "https://huggingface.co/papers/2611.34290",
+      "arxivId": "2611.34290",
+      "arxivUrl": "https://arxiv.org/abs/2611.34290",
+      "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.34290",
+      "githubUrl": "https://github.com/ghost233lism/StateWeaver",
+      "upvotes": 27,
+      "readTime": null,
+      "tags": [
+        "video foundation models",
+        "agentic workflows",
+        "long-video consistency",
         "开源代码"
       ],
       "publishedAt": "2026-11-24T19:00:00Z"
@@ -440,48 +459,7 @@
       "arxivUrl": "https://arxiv.org/abs/2611.34852",
       "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.34852",
       "githubUrl": "https://github.com/ZJU-REAL/DRBenchPro",
-      "upvotes": 22,
-      "readTime": null,
-      "tags": [
-        "开源代码"
-      ],
-      "publishedAt": "2026-11-24T19:00:00Z"
-    },
-    {
-      "id": "hf-2611.34290",
-      "section": "papers",
-      "sourceId": "hf_papers",
-      "sourceName": "HF Papers",
-      "title": "StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation",
-      "summary": "StateWeaver improves long-video generation by preserving cross-shot consistency and updating visual references through active state tracking and hierarchical collaboration.",
-      "url": "https://huggingface.co/papers/2611.34290",
-      "arxivId": "2611.34290",
-      "arxivUrl": "https://arxiv.org/abs/2611.34290",
-      "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.34290",
-      "githubUrl": "https://github.com/ghost233lism/StateWeaver",
-      "upvotes": 22,
-      "readTime": null,
-      "tags": [
-        "video foundation models",
-        "agentic workflows",
-        "long-video consistency",
-        "开源代码"
-      ],
-      "publishedAt": "2026-11-24T19:00:00Z"
-    },
-    {
-      "id": "hf-2611.34466",
-      "section": "papers",
-      "sourceId": "hf_papers",
-      "sourceName": "HF Papers",
-      "title": "EgoUseBench: Benchmarking Computer-Use Agents under Evolving First-Person Contexts",
-      "summary": "AI wearables, such as smart glasses, extend the context available to agents beyond digital environments to users' physical surroundings. With these devices, computer tasks can originate from users' ongoing activities rather than solely from explicit instructions. Through first-p…",
-      "url": "https://huggingface.co/papers/2611.34466",
-      "arxivId": "2611.34466",
-      "arxivUrl": "https://arxiv.org/abs/2611.34466",
-      "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.34466",
-      "githubUrl": "https://github.com/YurunChen/EgoUseBench",
-      "upvotes": 20,
+      "upvotes": 24,
       "readTime": null,
       "tags": [
         "开源代码"
@@ -500,7 +478,7 @@
       "arxivUrl": "https://arxiv.org/abs/2611.33457",
       "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.33457",
       "githubUrl": "https://github.com/showlab/Play2Evolve",
-      "upvotes": 20,
+      "upvotes": 21,
       "readTime": null,
       "tags": [
         "coding agents",
@@ -509,6 +487,28 @@
         "开源代码"
       ],
       "publishedAt": "2026-11-23T19:00:00Z"
+    },
+    {
+      "id": "hf-2611.34693",
+      "section": "papers",
+      "sourceId": "hf_papers",
+      "sourceName": "HF Papers",
+      "title": "ShowNow: Fine-Grained Speculative Streaming for Responsive World Models",
+      "summary": "A fine-grained speculative streaming framework prepares action-conditioned video futures during playback to reduce input-to-display latency in interactive world models while sustaining real-time generation.",
+      "url": "https://huggingface.co/papers/2611.34693",
+      "arxivId": "2611.34693",
+      "arxivUrl": "https://arxiv.org/abs/2611.34693",
+      "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.34693",
+      "githubUrl": "https://github.com/showlab/ShowNow",
+      "upvotes": 19,
+      "readTime": null,
+      "tags": [
+        "interactive world models",
+        "video generation",
+        "speculative streaming",
+        "开源代码"
+      ],
+      "publishedAt": "2026-11-24T19:00:00Z"
     },
     {
       "id": "arxiv-2611.34942",
