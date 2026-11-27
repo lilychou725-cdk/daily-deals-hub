@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-26T21:50:33Z",
-  "total": 82,
+  "updatedAt": "2026-11-27T08:58:39Z",
+  "total": 83,
   "sources": [
     {
       "id": "aihot_free_tokens",
@@ -28,7 +28,7 @@
       "id": "nodeseek_deals",
       "name": "NodeSeek 精选福利",
       "ok": true,
-      "count": 2,
+      "count": 3,
       "error": null
     },
     {
@@ -99,7 +99,7 @@
       "worth": "60% OFF Lifetime",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-26T21:50:33Z",
+      "publishedAt": "2026-11-27T08:58:39Z",
       "expiresAt": null
     },
     {
@@ -116,7 +116,7 @@
       "worth": "40% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-26T21:50:33Z",
+      "publishedAt": "2026-11-27T08:58:39Z",
       "expiresAt": null
     },
     {
@@ -133,7 +133,7 @@
       "worth": "Up to 45% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-26T21:50:33Z",
+      "publishedAt": "2026-11-27T08:58:39Z",
       "expiresAt": null
     },
     {
@@ -150,7 +150,7 @@
       "worth": "51% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-26T21:50:33Z",
+      "publishedAt": "2026-11-27T08:58:39Z",
       "expiresAt": null
     },
     {
@@ -167,7 +167,7 @@
       "worth": "25% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-26T21:50:33Z",
+      "publishedAt": "2026-11-27T08:58:39Z",
       "expiresAt": null
     },
     {
@@ -184,7 +184,7 @@
       "worth": "30% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-26T21:50:33Z",
+      "publishedAt": "2026-11-27T08:58:39Z",
       "expiresAt": null
     },
     {
@@ -201,7 +201,7 @@
       "worth": "50% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-26T21:50:33Z",
+      "publishedAt": "2026-11-27T08:58:39Z",
       "expiresAt": null
     },
     {
@@ -218,7 +218,7 @@
       "worth": "30% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-26T21:50:33Z",
+      "publishedAt": "2026-11-27T08:58:39Z",
       "expiresAt": null
     },
     {
@@ -235,7 +235,7 @@
       "worth": "20% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-26T21:50:33Z",
+      "publishedAt": "2026-11-27T08:58:39Z",
       "expiresAt": null
     },
     {
@@ -252,7 +252,7 @@
       "worth": null,
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-26T21:50:33Z",
+      "publishedAt": "2026-11-27T08:58:39Z",
       "expiresAt": null
     },
     {
@@ -269,7 +269,7 @@
       "worth": "40% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-26T21:50:33Z",
+      "publishedAt": "2026-11-27T08:58:39Z",
       "expiresAt": null
     },
     {
@@ -286,7 +286,7 @@
       "worth": "30% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-26T21:50:33Z",
+      "publishedAt": "2026-11-27T08:58:39Z",
       "expiresAt": null
     },
     {
@@ -303,7 +303,7 @@
       "worth": null,
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-26T21:50:33Z",
+      "publishedAt": "2026-11-27T08:58:39Z",
       "expiresAt": null
     },
     {
@@ -320,7 +320,7 @@
       "worth": "50% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-26T21:50:33Z",
+      "publishedAt": "2026-11-27T08:58:39Z",
       "expiresAt": null
     },
     {
@@ -337,7 +337,7 @@
       "worth": "50% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-26T21:50:33Z",
+      "publishedAt": "2026-11-27T08:58:39Z",
       "expiresAt": null
     },
     {
@@ -354,7 +354,7 @@
       "worth": "60% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-26T21:50:33Z",
+      "publishedAt": "2026-11-27T08:58:39Z",
       "expiresAt": null
     },
     {
@@ -371,7 +371,7 @@
       "worth": "40% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-26T21:50:33Z",
+      "publishedAt": "2026-11-27T08:58:39Z",
       "expiresAt": null
     },
     {
@@ -388,7 +388,7 @@
       "worth": "25% off",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-26T21:50:33Z",
+      "publishedAt": "2026-11-27T08:58:39Z",
       "expiresAt": null
     },
     {
@@ -405,7 +405,7 @@
       "worth": "40% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-26T21:50:33Z",
+      "publishedAt": "2026-11-27T08:58:39Z",
       "expiresAt": null
     },
     {
@@ -422,7 +422,7 @@
       "worth": "50% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-26T21:50:33Z",
+      "publishedAt": "2026-11-27T08:58:39Z",
       "expiresAt": null
     },
     {
@@ -439,7 +439,7 @@
       "worth": "40% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-26T21:50:33Z",
+      "publishedAt": "2026-11-27T08:58:39Z",
       "expiresAt": null
     },
     {
@@ -456,7 +456,7 @@
       "worth": "50% off",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-26T21:50:33Z",
+      "publishedAt": "2026-11-27T08:58:39Z",
       "expiresAt": null
     },
     {
@@ -473,7 +473,7 @@
       "worth": "40% off",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-26T21:50:33Z",
+      "publishedAt": "2026-11-27T08:58:39Z",
       "expiresAt": null
     },
     {
@@ -490,7 +490,7 @@
       "worth": "40% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-26T21:50:33Z",
+      "publishedAt": "2026-11-27T08:58:39Z",
       "expiresAt": null
     },
     {
@@ -507,7 +507,7 @@
       "worth": "30% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-26T21:50:33Z",
+      "publishedAt": "2026-11-27T08:58:39Z",
       "expiresAt": null
     },
     {
@@ -524,16 +524,16 @@
       "worth": "30% OFF",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-26T21:50:33Z",
+      "publishedAt": "2026-11-27T08:58:39Z",
       "expiresAt": null
     },
     {
-      "id": "nodeseek-1083972",
-      "title": "【黑五羊毛】bitdefender的企业版GravityZone Small Business Security 1人一年$10.50/1人三年$21.60",
+      "id": "nodeseek-1085617",
+      "title": "今天黑五怎么大商家都装死？",
       "category": "黑五与促销",
-      "summary": "https://www.bitdefender.com/en-us/business/campaign/onlinesales/gz-compare-bf-aff?irclickid=TIXR6bTw0xyZT0403XUAwSTJUkrUY03dO1bzyA0&imrewards=&irgwc=",
+      "summary": "都是一些oneman在蹦迪",
       "couponCode": null,
-      "url": "https://www.nodeseek.com/post-1083972-1",
+      "url": "https://www.nodeseek.com/post-1085617-1",
       "source": "NodeSeek 精选福利",
       "tags": [
         "黑五特惠"
@@ -541,16 +541,16 @@
       "worth": null,
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-26T21:22:45Z",
+      "publishedAt": "2026-11-27T08:55:21Z",
       "expiresAt": null
     },
     {
-      "id": "nodeseek-1083962",
-      "title": "Linux基金会 运维证书黑五",
-      "category": "黑五与促销",
-      "summary": "🐧𝗟𝗶𝗻𝘂𝘅𝗙𝗼𝘂𝗻𝗱𝗮𝘁𝗶𝗼𝗻𝗕𝗹𝗮𝗰𝗸𝗙𝗿𝗶𝗱𝗮𝘆𝟮𝟬𝟮𝟲–𝗨𝗽𝘁𝗼𝟲𝟱%𝗢𝗳𝗳!对于那些对Linux、系统管理、Kubernetes、DevOps和云认证感兴趣的人来说，Linux基金会正在进行一年一度的黑色星期五促销活动。50%",
+      "id": "nodeseek-1085607",
+      "title": "建议OpenAI开除tibo",
+      "category": "AI会员与额度",
+      "summary": "面对可能是bug的让订阅用户额度上涨的问题，作为OpenAI公众影响力最大的成员之一，你的选择是：A.将错就错，在推上告知用户额度异常，但为了迎接黑五和感恩节，我们把下周的额度额外翻倍并为后面的额度下降补偿一张重置卡，享受节日吧B.什么都不说，偷偷把额度调回去并对跑得很多的用户限流降智C.学习Tibo，像个扎啤一样",
       "couponCode": null,
-      "url": "https://www.nodeseek.com/post-1083962-1",
+      "url": "https://www.nodeseek.com/post-1085607-1",
       "source": "NodeSeek 精选福利",
       "tags": [
         "黑五特惠"
@@ -558,7 +558,24 @@
       "worth": null,
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-26T20:41:13Z",
+      "publishedAt": "2026-11-27T08:51:39Z",
+      "expiresAt": null
+    },
+    {
+      "id": "nodeseek-1085605",
+      "title": "+180 出日本软银2222三年翻倍款",
+      "category": "软件与云服务",
+      "summary": "+180出日本软银2222三年翻倍款，原油出，或者push，还可以免费push一次，到期时间",
+      "couponCode": null,
+      "url": "https://www.nodeseek.com/post-1085605-1",
+      "source": "NodeSeek 精选福利",
+      "tags": [
+        "免费白嫖"
+      ],
+      "worth": null,
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-27T08:51:16Z",
       "expiresAt": null
     },
     {
@@ -576,8 +593,78 @@
       "worth": "免费",
       "status": "active",
       "pinned": false,
-      "publishedAt": "2026-11-26T14:07:00Z",
+      "publishedAt": "2026-11-27T07:03:00Z",
       "expiresAt": null
+    },
+    {
+      "id": "aihot-490cf0a4ef",
+      "title": "OpenCode 限时免费用 Hy4 flash、DeepSeek 等模型",
+      "category": "AI会员与额度",
+      "summary": "在 OpenCode 内选择免费聊天模型，无需账号。Hy4 flash 限免到 11 月最后一个周末，结束时刻以客户端为准。Hy4 flash 和 DeepSeek V4.1 Flash 的输入不保留、不用于训练。Seaglass Alpha 支持约 105 万 Token 的上下文，使用数据会被保留并用于改进模...",
+      "couponCode": null,
+      "url": "https://opencode.ai/docs/console/models/",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "AI福利",
+        "免费白嫖"
+      ],
+      "worth": "免费",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-27T04:07:00Z",
+      "expiresAt": null
+    },
+    {
+      "id": "aihot-45d35a01fb",
+      "title": "腾讯云混元生 3D 新人领 100 积分",
+      "category": "AI会员与额度",
+      "summary": "首次开通后，在模型广场的新人免费体验入口选择混元生 3D。积分用于同名默认推理服务，额度分配以控制台为准。未开启按量付费时，用完即停。3.0 和 3.1 每次消耗 15 至 60 积分，极速版每次消耗 15 至 25 积分。 适用：HY-3D-3.0、3.1、Express，以及 Component、Format...",
+      "couponCode": null,
+      "url": "https://cloud.tencent.com/document/product/1823/130053",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "AI福利",
+        "免费白嫖",
+        "仅新用户"
+      ],
+      "worth": "100 积分",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-27T04:06:00Z",
+      "expiresAt": "2026-12-31T15:59:00Z"
+    },
+    {
+      "id": "v2ex_deals-1260237",
+      "title": "深圳中行微信立减金，数字人民币支付 1 元抽取 2-288 借记卡微信立减金，现在好像最低 40.01-20",
+      "category": "黑五与促销",
+      "summary": "活动： https://mbas.mbs.boc.cn/WeiBankFront/weixinVue/openApp/#/openApp?lastShortUrl=c3BOeZJwk0 链接带人头，活动路径：中银 APP--生活--特邀专区--月月有好礼--1 元赢好礼 另外一个活动，看资产的，最低 3 元 ht...",
+      "couponCode": null,
+      "url": "https://www.v2ex.com/t/1260237",
+      "source": "V2EX 优惠信息",
+      "tags": [],
+      "worth": null,
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-27T02:53:51Z",
+      "expiresAt": null
+    },
+    {
+      "id": "aihot-3c650cac59",
+      "title": "fal Seedance 2.5 新账号登录送 2 段视频",
+      "category": "AI会员与额度",
+      "summary": "每段 10 秒、480p，参考生视频最多用 5 张参考图。注册后 7 天内添加付款方式验证可再得 3 段。次数不补充，工作流、接口调用和超额生成按量收费。 适用：Seedance 2.5 文生视频、图生视频和参考生视频，限 fal 网页 Playground、Sandbox 和 fal Agent",
+      "couponCode": null,
+      "url": "https://fal.ai/seedance-2.5",
+      "source": "AI 免费额度 (aihot)",
+      "tags": [
+        "AI福利",
+        "免费白嫖"
+      ],
+      "worth": "2 段",
+      "status": "active",
+      "pinned": false,
+      "publishedAt": "2026-11-27T01:06:00Z",
+      "expiresAt": "2026-12-01T15:59:00Z"
     },
     {
       "id": "aihot-75d5871eb6",
@@ -612,24 +699,6 @@
         "免绑卡"
       ],
       "worth": "1 万 积分",
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-26T14:05:00Z",
-      "expiresAt": null
-    },
-    {
-      "id": "aihot-490cf0a4ef",
-      "title": "OpenCode 限时免费用 Hy4 flash、DeepSeek 等模型",
-      "category": "AI会员与额度",
-      "summary": "在 OpenCode 内选择免费聊天模型，无需账号。Hy4 flash 限免到 11 月最后一个周末，具体结束时刻以客户端为准。Hy4 flash 和 DeepSeek V4.1 Flash 的输入不保留、不用于训练。部分试用模型会用数据改进模型，Flint 保留 30 天。两款 Nemotron 仅供测试，勿提...",
-      "couponCode": null,
-      "url": "https://opencode.ai/docs/console/models/",
-      "source": "AI 免费额度 (aihot)",
-      "tags": [
-        "AI福利",
-        "免费白嫖"
-      ],
-      "worth": "免费",
       "status": "active",
       "pinned": false,
       "publishedAt": "2026-11-26T14:05:00Z",
@@ -671,24 +740,6 @@
       "pinned": false,
       "publishedAt": "2026-11-26T14:03:00Z",
       "expiresAt": "2026-12-04T18:00:00Z"
-    },
-    {
-      "id": "aihot-3c650cac59",
-      "title": "fal Seedance 2.5 新账号登录送 2 段视频",
-      "category": "AI会员与额度",
-      "summary": "账号注册未满 7 天时登录，可免费生成 2 段，每段 10 秒、480p，次数不补充。注册后 7 天内添加付款方式验证可再得 3 段。工作流、API 调用和超额生成按量收费。 适用：Seedance 2.5 文生视频、图生视频和参考生视频，限 fal 网页 Playground、Sandbox 和 fal Agent",
-      "couponCode": null,
-      "url": "https://fal.ai/seedance-2.5",
-      "source": "AI 免费额度 (aihot)",
-      "tags": [
-        "AI福利",
-        "免费白嫖"
-      ],
-      "worth": "2 段",
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-26T04:03:00Z",
-      "expiresAt": null
     },
     {
       "id": "aihot-bf10775fda",
@@ -815,24 +866,6 @@
       "pinned": false,
       "publishedAt": "2026-11-25T14:02:00Z",
       "expiresAt": "2026-11-30T16:00:00Z"
-    },
-    {
-      "id": "aihot-2bdbde9155",
-      "title": "微信小程序送 10 亿 Token 与 10 万张生图",
-      "category": "AI会员与额度",
-      "summary": "需微信小程序账号，在公众平台报名成长计划，每账号一次。赠送额度限小程序基础库、小程序调用云函数或云托管、云开发控制台使用。Token 用完后，资源点套餐继续扣套餐，非资源点套餐调用失败。生图用完停止。改用 Hy-Image-3.5-preview 需手动适配。未有环境者另赠 6 个月个人版环境。 适用：生文：hy...",
-      "couponCode": null,
-      "url": "https://docs.cloudbase.net/ai/ai-inspire-plan",
-      "source": "AI 免费额度 (aihot)",
-      "tags": [
-        "AI福利",
-        "免费白嫖"
-      ],
-      "worth": "10 亿 Token",
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-25T07:05:00Z",
-      "expiresAt": "2026-12-31T15:59:00Z"
     },
     {
       "id": "aihot-4014f7f15b",
@@ -1371,23 +1404,6 @@
       "status": "active",
       "pinned": false,
       "publishedAt": "2026-11-04T05:42:52Z",
-      "expiresAt": null
-    },
-    {
-      "id": "v2ex_deals-1254084",
-      "title": "[虚拟主机]分享个免费的虚拟主机",
-      "category": "生活与工具",
-      "summary": "Dewlance 是一家成立于 2009 年 2 月 21 日的注册公司，至今已运营 17 年，主要提供虚拟主机等服务。现在 Dewlance 推出美国免费 NVMe 虚拟主机，1G NVMe 硬盘、每月 50G 流量，使用 DirectAdmin 面板，带免费 SSL ，无广告，官方称不会清除用户网站。 Fre...",
-      "couponCode": null,
-      "url": "https://www.v2ex.com/t/1254084",
-      "source": "V2EX 优惠信息",
-      "tags": [
-        "免费白嫖"
-      ],
-      "worth": null,
-      "status": "active",
-      "pinned": false,
-      "publishedAt": "2026-11-03T04:11:56Z",
       "expiresAt": null
     },
     {

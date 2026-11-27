@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-26T21:50:34Z",
+  "updatedAt": "2026-11-27T08:58:43Z",
   "total": 28,
   "sources": [
     {
@@ -259,40 +259,43 @@
       "publishedAt": "2026-11-17T09:24:56Z"
     },
     {
-      "id": "hf-2611.34849",
+      "id": "hf-2611.34232",
       "section": "papers",
       "sourceId": "hf_papers",
       "sourceName": "HF Papers",
-      "title": "Real2SimLab: A Unified Platform for Real-to-Simulation Transfer",
-      "summary": "Real-to-simulation transfer, which builds simulations from real-world observations, has long been studied in research and industry. Recently, coding agents have become capable of generating simulation programs from video recordings, and several benchmarks have been proposed to e…",
-      "url": "https://huggingface.co/papers/2611.34849",
-      "arxivId": "2611.34849",
-      "arxivUrl": "https://arxiv.org/abs/2611.34849",
-      "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.34849",
-      "githubUrl": "https://github.com/Real2SimHub/Real2SimLab",
-      "upvotes": 101,
+      "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+      "summary": "A live cross-platform benchmark evaluates computer-using agents on long-horizon workflows across Windows, Ubuntu, macOS, iOS, Android, and Web, showing that current agents remain far from platform-robust computer use and trail humans on iOS and macOS.",
+      "url": "https://huggingface.co/papers/2611.34232",
+      "arxivId": "2611.34232",
+      "arxivUrl": "https://arxiv.org/abs/2611.34232",
+      "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.34232",
+      "githubUrl": "https://github.com/OS-Copilot/OS-Omni",
+      "upvotes": 89,
       "readTime": null,
       "tags": [
+        "computer-using agents",
+        "generalist agent",
+        "long-horizon workflows",
         "开源代码"
       ],
       "publishedAt": "2026-11-24T19:00:00Z"
     },
     {
-      "id": "hf-2611.34575",
+      "id": "hf-2611.34051",
       "section": "papers",
       "sourceId": "hf_papers",
       "sourceName": "HF Papers",
-      "title": "Sage-Med: Scaling Medical Multimodal Intelligence",
-      "summary": "Establishing effective scaling laws for medical multimodal large language models (MLLMs) remains a persistent and fundamental challenge. Our systematic evaluation shows that existing medical MLLMs tend to underperform frontier general-purpose MLLMs across a range of medical task…",
-      "url": "https://huggingface.co/papers/2611.34575",
-      "arxivId": "2611.34575",
-      "arxivUrl": "https://arxiv.org/abs/2611.34575",
-      "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.34575",
-      "githubUrl": "https://github.com/Sage-Med/Sage-Med-Preview",
-      "upvotes": 84,
+      "title": "Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability",
+      "summary": "Linear attention offers an efficient solution for long-sequence modeling via linear complexity and fixed-size recurrent states. Gated DeltaNet-2 (GDN-2) introduces independent channel-wise control over erasure and writing, enhancing state-update expressiveness and in-context ret…",
+      "url": "https://huggingface.co/papers/2611.34051",
+      "arxivId": "2611.34051",
+      "arxivUrl": "https://arxiv.org/abs/2611.34051",
+      "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.34051",
+      "githubUrl": null,
+      "upvotes": 85,
       "readTime": null,
       "tags": [
-        "开源代码"
+        "热门论文"
       ],
       "publishedAt": "2026-11-24T19:00:00Z"
     },
@@ -308,7 +311,7 @@
       "arxivUrl": "https://arxiv.org/abs/2611.34923",
       "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.34923",
       "githubUrl": "https://github.com/hustvl/MoLT",
-      "upvotes": 57,
+      "upvotes": 70,
       "readTime": null,
       "tags": [
         "Looped Transformers",
@@ -319,43 +322,65 @@
       "publishedAt": "2026-11-24T19:00:00Z"
     },
     {
-      "id": "hf-2611.34237",
+      "id": "hf-2611.34457",
       "section": "papers",
       "sourceId": "hf_papers",
       "sourceName": "HF Papers",
-      "title": "VibeVideoAgent: Closing the Perceptual Loop for Code-Driven Video Generation",
-      "summary": "Code-driven video generation asks a coding agent to write and run rendering programs. This gives exact control over typography, data visualizations, synchronized audio, and multi-shot scenes, and it leaves an editable project behind. A program that exits cleanly can still render…",
-      "url": "https://huggingface.co/papers/2611.34237",
-      "arxivId": "2611.34237",
-      "arxivUrl": "https://arxiv.org/abs/2611.34237",
-      "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.34237",
-      "githubUrl": "https://github.com/Kling-Keye/VibeVideoAgent",
-      "upvotes": 54,
+      "title": "ProxyGenBench: Benchmarking Proxy-Guided Video Generation",
+      "summary": "A benchmark assesses how well video generators follow animated 3D blockouts while preserving structure, filling missing content, correcting proxy artifacts, and binding multimodal conditions to the correct entities and events.",
+      "url": "https://huggingface.co/papers/2611.34457",
+      "arxivId": "2611.34457",
+      "arxivUrl": "https://arxiv.org/abs/2611.34457",
+      "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.34457",
+      "githubUrl": "https://github.com/2kxx/ProxyGenBench",
+      "upvotes": 35,
       "readTime": null,
       "tags": [
+        "video generators",
+        "structural proxies",
+        "animated 3D blockouts",
         "开源代码"
       ],
       "publishedAt": "2026-11-24T19:00:00Z"
     },
     {
-      "id": "hf-2611.34941",
+      "id": "hf-2611.31619",
       "section": "papers",
       "sourceId": "hf_papers",
       "sourceName": "HF Papers",
-      "title": "Improving and Expanding Video Editing Capabilities Without Videos",
-      "summary": "Image-to-Video Transfer improves pretrained video editors by training them as image editors on single images, enabling new video editing tasks and state-of-the-art results on OpenVE-Bench and OpenVE++.",
-      "url": "https://huggingface.co/papers/2611.34941",
-      "arxivId": "2611.34941",
-      "arxivUrl": "https://arxiv.org/abs/2611.34941",
-      "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.34941",
-      "githubUrl": "https://github.com/HorizonWind2004/i2v-transfer",
-      "upvotes": 43,
+      "title": "What a Forecasting Leaderboard Can Establish: Resolution Reporting for Zero-Shot Time-Series Models",
+      "summary": "A tool called Vernier measures the smallest score difference a time-series forecasting leaderboard can distinguish, showing that most boards cannot separate top entries and that ranking order can change with pool composition.",
+      "url": "https://huggingface.co/papers/2611.31619",
+      "arxivId": "2611.31619",
+      "arxivUrl": "https://arxiv.org/abs/2611.31619",
+      "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.31619",
+      "githubUrl": "https://github.com/therealram18/vernier",
+      "upvotes": 29,
       "readTime": null,
       "tags": [
-        "Image-to-Video Transfer (I2VT)",
-        "pretrained video editors",
-        "image editor",
+        "foundation model",
+        "time series forecasting",
+        "pretrained model",
         "开源代码"
+      ],
+      "publishedAt": "2026-11-22T19:00:00Z"
+    },
+    {
+      "id": "hf-2611.28732",
+      "section": "papers",
+      "sourceId": "hf_papers",
+      "sourceName": "HF Papers",
+      "title": "Entangle: Scaling Human-Video In-Context World-Action Models across Unseen Tasks and Contexts",
+      "summary": "In-context learning (ICL) enables foundation models to perform unseen tasks from context without parameter updates. In robotic manipulation, a human video provides the context that specifies how a task should be performed. However, scaling human-video ICL on world-action models…",
+      "url": "https://huggingface.co/papers/2611.28732",
+      "arxivId": "2611.28732",
+      "arxivUrl": "https://arxiv.org/abs/2611.28732",
+      "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.28732",
+      "githubUrl": null,
+      "upvotes": 28,
+      "readTime": null,
+      "tags": [
+        "热门论文"
       ],
       "publishedAt": "2026-11-24T19:00:00Z"
     },
@@ -371,7 +396,7 @@
       "arxivUrl": "https://arxiv.org/abs/2611.34420",
       "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.34420",
       "githubUrl": "https://github.com/mossbee/DocSEAM",
-      "upvotes": 26,
+      "upvotes": 28,
       "readTime": null,
       "tags": [
         "vision-language models",
@@ -393,7 +418,7 @@
       "arxivUrl": "https://arxiv.org/abs/2611.31237",
       "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.31237",
       "githubUrl": "https://github.com/the-jb/integral",
-      "upvotes": 24,
+      "upvotes": 27,
       "readTime": null,
       "tags": [
         "unified multimodal models",
@@ -404,23 +429,42 @@
       "publishedAt": "2026-11-22T19:00:00Z"
     },
     {
-      "id": "hf-2611.34811",
+      "id": "hf-2611.34852",
       "section": "papers",
       "sourceId": "hf_papers",
       "sourceName": "HF Papers",
-      "title": "HOG-WAM: Improving Visual Robustness through Future Gradient Prediction",
-      "summary": "HOG-WAM improves visually robust control in world-action models by adding future Histograms of Oriented Gradients as auxiliary structural supervision through a training-only HOG diffusion transformer, yielding higher success under observation corruptions while preserving the ori…",
-      "url": "https://huggingface.co/papers/2611.34811",
-      "arxivId": "2611.34811",
-      "arxivUrl": "https://arxiv.org/abs/2611.34811",
-      "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.34811",
-      "githubUrl": "https://github.com/iPPLab/HOG-WAM",
+      "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
+      "summary": "Deep research agents gather information from multiple sources and synthesize it into reports on complex, open-ended questions. Existing benchmarks assess report quality along several dimensions, but lack a dedicated knowledge-centric evaluation of which research directions a rep…",
+      "url": "https://huggingface.co/papers/2611.34852",
+      "arxivId": "2611.34852",
+      "arxivUrl": "https://arxiv.org/abs/2611.34852",
+      "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.34852",
+      "githubUrl": "https://github.com/ZJU-REAL/DRBenchPro",
       "upvotes": 22,
       "readTime": null,
       "tags": [
-        "world-action models",
-        "Histograms of Oriented Gradients (HOG)",
-        "structural supervision",
+        "开源代码"
+      ],
+      "publishedAt": "2026-11-24T19:00:00Z"
+    },
+    {
+      "id": "hf-2611.34290",
+      "section": "papers",
+      "sourceId": "hf_papers",
+      "sourceName": "HF Papers",
+      "title": "StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation",
+      "summary": "StateWeaver improves long-video generation by preserving cross-shot consistency and updating visual references through active state tracking and hierarchical collaboration.",
+      "url": "https://huggingface.co/papers/2611.34290",
+      "arxivId": "2611.34290",
+      "arxivUrl": "https://arxiv.org/abs/2611.34290",
+      "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.34290",
+      "githubUrl": "https://github.com/ghost233lism/StateWeaver",
+      "upvotes": 22,
+      "readTime": null,
+      "tags": [
+        "video foundation models",
+        "agentic workflows",
+        "long-video consistency",
         "开源代码"
       ],
       "publishedAt": "2026-11-24T19:00:00Z"
@@ -437,26 +481,7 @@
       "arxivUrl": "https://arxiv.org/abs/2611.34466",
       "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.34466",
       "githubUrl": "https://github.com/YurunChen/EgoUseBench",
-      "upvotes": 19,
-      "readTime": null,
-      "tags": [
-        "开源代码"
-      ],
-      "publishedAt": "2026-11-24T19:00:00Z"
-    },
-    {
-      "id": "hf-2611.33579",
-      "section": "papers",
-      "sourceId": "hf_papers",
-      "sourceName": "HF Papers",
-      "title": "DexEngine: Scaling Human Demonstrations into Physically Executable Whole-Robot Data",
-      "summary": "A growing body of recent work addresses the retargeting of human hand-object demonstrations to robotic hands. To train whole-robot policies, however, the retargeted motions must be kinematically feasible and physically executable, and be produced efficiently at scale. We present…",
-      "url": "https://huggingface.co/papers/2611.33579",
-      "arxivId": "2611.33579",
-      "arxivUrl": "https://arxiv.org/abs/2611.33579",
-      "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.33579",
-      "githubUrl": "https://github.com/wongyun-yu/DexEngine",
-      "upvotes": 18,
+      "upvotes": 20,
       "readTime": null,
       "tags": [
         "开源代码"
@@ -475,7 +500,7 @@
       "arxivUrl": "https://arxiv.org/abs/2611.33457",
       "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.33457",
       "githubUrl": "https://github.com/showlab/Play2Evolve",
-      "upvotes": 18,
+      "upvotes": 20,
       "readTime": null,
       "tags": [
         "coding agents",
@@ -484,25 +509,6 @@
         "开源代码"
       ],
       "publishedAt": "2026-11-23T19:00:00Z"
-    },
-    {
-      "id": "hf-2611.34929",
-      "section": "papers",
-      "sourceId": "hf_papers",
-      "sourceName": "HF Papers",
-      "title": "High-Fidelity Image Matting with Pixel-Space Diffusion Transformers",
-      "summary": "Diffusion models have shown strong potential for image matting by transferring generative priors learned from large-scale pretraining. However, existing approaches largely rely on latent diffusion models, whose compressed representations and VAE-based reconstruction introduce a…",
-      "url": "https://huggingface.co/papers/2611.34929",
-      "arxivId": "2611.34929",
-      "arxivUrl": "https://arxiv.org/abs/2611.34929",
-      "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.34929",
-      "githubUrl": "https://github.com/White-YC/pixelmatte",
-      "upvotes": 17,
-      "readTime": null,
-      "tags": [
-        "开源代码"
-      ],
-      "publishedAt": "2026-11-24T19:00:00Z"
     },
     {
       "id": "arxiv-2611.34942",
