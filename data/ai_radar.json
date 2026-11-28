@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-27T21:34:59Z",
+  "updatedAt": "2026-11-28T08:19:57Z",
   "total": 28,
   "sources": [
     {
@@ -90,6 +90,27 @@
     }
   ],
   "items": [
+    {
+      "id": "ainews-81d5f7e4ac",
+      "section": "briefings",
+      "sourceId": "ai_news",
+      "sourceName": "AI News",
+      "title": "Inside the exploding Coding Data Market",
+      "summary": "November 27, 2026 — How frontier labs buy training data.",
+      "url": "https://latent.space/p/ainews-inside-the-exploding-coding-data-market/",
+      "arxivId": null,
+      "arxivUrl": null,
+      "alphaXivUrl": null,
+      "githubUrl": null,
+      "upvotes": null,
+      "readTime": "26 min read",
+      "tags": [
+        "AI日报",
+        "社区一手动态",
+        "26 min read"
+      ],
+      "publishedAt": "2026-11-28T03:45:59Z"
+    },
     {
       "id": "ainews-e9eadcd028",
       "section": "briefings",
@@ -238,27 +259,6 @@
       "publishedAt": "2026-11-18T10:19:04Z"
     },
     {
-      "id": "ainews-bc9f08d1d0",
-      "section": "briefings",
-      "sourceId": "ai_news",
-      "sourceName": "AI News",
-      "title": "Perplexity hits a $1B revenue run rate, up 4x in 2026",
-      "summary": "November 16, 2026 — Computer gets Teammates, Perplexity ships Monitor API, and a new research lab launches.",
-      "url": "https://latent.space/p/ainews-perplexity-hits-a-1b-revenue-run-rate-up-4x-in-2026/",
-      "arxivId": null,
-      "arxivUrl": null,
-      "alphaXivUrl": null,
-      "githubUrl": null,
-      "upvotes": null,
-      "readTime": "9 min read",
-      "tags": [
-        "AI日报",
-        "社区一手动态",
-        "9 min read"
-      ],
-      "publishedAt": "2026-11-17T09:24:56Z"
-    },
-    {
       "id": "hf-2611.34051",
       "section": "papers",
       "sourceId": "hf_papers",
@@ -270,7 +270,7 @@
       "arxivUrl": "https://arxiv.org/abs/2611.34051",
       "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.34051",
       "githubUrl": null,
-      "upvotes": 126,
+      "upvotes": 129,
       "readTime": null,
       "tags": [
         "热门论文"
@@ -289,7 +289,7 @@
       "arxivUrl": "https://arxiv.org/abs/2611.34232",
       "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.34232",
       "githubUrl": "https://github.com/OS-Copilot/OS-Omni",
-      "upvotes": 101,
+      "upvotes": 107,
       "readTime": null,
       "tags": [
         "computer-using agents",
@@ -311,7 +311,7 @@
       "arxivUrl": "https://arxiv.org/abs/2611.34813",
       "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.34813",
       "githubUrl": null,
-      "upvotes": 58,
+      "upvotes": 61,
       "readTime": null,
       "tags": [
         "热门论文"
@@ -330,7 +330,7 @@
       "arxivUrl": "https://arxiv.org/abs/2611.31619",
       "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.31619",
       "githubUrl": "https://github.com/therealram18/vernier",
-      "upvotes": 57,
+      "upvotes": 58,
       "readTime": null,
       "tags": [
         "foundation model",
@@ -378,28 +378,6 @@
       "readTime": null,
       "tags": [
         "热门论文"
-      ],
-      "publishedAt": "2026-11-24T19:00:00Z"
-    },
-    {
-      "id": "hf-2611.34420",
-      "section": "papers",
-      "sourceId": "hf_papers",
-      "sourceName": "HF Papers",
-      "title": "DocSEAM: Bidirectional Cross-Page Encoding for Multi-Page Document Understanding",
-      "summary": "DocSEAM is a lightweight module between a pretrained vision encoder and language model that enriches page visual tokens with neighboring-page context via center-anchored masked self-attention, improving multi-page document VQA and reducing boundary sensitivity.",
-      "url": "https://huggingface.co/papers/2611.34420",
-      "arxivId": "2611.34420",
-      "arxivUrl": "https://arxiv.org/abs/2611.34420",
-      "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.34420",
-      "githubUrl": "https://github.com/mossbee/DocSEAM",
-      "upvotes": 28,
-      "readTime": null,
-      "tags": [
-        "vision-language models",
-        "vision encoder",
-        "language model",
-        "开源代码"
       ],
       "publishedAt": "2026-11-24T19:00:00Z"
     },
@@ -478,7 +456,7 @@
       "arxivUrl": "https://arxiv.org/abs/2611.33457",
       "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.33457",
       "githubUrl": "https://github.com/showlab/Play2Evolve",
-      "upvotes": 21,
+      "upvotes": 22,
       "readTime": null,
       "tags": [
         "coding agents",
@@ -500,12 +478,31 @@
       "arxivUrl": "https://arxiv.org/abs/2611.34693",
       "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.34693",
       "githubUrl": "https://github.com/showlab/ShowNow",
-      "upvotes": 19,
+      "upvotes": 21,
       "readTime": null,
       "tags": [
         "interactive world models",
         "video generation",
         "speculative streaming",
+        "开源代码"
+      ],
+      "publishedAt": "2026-11-24T19:00:00Z"
+    },
+    {
+      "id": "hf-2611.33579",
+      "section": "papers",
+      "sourceId": "hf_papers",
+      "sourceName": "HF Papers",
+      "title": "DexEngine: Scaling Human Demonstrations into Physically Executable Whole-Robot Data",
+      "summary": "A growing body of recent work addresses the retargeting of human hand-object demonstrations to robotic hands. To train whole-robot policies, however, the retargeted motions must be kinematically feasible and physically executable, and be produced efficiently at scale. We present…",
+      "url": "https://huggingface.co/papers/2611.33579",
+      "arxivId": "2611.33579",
+      "arxivUrl": "https://arxiv.org/abs/2611.33579",
+      "alphaXivUrl": "https://www.alphaxiv.org/abs/2611.33579",
+      "githubUrl": "https://github.com/wongyun-yu/DexEngine",
+      "upvotes": 19,
+      "readTime": null,
+      "tags": [
         "开源代码"
       ],
       "publishedAt": "2026-11-24T19:00:00Z"
